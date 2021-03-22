@@ -50,7 +50,7 @@ def log_epoch(
 
 
 def write_text(path, text):
-    writer.add_text(path, text, 0)
+    writer.add_text(path, text, epochs)
 
 
 def init_writer(name):

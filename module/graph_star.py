@@ -4,6 +4,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch_geometric.nn.glob import global_mean_pool as gap
+import utils.gsn_argparse as gsnap
 from sklearn.metrics import (
     roc_auc_score,
     average_precision_score,
@@ -385,7 +386,10 @@ class GraphStar(nn.Module):
         for key, value in res.items():
             print(key + ":", value)
 
-        return resobject(res)
+        tw.write_text(
+            "model/rank",
+            gsnap.args2string(resobject(res)),
+        )
 
 
 class resobject(object):

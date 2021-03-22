@@ -100,12 +100,7 @@ def train_transductive(
     loss = loss_ if loss is None else loss + loss_
     lp_auc, lp_ap = model.lp_test(pred, y)
     if ((mode == "test")) and cal_mrr_score:
-        tw.write_text(
-            "model/mrr",
-            gap.args2string(
-                model.lp_log_ranks(logits_lp, pei, pet, data.edge_index, data.edge_type)
-            ),
-        )
+        model.lp_log_ranks(logits_lp, pei, pet, data.edge_index, data.edge_type)
 
     total_loss += loss * num_graphs
 
@@ -191,7 +186,9 @@ def trainer(
     for epoch in range(1, num_epoch + 1):
         print("\n=================== Epoch: {:02d} ===================\n".format(epoch))
         start = time.time()
-        cal_mrr_score = epoch == num_epoch  # only test rank on last epoch
+        cal_mrr_score = (
+            epoch == num_epoch or epoch % save_per_epoch == 0
+        )  # only test rank each time model is saved (per 100th epoch) and on last epoch
         train_loss, train_lp_auc, train_lp_ap = train_transductive(
             model,
             optimizer,
