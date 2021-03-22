@@ -288,7 +288,7 @@ class GraphStar(nn.Module):
     def getZ(self):
         return self.z
 
-    def lp_log(
+    def lp_log_ranks(
         self, z, pos_edge_index, pos_edge_type, known_edge_index, known_edge_type
     ):
         dt, dev = pos_edge_index.dtype, pos_edge_index.device
@@ -397,13 +397,19 @@ class GraphStar(nn.Module):
 
         ranks = np.array(ranks)
 
-        print(
-            "MRR: %f, MR: %f, HIT@1: %f, HIT@3: %f, HIT@10: %f"
-            % (
-                (1 / ranks).sum() / len(ranks),
-                (ranks).sum() / len(ranks),
-                (ranks <= 1).sum() / len(ranks),
-                (ranks <= 3).sum() / len(ranks),
-                (ranks <= 10).sum() / len(ranks),
-            )
-        )
+        res = {
+            "MRR": (1 / ranks).sum() / len(ranks),
+            "MR": (ranks).sum() / len(ranks),
+            "HIT@1": (ranks <= 1).sum() / len(ranks),
+            "HIT@3": (ranks <= 3).sum() / len(ranks),
+            "HIT@10": (ranks <= 10).sum() / len(ranks)
+        }
+        for key, value in res.items():
+            print(key + ":", value)
+
+        return resobject(res)
+
+
+class resobject(object):
+    def __init__(self, d):
+        self.__dict__ = d

@@ -37,10 +37,12 @@ def tab_printer(args):
     print(t.draw())
 
 
-def args2string(args):
+def args2string(args, sort_dict=False):
     out_string = '<table style="width:100%">'
     args = vars(args)
-    keys = sorted(args.keys())
+    keys = args.keys()
+    if sort_dict:
+        keys = sorted(args.keys())
     out_string += "<tr>"
     out_string += "<th>Parameter</th>"
     out_string += "<th>Value</th>"
