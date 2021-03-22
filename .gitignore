@@ -84,7 +84,7 @@ ipython_config.py
 
 # pyenv
 .python-version
-# python interpreter 
+# Python Style Guide Enforcement 
 .flake8
 
 # pipenv
