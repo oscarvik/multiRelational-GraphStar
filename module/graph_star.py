@@ -295,102 +295,81 @@ class GraphStar(nn.Module):
         ranks = []
 
         sig_z = torch.sigmoid(z)
+        all_node_indexes = torch.arange(0, z.size(0), dtype=dt, device=dev)
         # head batch < ?, r, t>
-        # for all triples
-        for i in tqdm(range(len(pos_edge_index[0])), desc="head prediction"):
-
-            # For all heads over a unique triple
-            heads = torch.stack(
+        # for all triples in pos_edge_index
+        for i in tqdm(range(pos_edge_index.size(1)), desc="head prediction"):
+            # For all heads to the tail from this triple (pos_edge_index[1][i])
+            head_pred_ei = torch.stack(
                 [
-                    torch.arange(0, z.size(0), dtype=dt, device=dev),
+                    all_node_indexes,
                     torch.full(
                         (z.size(0),), pos_edge_index[1][i], dtype=dt, device=dev
                     ),
                 ],
                 dim=0,
             )
-
-            # Get unique triple relation
+            # Get triple relation
             relation = torch.full((z.size(0),), pos_edge_type[i], dtype=dt, device=dev)
-
             # Currently distmult function score
-            pred = self.lp_score(sig_z, heads, relation)
-
-            # input = embedded head, embedded relation_id, embedded tail
-            # head X rel X tail
-            # matrix = size num_nodes x hidden_layer
+            pred = self.lp_score(sig_z, head_pred_ei, relation).squeeze(1)
+            # score of actual triple
             target = pred[pos_edge_index[0][i]]
 
-            rank = (pred > target.sum().item()).sum().item()
-
-            # filter
+            # min policy
+            rank = (pred > target).sum()
+            # Get all indexes of true < ?, r, t> triples
             filter_idx = torch.nonzero(
                 (
-                    # All indexes of true < ?, r, t> triples
                     (known_edge_index[1] == pos_edge_index[1][i])
                     * (known_edge_type == pos_edge_type[i])
                 ),
                 as_tuple=False,
             ).view(-1)
 
-            # Node id of all true heads in <?, r, t>
+            # id of all h observed as part of <?, r, t>
             filter_idx = known_edge_index[0][filter_idx]
             # remove all valid triples in pred (filtered scenario)
-            rank -= (
-                (pred[filter_idx] > pred[pos_edge_index[0][i]].sum().item())
-                .sum()
-                .item()
-            )
-
+            rank -= (pred[filter_idx] > target).sum()
             rank += 1
             ranks.append(rank)
 
         # tail batch < h, r, ?>
         # for all triples
-        for i in tqdm(range(len(pos_edge_index[0])), desc="tail prediction"):
+        for i in tqdm(range(pos_edge_index.size(1)), desc="tail prediction"):
 
-            # For all tails over a unique triple
+            # For the head from this triple (pos_edge_index[0][i]) to all tails
             tails = torch.stack(
                 [
                     torch.full(
                         (z.size(0),), pos_edge_index[0][i], dtype=dt, device=dev
                     ),
-                    torch.arange(0, z.size(0), dtype=dt, device=dev),
+                    all_node_indexes,
                 ],
                 dim=0,
             )
-
             # Get unique triple relation
             relation = torch.full((z.size(0),), pos_edge_type[i], dtype=dt, device=dev)
-
             # Currently distmult function score
-            pred = self.lp_score(sig_z, tails, relation)
-
-            # True triple prediction
+            pred = self.lp_score(sig_z, tails, relation).squeeze(1)
+            # score of actual triple
             target = pred[pos_edge_index[1][i]]
 
-            # Get number of all predictions scoring (min policy)
-            rank = (pred > target.sum().item()).sum().item()
-
-            # Get ids of all <h, r, ?>
+            # Get rank of target (min policy)
+            rank = (pred > target).sum()
+            # Get all indexes of true < h, r, ?> triples
             filter_idx = torch.nonzero(
                 (
-                    (known_edge_index[1] == pos_edge_index[1][i])
+                    (known_edge_index[0] == pos_edge_index[0][i])
                     * (known_edge_type == pos_edge_type[i])
                 ),
                 as_tuple=False,
             ).view(-1)
 
-            # Node id of all true heads in <h, r, ?>
+            # id of all t observed as part of <h, r, ?>
             filter_idx = known_edge_index[1][filter_idx]
-
             # remove all valid triples in pred (filtered scenario) (min policy)
-            rank -= (
-                (pred[filter_idx] > pred[pos_edge_index[1][i]].sum().item())
-                .sum()
-                .item()
-            )
-
+            rank -= (pred[filter_idx] > target).sum()
             rank += 1
             ranks.append(rank)
 
