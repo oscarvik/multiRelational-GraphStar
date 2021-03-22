@@ -324,14 +324,14 @@ class GraphStar(nn.Module):
             rank = (pred > target.sum().item()).sum().item()
 
             # filter
-            filter_idx = (torch.nonzero(
+            filter_idx = torch.nonzero(
                 (
                     # All indexes of true < ?, r, t> triples
                     (known_edge_index[1] == pos_edge_index[1][i])
                     * (known_edge_type == pos_edge_type[i])
-                ), as_tuple=False)
-                .view(-1)
-            )
+                ),
+                as_tuple=False,
+            ).view(-1)
 
             # Node id of all true heads in <?, r, t>
             filter_idx = known_edge_index[0][filter_idx]
@@ -373,14 +373,13 @@ class GraphStar(nn.Module):
             rank = (pred > target.sum().item()).sum().item()
 
             # Get ids of all <h, r, ?>
-            filter_idx = (torch.nonzero(
+            filter_idx = torch.nonzero(
                 (
                     (known_edge_index[1] == pos_edge_index[1][i])
                     * (known_edge_type == pos_edge_type[i])
-                )
-                , as_tuple=False)
-                .view(-1)
-            )
+                ),
+                as_tuple=False,
+            ).view(-1)
 
             # Node id of all true heads in <h, r, ?>
             filter_idx = known_edge_index[1][filter_idx]
@@ -402,7 +401,7 @@ class GraphStar(nn.Module):
             "MR": (ranks).sum() / len(ranks),
             "HIT@1": (ranks <= 1).sum() / len(ranks),
             "HIT@3": (ranks <= 3).sum() / len(ranks),
-            "HIT@10": (ranks <= 10).sum() / len(ranks)
+            "HIT@10": (ranks <= 10).sum() / len(ranks),
         }
         for key, value in res.items():
             print(key + ":", value)

@@ -100,7 +100,12 @@ def train_transductive(
     loss = loss_ if loss is None else loss + loss_
     lp_auc, lp_ap = model.lp_test(pred, y)
     if ((mode == "test")) and cal_mrr_score:
-        tw.write_text('model/mrr', gap.args2string(model.lp_log_ranks(logits_lp, pei, pet, data.edge_index, data.edge_type)))
+        tw.write_text(
+            "model/mrr",
+            gap.args2string(
+                model.lp_log_ranks(logits_lp, pei, pet, data.edge_index, data.edge_type)
+            ),
+        )
 
     total_loss += loss * num_graphs
 
@@ -127,7 +132,7 @@ def trainer(
     node_multi_label=False,
     graph_multi_label=False,
 ):
-   
+
     # GPU cuDNN auto tuner
     # torch.backends.cudnn.benchmark = True
     print(f"torch: {torch.__version__} \n")
@@ -162,7 +167,7 @@ def trainer(
     model.to(args.device)
     dataset.to(args.device)
     tw.init_writer(DATASET_NAME)
-    tw.write_text('model/info', gap.args2string(args, sort_dict=True))
+    tw.write_text("model/info", gap.args2string(args, sort_dict=True))
 
     # Create directory, if it doesn't already exists
     out_path = "output"
