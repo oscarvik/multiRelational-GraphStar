@@ -39,20 +39,23 @@ def log_epoch(
     train_str = "LP AVG: {:.4f}, ".format(sum([train_lp_auc, train_lp_ap]) / 2)
     val_str = "LP AVG: {:.4f}, ".format(sum([val_lp_auc, val_lp_ap]) / 2)
     test_str = "LP AVG: {:.4f}, ".format(sum([test_lp_auc, test_lp_ap]) / 2)
-    max_str = "LP AVG: {:.4f},VAL: {:.4f} ".format(
+    max_str = "LP AVG: {:.4f}, VAL: {:.4f} ".format(
         sum([max_lp_auc, max_lp_ap]) / 2, max_val_lp
     )
 
-    log_str = "TRAIN Loss: {:.4f}, {} || VAL Loss: {:.4f}, {} || TEST Loss: {:.4f}, {} || Max {}".format(
+    log_str = " TRAIN -> Loss: {:.4f}, {} \n VAL -> Loss: {:.4f}, {} \n TEST -> Loss: {:.4f}, {} \n Max {}".format(
         train_loss, train_str, val_loss, val_str, test_loss, test_str, max_str
     )
     print("\033[1;32m" + DATASET + " results:", "\033[0m" + "\n" + log_str)
 
 
-def init_writer(name, info):
+def write_text(path, text):
+    writer.add_text(path, text, 0)
+
+
+def init_writer(name):
     global steps, epochs, writer
     steps, epochs = 0, 0
     writer = SummaryWriter(
         osp.join("tensorboard", name + "_" + time.strftime("%d-%m-%y %H-%M"))
     )
-    writer.add_text("model/info", info, 0)
