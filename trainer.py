@@ -19,9 +19,6 @@ def get_edge_info(data, type):
     return edge_index, edge_type
 
 
-train_neg_sampling_queue = None
-test_neg_sampling_queue = None
-val_neg_sampling_queue = None
 
 
 def train_transductive(
@@ -34,7 +31,6 @@ def train_transductive(
     mode="train",
     cal_mrr_score=False,
 ):
-    global train_neg_sampling_queue, test_neg_sampling_queue, val_neg_sampling_queue
     if mode == "train":
         model.train()
     else:

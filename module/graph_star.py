@@ -407,3 +407,77 @@ class GraphStar(nn.Module):
                 (ranks <= 10).sum() / len(ranks),
             )
         )
+
+    def new_ranks(
+            self, z, pos_edge_index, pos_edge_type, known_edge_index, known_edge_type
+        ):
+            dt, dev = pos_edge_index.dtype, pos_edge_index.device
+            ranks = []
+
+            sig_z = torch.sigmoid(z)
+            # tail batch < h, r, ?>
+            # for all triples
+            for i in tqdm(range(len(pos_edge_index[0])), desc="tail prediction"):
+                # Filtered scenario ! - source: https://arxiv.org/pdf/2002.00819.pdf
+
+                # For all tails over a unique triple
+                tails = torch.stack(
+                    [
+                        torch.full(
+                            (z.size(0),), pos_edge_index[0][i], dtype=dt, device=dev
+                        ),
+                        torch.arange(0, z.size(0), dtype=dt, device=dev),
+                    ],
+                    dim=0,
+                )
+
+                # Get unique triple relation
+                relation = torch.full((z.size(0),), pos_edge_type[i], dtype=dt, device=dev)
+
+                # Currently distmult function score
+                pred = self.lp_score(sig_z, tails, relation)
+
+                pred = pred.sum(dim=-1)
+
+                # True triple prediction
+                target = pred[pos_edge_index[1][i]]
+
+                # Get number of all predictions scoring (min policy)
+                rank = (pred > target.sum().sum()
+
+                # Get ids of all <h, r, ?>
+                filter_idx = (torch.nonzero(
+                    (
+                        (known_edge_index[1] == pos_edge_index[1][i])
+                        * (known_edge_type == pos_edge_type[i])
+                    )
+                    , as_tuple=False)
+                    .view(-1)
+                )
+
+                # Node id of all true heads in <h, r, ?>
+                filter_idx = known_edge_index[1][filter_idx]
+
+                # remove all valid triples in pred (filtered scenario) (min policy)
+                rank -= (
+                    (pred[filter_idx] > pred[pos_edge_index[1][i]].sum().item())
+                    .sum()
+                    .item()
+                )
+
+                rank += 1
+                ranks.append(rank)
+
+            ranks = np.array(ranks)
+
+            print(
+                "MRR: %f, MR: %f, HIT@1: %f, HIT@3: %f, HIT@10: %f"
+                % (
+                    (1 / ranks).sum() / len(ranks),
+                    (ranks).sum() / len(ranks),
+                    (ranks <= 1).sum() / len(ranks),
+                    (ranks <= 3).sum() / len(ranks),
+                    (ranks <= 10).sum() / len(ranks),
+                )
+            )
+        

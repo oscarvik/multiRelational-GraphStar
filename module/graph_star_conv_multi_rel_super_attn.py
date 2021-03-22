@@ -4,7 +4,7 @@ import torch.nn.functional as F
 from torch_geometric.nn.conv import MessagePassing
 from torch_geometric.utils import softmax
 from torch_scatter import scatter_add, scatter_mean, scatter_max
-
+import utils.memory_info as mem_info
 
 
 class GraphStarConv(MessagePassing):
@@ -139,6 +139,8 @@ class GraphStarConv(MessagePassing):
         x = kwargs["x"]
         num_nodes = kwargs["num_nodes"]
 
+        #print memory usage
+        mem_info()
         ##################################################
 #         if self.num_bases < self.num_relations:
 #             # generate all weights from bases
