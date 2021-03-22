@@ -6,6 +6,8 @@ import utils.gsn_argparse as gap
 from utils.gsn_argparse import tab_printer
 from torch.optim.lr_scheduler import ReduceLROnPlateau
 from module.graph_star import GraphStar
+import utils.memory_info as mem_info
+
 
 
 def get_edge_info(data, type):
@@ -127,6 +129,7 @@ def trainer(
     # GPU cuDNN auto tuner
     # torch.backends.cudnn.benchmark = True
     print(f"torch: {torch.__version__} \n")
+    mem_info()
     tab_printer(args)
 
     model = GraphStar(
