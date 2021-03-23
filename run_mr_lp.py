@@ -161,7 +161,11 @@ def load_data(dataset, hidden=64, node_embedding_size=16, embedding_path="embedd
 
 
 def main(_args):
-    print("\033[1;32m" + "@@@@@@@@@@@@@@@@ Multi-Relational Link Prediction @@@@@@@@@@@@@@@@" + "\033[0m")
+    print(
+        "\033[1;32m"
+        + "@@@@@@@@@@@@@@@@ Multi-Relational Link Prediction @@@@@@@@@@@@@@@@"
+        + "\033[0m"
+    )
     args = gap.parser.parse_args(_args)
     data, num_features, num_relations, embedded_relations = load_data(
         hidden=args.hidden, dataset=args.dataset

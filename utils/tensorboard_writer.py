@@ -40,7 +40,14 @@ def log_epoch(
     test_str = "LP avg: {:.4f}".format(sum([test_lp_auc, test_lp_ap]) / 2)
 
     log_str = "TRAIN \t Loss: {:.4f}, {} \nVAL \t Loss: {:.4f}, {}, Max LP avg: {:.4f} \nTEST \t Loss: {:.4f}, {}, Max LP avg: {:.4f}".format(
-        train_loss, train_str, val_loss, val_str, max_val_lp, test_loss, test_str, max_test_lp
+        train_loss,
+        train_str,
+        val_loss,
+        val_str,
+        max_val_lp,
+        test_loss,
+        test_str,
+        max_test_lp,
     )
     print("\033[1;32m" + DATASET + " results:", "\033[0m" + "\n" + log_str)
 
