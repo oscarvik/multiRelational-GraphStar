@@ -244,7 +244,7 @@ class GraphStar(nn.Module):
         return pred
 
     def lp_loss(self, pred, y):
-        return self.LP_loss(pred.squeeze(1), y)
+        return self.LP_loss(pred, y)
 
     def lp_test(self, pred, y):
 
@@ -279,9 +279,12 @@ class GraphStar(nn.Module):
         return edge_index, edge_type
 
     def DistMult(self, head, relation, tail):
-        # Check dimensionality of inputs
-        score = head * relation * tail
-        return score.sum(dim=2)
+        score = (head * relation * tail).sum(dim=2).squeeze(1)
+        # linear rescale of scores to range [0, 1]
+        if not all(score == 0):  # non all-zero vector
+            score -= score.min().item()  # bring the lower range to 0
+            score /= score.max().item()  # bring the upper range to 1
+        return score
 
     def updateZ(self, z):
         self.z = z
@@ -295,7 +298,6 @@ class GraphStar(nn.Module):
         dt, dev = pos_edge_index.dtype, pos_edge_index.device
         ranks = []
 
-        sig_z = torch.sigmoid(z)
         all_node_indexes = torch.arange(0, z.size(0), dtype=dt, device=dev)
         # head batch < ?, r, t>
         # for all triples in pos_edge_index
@@ -313,7 +315,7 @@ class GraphStar(nn.Module):
             # Get triple relation
             relation = torch.full((z.size(0),), pos_edge_type[i], dtype=dt, device=dev)
             # Currently distmult function score
-            pred = self.lp_score(sig_z, head_pred_ei, relation).squeeze(1)
+            pred = self.lp_score(z, head_pred_ei, relation)
             # score of actual triple
             target = pred[pos_edge_index[0][i]]
 
@@ -340,7 +342,7 @@ class GraphStar(nn.Module):
         for i in tqdm(range(pos_edge_index.size(1)), desc="tail prediction"):
 
             # For the head from this triple (pos_edge_index[0][i]) to all tails
-            tails = torch.stack(
+            tail_pred_ei = torch.stack(
                 [
                     torch.full(
                         (z.size(0),), pos_edge_index[0][i], dtype=dt, device=dev
@@ -352,7 +354,7 @@ class GraphStar(nn.Module):
             # Get unique triple relation
             relation = torch.full((z.size(0),), pos_edge_type[i], dtype=dt, device=dev)
             # Currently distmult function score
-            pred = self.lp_score(sig_z, tails, relation).squeeze(1)
+            pred = self.lp_score(z, tail_pred_ei, relation)
             # score of actual triple
             target = pred[pos_edge_index[1][i]]
 

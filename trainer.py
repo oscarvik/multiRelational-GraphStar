@@ -90,7 +90,7 @@ def train_transductive(
     # TODO: Need to save logits, edge index and edge type
     model.updateZ(logits_lp)
 
-    pred = model.lp_score(torch.sigmoid(logits_lp), ei, et)
+    pred = model.lp_score(logits_lp, ei, et)
 
     y = torch.cat(
         [logits_lp.new_ones(pei.size(-1)), logits_lp.new_zeros(nei.size(-1))], dim=0
