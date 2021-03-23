@@ -4,6 +4,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch_geometric.nn.glob import global_mean_pool as gap
+import utils.gsn_argparse as gsnap
 from sklearn.metrics import (
     roc_auc_score,
     average_precision_score,
@@ -243,7 +244,7 @@ class GraphStar(nn.Module):
         return pred
 
     def lp_loss(self, pred, y):
-        return self.LP_loss(pred.squeeze(1), y)
+        return self.LP_loss(pred, y)
 
     def lp_test(self, pred, y):
 
@@ -278,9 +279,12 @@ class GraphStar(nn.Module):
         return edge_index, edge_type
 
     def DistMult(self, head, relation, tail):
-        # Check dimensionality of inputs
-        score = head * relation * tail
-        return score.sum(dim=2)
+        score = (head * relation * tail).sum(dim=2).squeeze(1)
+        # linear rescale of scores to range [0, 1]
+        if not all(score == 0):  # non all-zero vector
+            score -= score.min().item()  # bring the lower range to 0
+            score /= score.max().item()  # bring the upper range to 1
+        return score
 
     def updateZ(self, z):
         self.z = z
@@ -294,103 +298,81 @@ class GraphStar(nn.Module):
         dt, dev = pos_edge_index.dtype, pos_edge_index.device
         ranks = []
 
-        sig_z = torch.sigmoid(z)
+        all_node_indexes = torch.arange(0, z.size(0), dtype=dt, device=dev)
         # head batch < ?, r, t>
-        # for all triples
-        for i in tqdm(range(len(pos_edge_index[0])), desc="head prediction"):
-
-            # For all heads over a unique triple
-            heads = torch.stack(
+        # for all triples in pos_edge_index
+        for i in tqdm(range(pos_edge_index.size(1)), desc="head prediction"):
+            # For all heads to the tail from this triple (pos_edge_index[1][i])
+            head_pred_ei = torch.stack(
                 [
-                    torch.arange(0, z.size(0), dtype=dt, device=dev),
+                    all_node_indexes,
                     torch.full(
                         (z.size(0),), pos_edge_index[1][i], dtype=dt, device=dev
                     ),
                 ],
                 dim=0,
             )
-
-            # Get unique triple relation
+            # Get triple relation
             relation = torch.full((z.size(0),), pos_edge_type[i], dtype=dt, device=dev)
-
             # Currently distmult function score
-            pred = self.lp_score(sig_z, heads, relation)
-
-            # input = embedded head, embedded relation_id, embedded tail
-            # head X rel X tail
-            # matrix = size num_nodes x hidden_layer
+            pred = self.lp_score(z, head_pred_ei, relation)
+            # score of actual triple
             target = pred[pos_edge_index[0][i]]
 
-            rank = (pred > target.sum().item()).sum().item()
-
-            # filter
+            # min policy
+            rank = (pred > target).sum()
+            # Get all indexes of true < ?, r, t> triples
             filter_idx = torch.nonzero(
                 (
-                    # All indexes of true < ?, r, t> triples
                     (known_edge_index[1] == pos_edge_index[1][i])
                     * (known_edge_type == pos_edge_type[i])
                 ),
                 as_tuple=False,
             ).view(-1)
 
-            # Node id of all true heads in <?, r, t>
+            # id of all h observed as part of <?, r, t>
             filter_idx = known_edge_index[0][filter_idx]
             # remove all valid triples in pred (filtered scenario)
-            rank -= (
-                (pred[filter_idx] > pred[pos_edge_index[0][i]].sum().item())
-                .sum()
-                .item()
-            )
-
+            rank -= (pred[filter_idx] > target).sum()
             rank += 1
             ranks.append(rank)
 
         # tail batch < h, r, ?>
         # for all triples
-        for i in tqdm(range(len(pos_edge_index[0])), desc="tail prediction"):
+        for i in tqdm(range(pos_edge_index.size(1)), desc="tail prediction"):
 
-            # For all tails over a unique triple
-            tails = torch.stack(
+            # For the head from this triple (pos_edge_index[0][i]) to all tails
+            tail_pred_ei = torch.stack(
                 [
                     torch.full(
                         (z.size(0),), pos_edge_index[0][i], dtype=dt, device=dev
                     ),
-                    torch.arange(0, z.size(0), dtype=dt, device=dev),
+                    all_node_indexes,
                 ],
                 dim=0,
             )
-
             # Get unique triple relation
             relation = torch.full((z.size(0),), pos_edge_type[i], dtype=dt, device=dev)
-
             # Currently distmult function score
-            pred = self.lp_score(sig_z, tails, relation)
-
-            # True triple prediction
+            pred = self.lp_score(z, tail_pred_ei, relation)
+            # score of actual triple
             target = pred[pos_edge_index[1][i]]
 
-            # Get number of all predictions scoring (min policy)
-            rank = (pred > target.sum().item()).sum().item()
-
-            # Get ids of all <h, r, ?>
+            # Get rank of target (min policy)
+            rank = (pred > target).sum()
+            # Get all indexes of true < h, r, ?> triples
             filter_idx = torch.nonzero(
                 (
-                    (known_edge_index[1] == pos_edge_index[1][i])
+                    (known_edge_index[0] == pos_edge_index[0][i])
                     * (known_edge_type == pos_edge_type[i])
                 ),
                 as_tuple=False,
             ).view(-1)
 
-            # Node id of all true heads in <h, r, ?>
+            # id of all t observed as part of <h, r, ?>
             filter_idx = known_edge_index[1][filter_idx]
-
             # remove all valid triples in pred (filtered scenario) (min policy)
-            rank -= (
-                (pred[filter_idx] > pred[pos_edge_index[1][i]].sum().item())
-                .sum()
-                .item()
-            )
-
+            rank -= (pred[filter_idx] > target).sum()
             rank += 1
             ranks.append(rank)
 
@@ -406,7 +388,10 @@ class GraphStar(nn.Module):
         for key, value in res.items():
             print(key + ":", value)
 
-        return resobject(res)
+        tw.write_text(
+            "model/rank",
+            gsnap.args2string(resobject(res)),
+        )
 
 
 class resobject(object):

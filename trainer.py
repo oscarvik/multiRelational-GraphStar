@@ -90,7 +90,7 @@ def train_transductive(
     # TODO: Need to save logits, edge index and edge type
     model.updateZ(logits_lp)
 
-    pred = model.lp_score(torch.sigmoid(logits_lp), ei, et)
+    pred = model.lp_score(logits_lp, ei, et)
 
     y = torch.cat(
         [logits_lp.new_ones(pei.size(-1)), logits_lp.new_zeros(nei.size(-1))], dim=0
@@ -100,12 +100,7 @@ def train_transductive(
     loss = loss_ if loss is None else loss + loss_
     lp_auc, lp_ap = model.lp_test(pred, y)
     if ((mode == "test")) and cal_mrr_score:
-        tw.write_text(
-            "model/mrr",
-            gap.args2string(
-                model.lp_log_ranks(logits_lp, pei, pet, data.edge_index, data.edge_type)
-            ),
-        )
+        model.lp_log_ranks(logits_lp, pei, pet, data.edge_index, data.edge_type)
 
     total_loss += loss * num_graphs
 
@@ -184,14 +179,15 @@ def trainer(
         cooldown=30,
         min_lr=args.lr / 100,
     )
-    max_lp_auc = 0
-    max_lp_ap = 0
+    max_test_lp = 0
     max_val_lp = 0
 
     for epoch in range(1, num_epoch + 1):
         print("\n=================== Epoch: {:02d} ===================\n".format(epoch))
         start = time.time()
-        cal_mrr_score = epoch == num_epoch  # only test rank on last epoch
+        cal_mrr_score = (
+            epoch == num_epoch or epoch % save_per_epoch == 0
+        )  # only test rank each time model is saved (per 100th epoch) and on last epoch
         train_loss, train_lp_auc, train_lp_ap = train_transductive(
             model,
             optimizer,
@@ -228,8 +224,7 @@ def trainer(
         else:
             test_loss, test_lp_auc, test_lp_ap = 0, 0, 0
 
-        max_lp_auc = max(test_lp_auc, max_lp_auc)
-        max_lp_ap = max(test_lp_ap, max_lp_ap)
+        max_test_lp = max((test_lp_ap + test_lp_auc) / 2, max_test_lp)
         max_val_lp = max((val_lp_ap + val_lp_auc) / 2, max_val_lp)
 
         tw.log_epoch(
@@ -243,11 +238,10 @@ def trainer(
             test_lp_auc,
             test_lp_ap,
             test_loss,
-            max_lp_auc,
-            max_lp_ap,
+            max_test_lp,
             max_val_lp,
         )
-        print("Epoch duration: %f" % (time.time() - start))
+        print("Epoch duration: {:.1f}".format((time.time() - start)))
         scheduler.step(train_loss)
         scheduler.step(val_loss)
         scheduler.step(test_loss)
@@ -256,4 +250,3 @@ def trainer(
             torch.save(model, path.join(out_path, DATASET_NAME + ".pkl"))
 
     tw.writer.close()
-    return max_lp_auc, max_lp_ap

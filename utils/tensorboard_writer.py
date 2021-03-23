@@ -19,8 +19,7 @@ def log_epoch(
     test_lp_auc,
     test_lp_ap,
     test_loss,
-    max_lp_auc,
-    max_lp_ap,
+    max_test_lp,
     max_val_lp,
 ):
     global steps, epochs, writer
@@ -36,26 +35,30 @@ def log_epoch(
     writer.add_scalar("test/lp_ap", test_lp_ap, steps)
     writer.add_scalar("test/loss", test_loss, steps)
 
-    train_str = "LP AVG: {:.4f}, ".format(sum([train_lp_auc, train_lp_ap]) / 2)
-    val_str = "LP AVG: {:.4f}, ".format(sum([val_lp_auc, val_lp_ap]) / 2)
-    test_str = "LP AVG: {:.4f}, ".format(sum([test_lp_auc, test_lp_ap]) / 2)
-    max_str = "LP AVG: {:.4f}, VAL: {:.4f} ".format(
-        sum([max_lp_auc, max_lp_ap]) / 2, max_val_lp
-    )
+    train_str = "LP avg: {:.4f}".format(sum([train_lp_auc, train_lp_ap]) / 2)
+    val_str = "LP avg: {:.4f}".format(sum([val_lp_auc, val_lp_ap]) / 2)
+    test_str = "LP avg: {:.4f}".format(sum([test_lp_auc, test_lp_ap]) / 2)
 
-    log_str = " TRAIN -> Loss: {:.4f}, {} \n VAL -> Loss: {:.4f}, {} \n TEST -> Loss: {:.4f}, {} \n Max {}".format(
-        train_loss, train_str, val_loss, val_str, test_loss, test_str, max_str
+    log_str = "TRAIN \t Loss: {:.4f}, {} \nVAL \t Loss: {:.4f}, {}, Max LP avg: {:.4f} \nTEST \t Loss: {:.4f}, {}, Max LP avg: {:.4f}".format(
+        train_loss,
+        train_str,
+        val_loss,
+        val_str,
+        max_val_lp,
+        test_loss,
+        test_str,
+        max_test_lp,
     )
     print("\033[1;32m" + DATASET + " results:", "\033[0m" + "\n" + log_str)
 
 
 def write_text(path, text):
-    writer.add_text(path, text, 0)
+    writer.add_text(path, text, epochs)
 
 
 def init_writer(name):
     global steps, epochs, writer
     steps, epochs = 0, 0
     writer = SummaryWriter(
-        osp.join("tensorboard", name + "_" + time.strftime("%d-%m-%y %H-%M"))
+        osp.join("tensorboard", name + " " + time.strftime("%d-%m-%y %H-%M"))
     )
