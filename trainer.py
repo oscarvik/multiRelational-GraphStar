@@ -179,8 +179,7 @@ def trainer(
         cooldown=30,
         min_lr=args.lr / 100,
     )
-    max_lp_auc = 0
-    max_lp_ap = 0
+    max_test_lp = 0
     max_val_lp = 0
 
     for epoch in range(1, num_epoch + 1):
@@ -225,8 +224,7 @@ def trainer(
         else:
             test_loss, test_lp_auc, test_lp_ap = 0, 0, 0
 
-        max_lp_auc = max(test_lp_auc, max_lp_auc)
-        max_lp_ap = max(test_lp_ap, max_lp_ap)
+        max_test_lp = max((test_lp_ap + test_lp_auc) / 2, max_test_lp)
         max_val_lp = max((val_lp_ap + val_lp_auc) / 2, max_val_lp)
 
         tw.log_epoch(
@@ -240,8 +238,7 @@ def trainer(
             test_lp_auc,
             test_lp_ap,
             test_loss,
-            max_lp_auc,
-            max_lp_ap,
+            max_test_lp,
             max_val_lp,
         )
         print("Epoch duration: %f" % (time.time() - start))
@@ -253,4 +250,3 @@ def trainer(
             torch.save(model, path.join(out_path, DATASET_NAME + ".pkl"))
 
     tw.writer.close()
-    return max_lp_auc, max_lp_ap
