@@ -241,7 +241,7 @@ def trainer(
             max_test_lp,
             max_val_lp,
         )
-        print("Epoch duration: %f" % (time.time() - start))
+        print("Epoch duration: {:.1f}".format((time.time() - start)))
         scheduler.step(train_loss)
         scheduler.step(val_loss)
         scheduler.step(test_loss)
