@@ -279,12 +279,8 @@ class GraphStar(nn.Module):
         return edge_index, edge_type
 
     def DistMult(self, head, relation, tail):
-        score = (head * relation * tail).sum(dim=2).squeeze(1)
-        # linear rescale of scores to range [0, 1]
-        if not all(score == 0):  # non all-zero vector
-            score -= score.min().item()  # bring the lower range to 0
-            score /= score.max().item()  # bring the upper range to 1
-        return score
+        score = head * relation * tail
+        return score.sum(dim=2).squeeze(1)
 
     def updateZ(self, z):
         self.z = z
