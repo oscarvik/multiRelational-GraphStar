@@ -164,9 +164,9 @@ def trainer(
     for epoch in range(1, num_epoch + 1):
         print("\n=================== Epoch: {:02d} ===================\n".format(epoch))
         start = time.time()
-        cal_mrr_score = False # (
-        #    epoch == num_epoch or epoch % save_per_epoch == 0
-        #)  # only test rank each time model is saved (per 100th epoch) and on last epoch
+        cal_mrr_score = (
+            epoch == num_epoch or epoch % save_per_epoch == 0
+        )  # only test rank each time model is saved (per 100th epoch) and on last epoch
         train_loss, train_lp_auc, train_lp_ap = train_transductive(
             model,
             optimizer,
