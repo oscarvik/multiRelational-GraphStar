@@ -141,7 +141,6 @@ def load_data(dataset, hidden=64, node_embedding_size=16, embedding_path="embedd
 
     all_data.batch = torch.zeros((1, all_data.num_nodes), dtype=torch.int64).view(-1)
 
-    all_data.num_graphs = 1
     num_features = all_data.x.shape[-1]
     num_relations = len(np.unique(relations))
 
