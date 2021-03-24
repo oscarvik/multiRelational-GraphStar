@@ -230,9 +230,8 @@ class GraphStar(nn.Module):
             mean_res = torch.mean(layer_res, dim=1, keepdim=True)  # num_node,1,hid
             res = self.cross_layer_attn(mean_res, layer_res)
             x = res
-        x_lp = x
 
-        return x, stars, x_lp
+        return x, stars
 
     def lp_score(self, z, edge_index, edge_type):
         z = F.dropout(z, 0.5, training=self.training)
@@ -247,7 +246,6 @@ class GraphStar(nn.Module):
         return self.LP_loss(pred, y)
 
     def lp_test(self, pred, y):
-
         y, pred = y.detach().cpu().numpy(), pred.detach().cpu().numpy()
         return roc_auc_score(y, pred), average_precision_score(y, pred)
 

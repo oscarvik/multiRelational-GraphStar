@@ -19,33 +19,19 @@ def get_edge_info(data, type):
     return edge_index, edge_type
 
 
-train_neg_sampling_queue = None
-test_neg_sampling_queue = None
-val_neg_sampling_queue = None
-
-
 def train_transductive(
     model,
     optimizer,
     data,
     device,
-    node_multi_label,
-    graph_multi_label,
     mode="train",
     cal_mrr_score=False,
 ):
-    global train_neg_sampling_queue, test_neg_sampling_queue, val_neg_sampling_queue
+    lp_auc = lp_ap = None
     if mode == "train":
         model.train()
     else:
         model.eval()
-
-    total_loss = 0
-    lp_auc = lp_ap = None
-    data_count = 0
-    num_graphs = data.num_graphs
-    data_count += num_graphs
-
     # appearently comsumes memory
     # data.to(device)
 
@@ -55,7 +41,7 @@ def train_transductive(
     star_seed = data.star if hasattr(data, "star") else None
 
     if mode == "train":
-        logits_node, logits_star, logits_lp = model(
+        logits_lp, logits_star = model(
             data.x,
             train_edge_index,
             data.batch,
@@ -64,14 +50,13 @@ def train_transductive(
         )
     else:
         with torch.no_grad():
-            logits_node, logits_star, logits_lp = model(
+            logits_lp, logits_star = model(
                 data.x,
                 train_edge_index,
                 data.batch,
                 star=star_seed,
                 edge_type=train_edge_type,
             )
-    loss = None
 
     pei, pet = get_edge_info(data, mode)
     if mode == "train":
@@ -91,24 +76,21 @@ def train_transductive(
     model.updateZ(logits_lp)
 
     pred = model.lp_score(logits_lp, ei, et)
-
     y = torch.cat(
         [logits_lp.new_ones(pei.size(-1)), logits_lp.new_zeros(nei.size(-1))], dim=0
     )
 
-    loss_ = model.lp_loss(pred, y)
-    loss = loss_ if loss is None else loss + loss_
+    loss = model.lp_loss(pred, y)
     lp_auc, lp_ap = model.lp_test(pred, y)
+
     if ((mode == "test")) and cal_mrr_score:
         model.lp_log_ranks(logits_lp, pei, pet, data.edge_index, data.edge_type)
-
-    total_loss += loss * num_graphs
-
     if mode == "train":
         loss.backward()
         torch.nn.utils.clip_grad_norm_(model.parameters(), 0.01)
         optimizer.step()
-    return total_loss / data_count, lp_auc, lp_ap
+
+    return loss, lp_auc, lp_ap
 
 
 def trainer(
@@ -122,10 +104,7 @@ def trainer(
     epoch_per_val=1,
     num_epoch=200,
     save_per_epoch=100,
-    load_model=False,
     cal_mrr_score=True,
-    node_multi_label=False,
-    graph_multi_label=False,
 ):
 
     # GPU cuDNN auto tuner
@@ -193,8 +172,6 @@ def trainer(
             optimizer,
             dataset,
             args.device,
-            node_multi_label,
-            graph_multi_label,
             mode="train",
         )
         if epoch % epoch_per_val == 0:  # TODO: undo break
@@ -203,8 +180,6 @@ def trainer(
                 optimizer,
                 dataset,
                 args.device,
-                node_multi_label,
-                graph_multi_label,
                 mode="val",
             )
         else:
@@ -216,8 +191,6 @@ def trainer(
                 optimizer,
                 dataset,
                 args.device,
-                node_multi_label,
-                graph_multi_label,
                 mode="test",
                 cal_mrr_score=cal_mrr_score,
             )
