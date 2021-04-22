@@ -141,6 +141,7 @@ data/*
 
 #Block embeddings
 embeddings/*
+fn_embeddings/*
 
 # misc
 .DS_Store

@@ -219,7 +219,7 @@ def trainer(
         scheduler.step(val_loss)
         scheduler.step(test_loss)
 
-        if epoch % save_per_epoch == 0:
-            torch.save(model, path.join(out_path, DATASET_NAME + ".pkl"))
+        if epoch == num_epoch or epoch % save_per_epoch == 0:
+            torch.save(model, path.join(out_path, DATASET_NAME + "_" + str(num_epoch) + 'epochs' + ".pkl"))
 
     tw.writer.close()
