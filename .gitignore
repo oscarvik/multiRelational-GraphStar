@@ -138,6 +138,7 @@ output
 #Block data
 data/*
 !data/FB15k/
+!data/FakeNewsNet
 
 #Block embeddings
 embeddings/*

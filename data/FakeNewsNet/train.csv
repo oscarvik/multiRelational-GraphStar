@@ -1,0 +1,1001 @@
+,text_id,head,relation,tail,fb_head,fb_tail,label
+0,0,Bill Clinton,organization/role/leaders./organization/leadership/person,NPR,/m/0157m,/m/0c0sl,False
+1,1,Bill Clinton,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0157m,/m/02mjmr,False
+2,1,Marsha Blackburn,people/person/employment_history./business/employment_tenure/title,Rep,/m/01fnkt,/m/02qkv0r,False
+3,1,Roger Bate,organization/role/leaders./organization/leadership/person,American Enterprise Institute,/m/0b23zg,/m/0p8q4,False
+4,1,Hillary Clinton,people/person/employment_history./business/employment_tenure/title,Candidate,/m/0d06m5,/m/07r9r0,False
+5,1,Rod Rosenstein,organization/role/leaders./organization/leadership/person,Rod Rosenstein,/m/04y7p0_,/m/04y7p0_,False
+6,1,Rod Rosenstein,people/person/employment_history./business/employment_tenure/title,Attorney,/m/04y7p0_,/m/04gc2,False
+7,1,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,False
+8,3,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,False
+9,3,HES,organization/role/leaders./organization/leadership/person,Getty+ImagesJoe+Raedle,HES,Getty+ImagesJoe+Raedle,False
+10,5,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,False
+11,5,Barack Obama,organization/role/leaders./organization/leadership/person,United Nations,/m/0h7q0rq,/m/07t65,False
+12,5,Barack Obama,people/person/employment_history./business/employment_tenure/title,Alex+Pfeiffer,/m/0h7q0rq,Alex+Pfeiffer,False
+13,5,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,False
+14,8,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,False
+15,8,Bill Clinton,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0157m,/m/02mjmr,False
+16,10,Barack Obama,organization/role/leaders./organization/leadership/person,Islamic State of Iraq and the Levant,/m/0h7q0rq,/m/0h7q0rq,False
+17,11,Bashar al-Assad,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/01_vwx,/m/02mjmr,False
+18,11,Nafeez Ahmed,people/person/employment_history./business/employment_tenure/title,Journalist,/m/0cb1tz,/m/0d8qb,False
+19,11,Islamic State of Iraq and the Levant,organization/organization/headquarters./location/mailing_address/country,Iraq,/m/0h7q0rq,/m/0v74,False
+20,13,United States Secret Service,organization/role/leaders./organization/leadership/person,Hillary Clinton,/m/0fynw,/m/0d06m5,False
+21,13,Hillary Clinton,organization/role/leaders./organization/leadership/person,United States Secret Service,/m/0d06m5,/m/0fynw,False
+22,14,Barack Obama,people/person/places_lived./people/place_lived/location,The West Wing,/m/0h7q0rq,/m/0g60z,False
+23,14,Barack Obama,people/person/places_lived./people/place_lived/location,The West Wing,/m/0h7q0rq,/m/0g60z,False
+24,14,United States Secret Service,organization/role/leaders./organization/leadership/person,Barack Obama,/m/0fynw,/m/0h7q0rq,False
+25,14,Islamic State of Iraq and the Levant,organization/role/leaders./organization/leadership/person,Barack Obama,/m/0h7q0rq,/m/0h7q0rq,False
+26,14,Jodie Foster,people/person/places_lived./people/place_lived/location,Nell,/m/0chw_,/m/03m7gdr,False
+27,15,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,False
+28,15,Bill Clinton,people/person/employment_history./business/employment_tenure/title,Secretary,/m/0157m,/m/06slz5,False
+29,16,Raymond T. Odierno,people/person/employment_history./business/employment_tenure/title,Chief of Staff of the United States Army,/m/0268g3w,/m/02g5lp,False
+30,17,Ted Cruz,people/person/employment_history./business/employment_tenure/title,Senator,/m/07j6ty,/m/04c_3b,False
+31,20,Michelle,people/person/employment_history./business/employment_tenure/title,First Lady of the United States,Michelle,/m/02xy5,False
+32,23,Peter Allen,people/person/employment_history./business/employment_tenure/title,Sergeant,/m/01ndfjw,/m/01g2j2,False
+33,24,Minnesota,organization/role/leaders./organization/leadership/person,Takbir,/m/04ykg,/m/017bdl,False
+34,24,Dave Kleis,people/person/employment_history./business/employment_tenure/title,Mayor,/m/05f9m8h,/m/03x_sks,False
+35,24,Antonio Adán,organization/role/leaders./organization/leadership/person,Minnesota,/m/0gsksn,/m/04ykg,False
+36,24,Antonio Adán,organization/role/leaders./organization/leadership/person,Minnesota,/m/0gsksn,/m/04ykg,False
+37,25,J. Christian Bollwage,people/person/religion,Christianity,/m/012bzwng,/m/01lp8,False
+38,26,Andrew Puzder,people/person/employment_history./business/employment_tenure/title,Chief executive officer,/m/02wx77q,/m/02mwvv,False
+39,26,Andrew Puzder,organization/role/leaders./organization/leadership/person,Business Insider,/m/02wx77q,/m/09gd5v1,False
+40,26,Andrew Puzder,people/person/employment_history./business/employment_tenure/title,Chief executive officer,/m/02wx77q,/m/02mwvv,False
+41,27,Huma Abedin,organization/role/leaders./organization/leadership/person,Federal Bureau of Investigation,/m/02x2tr8,/m/02_1m,False
+42,27,James Comey,people/person/employment_history./business/employment_tenure/title,Director,/m/06r04p,/m/02mjmr,False
+43,27,James Comey,organization/role/leaders./organization/leadership/person,Federal Bureau of Investigation,/m/06r04p,/m/02_1m,False
+44,27,James Comey,people/person/employment_history./business/employment_tenure/title,Director,/m/06r04p,/m/02mjmr,False
+45,27,Hillary Clinton,people/person/employment_history./business/employment_tenure/title,Chairperson,/m/0d06m5,/m/05_xks,False
+46,27,United States Department of Justice,organization/role/leaders./organization/leadership/person,John Podesta,/m/0dtj5,/m/01zty6,False
+47,27,Hillary Clinton,organization/role/leaders./organization/leadership/person,United States Department of Justice,/m/0d06m5,/m/0dtj5,False
+48,27,Barack Obama,organization/role/leaders./organization/leadership/person,Federal Bureau of Investigation,/m/0h7q0rq,/m/02_1m,False
+49,27,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,False
+50,27,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,False
+51,27,Obama.This,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/02mjmr,/m/02mjmr,False
+52,27,White House,people/person/places_lived./people/place_lived/location,Hillary Clinton,/m/03mdbqx,/m/0d06m5,False
+53,27,White House,people/person/places_lived./people/place_lived/location,Hillary Clinton,/m/03mdbqx,/m/0d06m5,False
+54,27,Bill Clinton,organization/role/leaders./organization/leadership/person,Federal Bureau of Investigation,/m/0157m,/m/02_1m,False
+55,28,Angela Merkel,people/person/employment_history./business/employment_tenure/title,Chancellor,/m/0jl0g,/m/01fch0,False
+56,30,Jason+Falconer,people/person/employment_history./business/employment_tenure/title,Instructor,Jason+Falconer,Instructor,False
+57,30,Falconer,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/01lk__r,/m/02mjmr,False
+58,30,Falconer,organization/role/leaders./organization/leadership/person,Tactical+Advantage,/m/01lk__r,/m/0138n5_r,False
+59,30,Bill Clinton,people/person/places_lived./people/place_lived/location,Protection of Lawful Commerce in Arms Act,/m/0157m,/m/08gb40,False
+60,30,Bill Clinton,people/person/places_lived./people/place_lived/location,Protection of Lawful Commerce in Arms Act,/m/0157m,/m/08gb40,False
+61,30,Hillary Clinton,people/person/employment_history./business/employment_tenure/title,Jason+Falconer,/m/0d06m5,Jason+Falconer,False
+62,30,Hillary Clinton,people/person/employment_history./business/employment_tenure/title,Jason+Falconer,/m/0d06m5,Jason+Falconer,False
+63,31,Huma Abedin,people/person/employment_history./business/employment_tenure/title,Google Assistant,/m/02x2tr8,Google Assistant,False
+64,33,Bill,organization/role/leaders./organization/leadership/person,White House,/m/021583,/m/03mdbqx,False
+65,35,TwitterBernard+Sansaricq,organization/role/leaders./organization/leadership/person,SHARES+Facebook,TwitterBernard+Sansaricq,SHARES+Facebook,False
+66,35,TwitterBernard+Sansaricq,organization/role/leaders./organization/leadership/person,Senate,TwitterBernard+Sansaricq,/m/07t58,False
+67,35,Bill Clinton,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0157m,/m/02mjmr,False
+68,36,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,False
+69,38,Adam+Gitlin,organization/role/leaders./organization/leadership/person,Brennan Center for Justice,Adam+Gitlin,/m/02pjfvw,False
+70,38,Brennan Center for Justice,organization/role/leaders./organization/leadership/person,Adam+Gitlin,/m/02pjfvw,Adam+Gitlin,False
+71,41,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,False
+72,41,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,False
+73,42,Journalist,people/person/employment_history./business/employment_tenure/title,Tim Tebow,/m/0d8qb,/m/059yj,False
+74,43,Islamic State of Iraq and the Levant,organization/organization/headquarters./location/mailing_address/country,Americas,/m/0h7q0rq,/m/07c5l,False
+75,43,Héctor Garza,organization/role/leaders./organization/leadership/person,National+Border+Patrol+Council+Local+2455,/m/0685rw,National+Border+Patrol+Council+Local+2455,False
+76,45,Pauline Hanson,people/person/employment_history./business/employment_tenure/title,Senator,/m/0j5pc,/m/04c_3b,False
+77,47,County,location/hud_county_place/county,Luna,/m/094z8,/m/0czf4m8,False
+78,49,Wilson Sporting Goods,people/person/employment_history./business/employment_tenure/title,Quarterback,/m/05sj2z,/m/06b1q,False
+79,49,Wilson Sporting Goods,people/person/employment_history./business/employment_tenure/title,Quarterback,/m/05sj2z,/m/06b1q,False
+80,49,Wilson Sporting Goods,people/person/employment_history./business/employment_tenure/title,Quarterback,/m/05sj2z,/m/06b1q,False
+81,49,Wilson Sporting Goods,people/person/employment_history./business/employment_tenure/title,Quarterback,/m/05sj2z,/m/06b1q,False
+82,49,Wilson Sporting Goods,people/person/employment_history./business/employment_tenure/title,Quarterback,/m/05sj2z,/m/06b1q,False
+83,49,Wilson Sporting Goods,people/person/employment_history./business/employment_tenure/title,Quarterback,/m/05sj2z,/m/06b1q,False
+84,49,Wilson Sporting Goods,people/person/employment_history./business/employment_tenure/title,Quarterback,/m/05sj2z,/m/06b1q,False
+85,49,Wilson Sporting Goods,people/person/employment_history./business/employment_tenure/title,Quarterback,/m/05sj2z,/m/06b1q,False
+86,50,Trump,organization/role/leaders./organization/leadership/person,Fox News,/m/0cqt90,/m/02z_b,False
+87,50,Trump,organization/role/leaders./organization/leadership/person,Fox News,/m/0cqt90,/m/02z_b,False
+88,51,Time,organization/role/leaders./organization/leadership/person,Donald Trump,/m/07c_l,/m/0cqt90,False
+89,52,Frank Luntz,people/person/employment_history./business/employment_tenure/title,pollster,/m/0cxslf,pollster,False
+90,52,Greg+Pollowitz,organization/role/leaders./organization/leadership/person,Drudge Report,Greg+Pollowitz,/m/01dgg6,False
+91,53,Steven Knight,organization/role/leaders./organization/leadership/person,Charlotte-Mecklenburg Police Department,/m/04glwxr,/m/03d5lmj,False
+92,53,Steven Knight,organization/role/leaders./organization/leadership/person,Charlotte-Mecklenburg Police Department,/m/04glwxr,/m/03d5lmj,False
+93,53,Steven Knight,people/person/employment_history./business/employment_tenure/title,Shooting,/m/04glwxr,/m/071rm,False
+94,53,Steven Knight,people/person/employment_history./business/employment_tenure/title,Shooting,/m/04glwxr,/m/071rm,False
+95,53,Steven Knight,people/person/employment_history./business/employment_tenure/title,Minister,/m/04glwxr,/m/0377k9,False
+96,53,Steven Knight,organization/role/leaders./organization/leadership/person,Missiongathering+Christian+Church,/m/04glwxr,Missiongathering+Christian+Church,False
+97,54,Vladimir Putin,people/person/employment_history./business/employment_tenure/title,Russia,/m/08193,/m/06bnz,False
+98,54,Alexander Lebedev,organization/role/leaders./organization/leadership/person,KGB,/m/027nvsp,/m/04b6p,False
+99,54,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+100,54,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+101,54,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+102,54,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+103,56,Chris Christie,people/person/employment_history./business/employment_tenure/title,governor,/m/0f8t6k,/m/0btx2g,False
+104,56,Vincent Prieto,people/person/employment_history./business/employment_tenure/title,Loudspeaker,/m/08cnqc,/m/0cfpc,False
+105,56,Donald Trump,organization/role/leaders./organization/leadership/person,2020 Republican Party presidential primaries,/m/0cqt90,2020 Republican Party presidential primaries,False
+106,56,Christie's,people/person/employment_history./business/employment_tenure/title,governor,/m/014df6,/m/0btx2g,False
+107,57,Jeb Bush,people/person/employment_history./business/employment_tenure/title,governor,/m/019x9z,/m/0btx2g,False
+108,57,Bill Clinton,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0157m,/m/02mjmr,False
+109,57,Bill Clinton,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0157m,/m/02mjmr,False
+110,57,George W. Bush,people/person/employment_history./business/employment_tenure/title,governor,/m/0d05fv,/m/0btx2g,False
+111,60,Peter Thiel,organization/role/leaders./organization/leadership/person,Republican Party,/m/02w8m6,/m/085srz,False
+112,60,Peter Thiel,people/person/employment_history./business/employment_tenure/title,Businessman,/m/02w8m6,/m/012t_z,False
+113,60,Peter Thiel,organization/role/leaders./organization/leadership/person,Stanford University,/m/02w8m6,/m/06pwq,False
+114,60,Patricia A. Shiu,organization/role/leaders./organization/leadership/person,Office of Federal Contract Compliance Programs,/m/09g6z41,/m/07gmmy,False
+115,60,Lisa Gordon-Hagerty,people/person/employment_history./business/employment_tenure/title,Palantir Technologies,Lisa Gordon-Hagerty,/m/0bwkm08,False
+116,68,Hillary Clinton,people/person/employment_history./business/employment_tenure/title,State.Well,/m/0d06m5,State.Well,False
+117,68,Hillary Clinton,people/person/employment_history./business/employment_tenure/title,Secretary,/m/0d06m5,/m/06slz5,False
+118,68,Bill Clinton,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0157m,/m/02mjmr,False
+119,68,Hillary Clinton,people/person/employment_history./business/employment_tenure/title,Candidate,/m/0d06m5,/m/07r9r0,False
+120,69,John Pfaff,organization/role/leaders./organization/leadership/person,Fordham University,John Pfaff,/m/027kp3,False
+121,71,Rod Rosenstein,people/person/employment_history./business/employment_tenure/title,Attorney,/m/04y7p0_,/m/04gc2,False
+122,71,Bill Clinton,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0157m,/m/02mjmr,False
+123,71,Rod Rosenstein,organization/role/leaders./organization/leadership/person,Rod Rosenstein,/m/04y7p0_,/m/04y7p0_,False
+124,71,Marsha Blackburn,people/person/employment_history./business/employment_tenure/title,Rep,/m/01fnkt,/m/02qkv0r,False
+125,71,Roger Bate,organization/role/leaders./organization/leadership/person,American Enterprise Institute,/m/0b23zg,/m/0p8q4,False
+126,72,Hillary Clinton,people/person/employment_history./business/employment_tenure/title,United States Secretary of State,/m/0d06m5,/m/0bwl7t0,False
+127,72,Richard J. Leon,people/person/employment_history./business/employment_tenure/title,Judge,/m/0bydx6,/m/06lvrr,False
+128,72,Cheryl Mills,people/person/employment_history./business/employment_tenure/title,Chief of staff,/m/026swz9,/m/025whr1,False
+129,72,Huma Abedin,people/person/employment_history./business/employment_tenure/title,White House Deputy Chief of Staff,/m/02x2tr8,/m/0820qp,False
+130,73,Jennifer Palmieri,people/person/employment_history./business/employment_tenure/title,Bill Clinton,/m/0120w9bh,/m/0157m,False
+131,73,Jennifer Palmieri,people/person/employment_history./business/employment_tenure/title,Director of communications,/m/0120w9bh,/m/07g7bl,False
+132,74,Bill Clinton,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0157m,/m/02mjmr,False
+133,74,Kyle,people/person/employment_history./business/employment_tenure/title,Dolley Madison,Kyle,/m/0ptt0,False
+134,77,George Lucas,people/person/employment_history./business/employment_tenure/title,Filmmaking,/m/0343h,/m/03r8gp,False
+135,77,Juanita Irizarry,people/person/employment_history./business/employment_tenure/title,Friends of the Parks,Juanita Irizarry,/m/0cqf2_,False
+136,78,Stanley A. McChrystal,people/person/employment_history./business/employment_tenure/title,General officer,/m/05557v4,/m/0130xz,False
+137,78,United States Armed Forces,organization/organization/headquarters./location/mailing_address/country,Afghanistan,/m/07xg1,/m/0jdd,False
+138,78,Stanley A. McChrystal,people/person/employment_history./business/employment_tenure/title,Commander,/m/05557v4,/m/01gzh0,False
+139,78,Stanley A. McChrystal,people/person/employment_history./business/employment_tenure/title,General officer,/m/05557v4,/m/0130xz,False
+140,81,Mark Ruffalo,people/person/employment_history./business/employment_tenure/title,Actor,/m/035rnz,/m/014g_s,False
+141,81,MoveOn,organization/role/leaders./organization/leadership/person,John McCain,/m/0257nv,/m/0bymv,False
+142,81,MoveOn,organization/role/leaders./organization/leadership/person,Donald Trump,/m/0257nv,/m/0cqt90,False
+143,81,Parry O'Brien,people/person/employment_history./business/employment_tenure/title,peaceout.com,/m/07rlz7,peaceout.com,False
+144,81,Parry O'Brien,people/person/employment_history./business/employment_tenure/title,Organizer,/m/07rlz7,Organizer,False
+145,81,O'Brien,organization/role/leaders./organization/leadership/person,Veteran,O'Brien,/m/01wcxw,False
+146,84,Pat McCrory,people/person/employment_history./business/employment_tenure/title,governor,/m/05tjbz,/m/0btx2g,False
+147,85,James Comey,organization/role/leaders./organization/leadership/person,Federal Bureau of Investigation,/m/06r04p,/m/02_1m,False
+148,85,James Comey,people/person/employment_history./business/employment_tenure/title,Film director,/m/06r04p,/m/02jknp,False
+149,85,James Comey,people/person/employment_history./business/employment_tenure/title,Film director,/m/06r04p,/m/02jknp,False
+150,85,James Comey,organization/role/leaders./organization/leadership/person,Federal Bureau of Investigation,/m/06r04p,/m/02_1m,False
+151,85,Cheryl Mills,people/person/employment_history./business/employment_tenure/title,Chief of staff,/m/026swz9,/m/025whr1,False
+152,85,Mills,organization/role/leaders./organization/leadership/person,Federal Bureau of Investigation,/m/045m16,/m/02_1m,False
+153,85,Joseph diGenova,people/person/employment_history./business/employment_tenure/title,Attorney,Joseph diGenova,/m/04gc2,False
+154,86,Islamic State of Iraq and the Levant,organization/organization/headquarters./location/mailing_address/country,Saudi Arabia,/m/0h7q0rq,/m/01z215,False
+155,86,Islamic State of Iraq and the Levant,organization/organization/headquarters./location/mailing_address/country,Saudi Arabia,/m/0h7q0rq,/m/01z215,False
+156,87,USA+Politics+Today,organization/role/leaders./organization/leadership/person,Bill Clinton,USA+Politics+Today,/m/0157m,False
+157,87,USA+Politics+Today,organization/role/leaders./organization/leadership/person,Donald Trump,USA+Politics+Today,/m/0cqt90,False
+158,90,Nicholas Merrill,people/person/employment_history./business/employment_tenure/title,Bill Clinton,/m/0dsdp74,/m/0157m,False
+159,90,Nicholas Merrill,people/person/employment_history./business/employment_tenure/title,Spokesperson,/m/0dsdp74,/m/03mdbqx,False
+160,91,Andrew Cuomo,people/person/employment_history./business/employment_tenure/title,governor,/m/02pjpd,/m/0btx2g,True
+161,93,Barack Obama,organization/role/leaders./organization/leadership/person,United Nations,/m/0h7q0rq,/m/07t65,True
+162,93,Barack Obama,organization/role/leaders./organization/leadership/person,United Nations General Assembly,/m/0h7q0rq,/m/07vp7,True
+163,94,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+164,95,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+165,97,Hofstra University,organization/organization/headquarters./location/mailing_address/country,Island,/m/02607j,/m/03s0c,True
+166,97,Bill Clinton,people/person/employment_history./business/employment_tenure/title,Secretary,/m/0157m,/m/06slz5,True
+167,97,Bill Clinton,people/person/employment_history./business/employment_tenure/title,Secretary,/m/0157m,/m/06slz5,True
+168,97,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+169,97,Bill Clinton,people/person/employment_history./business/employment_tenure/title,Secretary,/m/0157m,/m/06slz5,True
+170,97,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+171,97,Donald,people/person/employment_history./business/employment_tenure/title,Barack Obama,Donald,/m/0h7q0rq,True
+172,97,Donald,people/person/employment_history./business/employment_tenure/title,Barack Obama,Donald,/m/0h7q0rq,True
+173,97,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+174,97,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+175,97,Stern,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/03jmnt,/m/02mjmr,True
+176,98,Jennifer Roberts,people/person/employment_history./business/employment_tenure/title,Mayor,Jennifer Roberts,/m/03x_sks,True
+177,98,Putney,organization/organization/headquarters./location/mailing_address/country,ABC,/m/0nb_v,/m/0gsg7,True
+178,98,Putney,organization/organization/headquarters./location/mailing_address/country,ABC,/m/0nb_v,/m/0gsg7,True
+179,100,Robby Mook,people/person/employment_history./business/employment_tenure/title,Bill Clinton,/m/0y4zr4f,/m/0157m,True
+180,100,Robby Mook,people/person/employment_history./business/employment_tenure/title,Campaign manager,/m/0y4zr4f,/m/03xk7t,True
+181,100,Robby Mook,organization/role/leaders./organization/leadership/person,CBS,/m/0y4zr4f,/m/09d5h,True
+182,100,Kellyanne Conway,people/person/employment_history./business/employment_tenure/title,Campaign manager,/m/0dq819,/m/03xk7t,True
+183,100,Kellyanne Conway,people/person/employment_history./business/employment_tenure/title,Donald Trump,/m/0dq819,/m/0cqt90,True
+184,100,Bill Clinton,organization/role/leaders./organization/leadership/person,Republican Party,/m/0157m,/m/085srz,True
+185,100,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+186,100,Matt Lauer,organization/role/leaders./organization/leadership/person,Lester Holt,/m/049_zz,/m/06jvj7,True
+187,100,Brian Fallon,people/person/employment_history./business/employment_tenure/title,White House Press Secretary,/m/0fqmphx,/m/01pt0z,True
+188,100,Corey Lewandowski,people/person/employment_history./business/employment_tenure/title,Donald Trump,Corey Lewandowski,/m/0cqt90,True
+189,100,Corey Lewandowski,people/person/employment_history./business/employment_tenure/title,Campaign manager,Corey Lewandowski,/m/03xk7t,True
+190,100,Mook,organization/role/leaders./organization/leadership/person,NBCs+Today.Asked,Mook,NBCs+Today.Asked,True
+191,101,John Anderson,people/person/employment_history./business/employment_tenure/title,Candidate,/m/0b9ndp,/m/07r9r0,True
+192,101,Ross Perot,people/person/religion,The Independent,/m/0bxhx,/m/0q4tw,True
+193,104,Andrew Cuomo,people/person/employment_history./business/employment_tenure/title,governor,/m/02pjpd,/m/0btx2g,True
+194,105,Hillary Clinton,people/person/employment_history./business/employment_tenure/title,Candidate,/m/0d06m5,/m/07r9r0,True
+195,105,Harry Reid,organization/role/leaders./organization/leadership/person,List of current United States senators,/m/0204x1,List of current United States senators,True
+196,105,Mitt Romney,organization/role/leaders./organization/leadership/person,Republican Party,/m/05k7sb,/m/085srz,True
+197,105,Harry Reid,people/person/employment_history./business/employment_tenure/title,Leadership,/m/0204x1,/m/0h7q0rq,True
+198,105,Gerald Ford,people/person/places_lived./people/place_lived/location,Oval Office,/m/0c_md_,/m/06c0j,True
+199,105,Donald Trump,organization/role/leaders./organization/leadership/person,Republican Party,/m/0cqt90,/m/085srz,True
+200,105,George W. Romney,organization/role/leaders./organization/leadership/person,Mitt Romney,/m/01v6nf,/m/05k7sb,True
+201,106,Sander Levin,organization/role/leaders./organization/leadership/person,CNN,/m/02n8p2,/m/0gsgr,True
+202,106,The Washington Post,organization/role/leaders./organization/leadership/person,John Koskinen,/m/0px38,/m/06v2j5,True
+203,107,Dean+Washington,people/person/employment_history./business/employment_tenure/title,CPL,/m/0wbh29p,CPL,True
+204,107,Dean+Washington,people/person/places_lived./people/place_lived/location,"Gwinnett County, Georgia",/m/0wbh29p,/m/0nzlp,True
+205,107,Dean+Washington,people/person/employment_history./business/employment_tenure/title,"Gwinnett County, Georgia",/m/0wbh29p,/m/0nzlp,True
+206,108,Donald Trump,organization/role/leaders./organization/leadership/person,Fox News,/m/0cqt90,/m/02z_b,True
+207,108,Ainsley Earhardt,organization/role/leaders./organization/leadership/person,Fox News,/m/02qlgwq,/m/02z_b,True
+208,109,Jennifer Roberts,people/person/employment_history./business/employment_tenure/title,Mayor,Jennifer Roberts,/m/03x_sks,True
+209,112,Ted Cruz,people/person/employment_history./business/employment_tenure/title,John+F.+Kennedy+Cruz,/m/07j6ty,John+F.+Kennedy+Cruz,True
+210,112,John F. Kennedy,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0d3k14,/m/02mjmr,True
+211,113,John King,people/person/employment_history./business/employment_tenure/title,Correspondent,/m/0b1qpc,/m/02k13d,True
+212,113,"Wake County, North Carolina",people/person/places_lived./people/place_lived/location,Bill Clinton,/m/0n3ll,/m/0157m,True
+213,115,Bill Clinton,organization/role/leaders./organization/leadership/person,Associated Press,/m/0157m,/m/0cv_2,True
+214,115,Bill Clinton,organization/role/leaders./organization/leadership/person,Associated Press,/m/0157m,/m/0cv_2,True
+215,115,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+216,115,Hillary Clinton,organization/role/leaders./organization/leadership/person,Twitter,/m/0d06m5,/m/0289n8t,True
+217,116,John F. Kennedy,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0d3k14,/m/02mjmr,True
+218,116,Washington,people/person/employment_history./business/employment_tenure/title,John F. Kennedy,/m/081yw,/m/0d3k14,True
+219,116,John F. Kennedy,people/person/employment_history./business/employment_tenure/title,Robert F. Kennedy,/m/0d3k14,/m/06hx2,True
+220,116,Robert F. Kennedy,people/person/employment_history./business/employment_tenure/title,Attorney general,/m/06hx2,/m/0465sdr,True
+221,116,Vladimir Putin,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/08193,/m/02mjmr,True
+222,116,Vladimir Putin,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/08193,/m/02mjmr,True
+223,116,Nikita Khrushchev,people/person/employment_history./business/employment_tenure/title,Leadership,/m/0bphp,/m/0h7q0rq,True
+224,116,John F. Kennedy,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0d3k14,/m/02mjmr,True
+225,116,Lyndon B. Johnson,people/person/employment_history./business/employment_tenure/title,War,/m/0f7fy,/m/02mjmr,True
+226,116,Lyndon B. Johnson,people/person/employment_history./business/employment_tenure/title,Vietnam,/m/0f7fy,/m/01crd5,True
+227,116,Lyndon B. Johnson,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0f7fy,/m/02mjmr,True
+228,116,Tulsi Gabbard,organization/role/leaders./organization/leadership/person,United States Congress,/m/0cnyrfq,/m/0d06m5,True
+229,116,Sea,location/country/languages_spoken,South,/m/06npx,/m/0k7ny,True
+230,116,Sea,location/country/languages_spoken,China,/m/06npx,/m/0d05w3,True
+231,116,Vladimir Putin,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/08193,/m/02mjmr,True
+232,116,William Perry,people/person/employment_history./business/employment_tenure/title,Europe,/m/013y1y,/m/02j9z,True
+233,116,William Perry,people/person/employment_history./business/employment_tenure/title,United States Secretary of Defense,/m/013y1y,/m/0c01v,True
+234,118,Bryce+Heinlein,people/person/employment_history./business/employment_tenure/title,Sergeant,Bryce+Heinlein,/m/01g2j2,True
+235,119,Colin Kaepernick,people/person/employment_history./business/employment_tenure/title,Quarterback,/m/03cm6b3,/m/06b1q,True
+236,119,Keith Urban,organization/role/leaders./organization/leadership/person,ESPN,/m/05cljf,/m/0kc6x,True
+237,119,Keith Urban,organization/role/leaders./organization/leadership/person,ESPN,/m/05cljf,/m/0kc6x,True
+238,120,Linda Thompson,people/person/employment_history./business/employment_tenure/title,Actor,/m/05yz6j,/m/014g_s,True
+239,121,Donna Brazile,organization/role/leaders./organization/leadership/person,Associated Press,/m/03n1q0,/m/0cv_2,True
+240,121,Donna Brazile,people/person/employment_history./business/employment_tenure/title,Chairperson,/m/03n1q0,/m/05_xks,True
+241,121,Donna Brazile,organization/role/leaders./organization/leadership/person,Associated Press,/m/03n1q0,/m/0cv_2,True
+242,122,Ministry of Defence,organization/organization/headquarters./location/mailing_address/country,United Kingdom,/m/01cy4y,/m/07ssc,True
+243,126,Joe Biden,people/person/employment_history./business/employment_tenure/title,Vice President of the United States,/m/012gx2,/m/0d05fv,True
+244,126,Ronald Reagan,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/06c0j,/m/02mjmr,True
+245,127,Jill Stein,people/person/employment_history./business/employment_tenure/title,Candidate,/m/05st_r,/m/07r9r0,True
+246,127,Jill Stein,organization/role/leaders./organization/leadership/person,Green Party of the United States,/m/05st_r,/m/07k5l,True
+247,128,Evelyn+Arnold,people/person/employment_history./business/employment_tenure/title,Principal,Evelyn+Arnold,/m/07s82n4,True
+248,128,W. Shannon Morris,people/person/employment_history./business/employment_tenure/title,Principal,W. Shannon Morris,/m/07s82n4,True
+249,132,Ahmad+Khan+RahamiHall,organization/role/leaders./organization/leadership/person,New York New Jersey Rail,Ahmad+Khan+RahamiHall,/m/06v0py,True
+250,133,Hillary Clinton,people/person/employment_history./business/employment_tenure/title,Campaign manager,/m/0d06m5,/m/03xk7t,True
+251,133,Hillary Clinton,organization/role/leaders./organization/leadership/person,CNN,/m/0d06m5,/m/0gsgr,True
+252,133,Steve Harvey,people/person/employment_history./business/employment_tenure/title,Host,/m/02lhtf,/m/04wk4z,True
+253,134,Kellyanne Conway,people/person/employment_history./business/employment_tenure/title,Donald Trump,/m/0dq819,/m/0cqt90,True
+254,134,Kellyanne Conway,organization/role/leaders./organization/leadership/person,Islamic State of Iraq and the Levant,/m/0dq819,/m/0h7q0rq,True
+255,134,Kellyanne Conway,people/person/employment_history./business/employment_tenure/title,Kellyanne Conway,/m/0dq819,/m/0dq819,True
+256,134,Kellyanne Conway,people/person/employment_history./business/employment_tenure/title,Campaign manager,/m/0dq819,/m/03xk7t,True
+257,135,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+258,135,CNN,organization/organization/headquarters./location/mailing_address/country,New Jersey,/m/0gsgr,/m/0f8t6k,True
+259,136,Barack Obama,organization/role/leaders./organization/leadership/person,United+Nations+CNN,/m/0h7q0rq,United+Nations+CNN,True
+260,136,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+261,136,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+262,136,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+263,136,Donald Tusk,organization/role/leaders./organization/leadership/person,European Council,/m/02_fg6,/m/02m1b,True
+264,136,John Kerry,people/person/employment_history./business/employment_tenure/title,United States Secretary of State,/m/0d3qd0,/m/0bwl7t0,True
+265,136,Margaret+Huang,organization/role/leaders./organization/leadership/person,Amnesty+Internationals+Interim+Executive,Margaret+Huang,Amnesty+Internationals+Interim+Executive,True
+266,136,Donald Tusk,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/02_fg6,/m/02mjmr,True
+267,137,Hillary Clinton,people/person/religion,Islam,/m/0d06m5,/m/0flw86,True
+268,138,Jay Rosen,organization/role/leaders./organization/leadership/person,New York University,/m/0b2xfq,/m/0bwfn,True
+269,138,Jay Rosen,people/person/employment_history./business/employment_tenure/title,Professor,/m/0b2xfq,/m/016fly,True
+270,138,Hayreddin Barbarossa,organization/role/leaders./organization/leadership/person,Peter Beinart,/m/0dkr2r,/m/04tpcx,True
+271,138,Barry Marshall,people/person/employment_history./business/employment_tenure/title,Doctor,/m/023fbk,/m/02g9n,True
+272,138,Alan Greenspan,organization/role/leaders./organization/leadership/person,Federal Reserve Board of Governors,/m/015h4y,/m/0hhqj3p,True
+273,138,Michael Oreskes,organization/role/leaders./organization/leadership/person,NPR+News,Michael Oreskes,NPR+News,True
+274,138,Michael Oreskes,people/person/employment_history./business/employment_tenure/title,Film director,Michael Oreskes,/m/02jknp,True
+275,139,David Clarke,people/person/employment_history./business/employment_tenure/title,Sheriff,/m/0_yglzq,/m/0_yglzq,True
+276,139,County,location/hud_county_place/county,Milwaukee,/m/094z8,/m/094z8,True
+277,139,Erik+J.+Heipt,people/person/employment_history./business/employment_tenure/title,Attorney,Erik+J.+Heipt,/m/04gc2,True
+278,140,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,True
+279,141,Donald Trump,organization/role/leaders./organization/leadership/person,AP+Photo+Trump,/m/0cqt90,AP+Photo+Trump,True
+280,141,Kellyanne Conway,people/person/employment_history./business/employment_tenure/title,Campaign manager,/m/0dq819,/m/03xk7t,True
+281,141,Donald Trump,organization/role/leaders./organization/leadership/person,CNN,/m/0cqt90,/m/0gsgr,True
+282,142,François Hollande,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/02qg4z,/m/02mjmr,True
+283,142,Bates,people/person/employment_history./business/employment_tenure/title,Pack2Go+Europe,/m/05y6yms,Pack2Go+Europe,True
+284,144,Kerr+Putney,people/person/employment_history./business/employment_tenure/title,Chief of police,Kerr+Putney,/m/039h8_,True
+285,145,Mark Kelly,people/person/employment_history./business/employment_tenure/title,Astronaut,/m/02wsxy,/m/0htp,True
+286,146,President of the United States,people/person/employment_history./business/employment_tenure/title,Donald Trump,/m/02mjmr,/m/0cqt90,True
+287,147,Donald Trump,organization/role/leaders./organization/leadership/person,Fox News,/m/0cqt90,/m/02z_b,True
+288,147,Donald Trump,organization/role/leaders./organization/leadership/person,Fox News,/m/0cqt90,/m/02z_b,True
+289,147,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+290,152,Gabriel Gorenstein,people/person/employment_history./business/employment_tenure/title,United States magistrate judge,Gabriel Gorenstein,/m/05b105r,True
+291,153,Joseph Dunford,people/person/employment_history./business/employment_tenure/title,Gene,/m/05b2r22,/m/0bscct,True
+292,153,Joint Chiefs of Staff,organization/role/leaders./organization/leadership/person,Joseph Dunford,/m/01brfl,/m/05b2r22,True
+293,155,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+294,155,"Charles, Prince of Wales",people/person/places_lived./people/place_lived/location,Wales,/m/0xnc3,/m/0j5g9,True
+295,156,Gabriel Gorenstein,people/person/employment_history./business/employment_tenure/title,United States magistrate judge,Gabriel Gorenstein,/m/05b105r,True
+296,157,Trent Franks,organization/role/leaders./organization/leadership/person,RepublicanWashington+CNN,/m/024p5b,RepublicanWashington+CNN,True
+297,158,AP+Photo+Trump,organization/role/leaders./organization/leadership/person,Bill Clinton,AP+Photo+Trump,/m/0157m,True
+298,158,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+299,159,Monday.David+Wildstein,organization/role/leaders./organization/leadership/person,Interstate+Capital+Projects,Monday.David+Wildstein,Interstate+Capital+Projects,True
+300,159,Bridget Kelly,people/person/employment_history./business/employment_tenure/title,White House Deputy Chief of Staff,/m/0803htk,/m/0820qp,True
+301,159,Chris Christie,people/person/employment_history./business/employment_tenure/title,governor,/m/0f8t6k,/m/0btx2g,True
+302,159,Bob+Durando,people/person/employment_history./business/employment_tenure/title,Contract bridge,Bob+Durando,/m/019hy,True
+303,160,Bono,organization/role/leaders./organization/leadership/person,CBS,/m/01vswwx,/m/09d5h,True
+304,161,Susan+MacManus,organization/role/leaders./organization/leadership/person,University of South Florida,Susan+MacManus,/m/09s5q8,True
+305,161,Susan+MacManus,people/person/employment_history./business/employment_tenure/title,Political science,Susan+MacManus,/m/062z7,True
+306,163,Tim Kaine,people/person/employment_history./business/employment_tenure/title,Candidate,/m/053f8h,/m/07r9r0,True
+307,164,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,True
+308,165,Neema+Hakim,people/person/employment_history./business/employment_tenure/title,Spokesperson,Neema+Hakim,/m/03mdbqx,True
+309,165,John P. Roth,people/person/employment_history./business/employment_tenure/title,Inspector general,John P. Roth,/m/0kvg94,True
+310,166,J. Paul Austin,organization/role/leaders./organization/leadership/person,Tim Baker,/m/0j42f1z,Tim Baker,True
+311,166,B.J. Nikkel,organization/role/leaders./organization/leadership/person,Josh Penry,/m/05c3rfn,/m/02q03dy,True
+312,168,Donald Trump,people/person/employment_history./business/employment_tenure/title,Night,/m/0cqt90,/m/01d74z,True
+313,168,Donald Trump,people/person/employment_history./business/employment_tenure/title,Comedian,/m/0cqt90,/m/018gz8,True
+314,168,Barack Obama,people/person/employment_history./business/employment_tenure/title,United States,/m/0h7q0rq,/m/07t58,True
+315,168,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+316,169,David Martosko,organization/role/leaders./organization/leadership/person,Daily Mail,David Martosko,/m/0180v2,True
+317,169,Jeremy Diamond,people/person/employment_history./business/employment_tenure/title,Journalist,Jeremy Diamond,/m/0d8qb,True
+318,169,Jeremy Diamond,organization/role/leaders./organization/leadership/person,CNN,Jeremy Diamond,/m/0gsgr,True
+319,169,Ron+Bonjean,people/person/employment_history./business/employment_tenure/title,Strategist,Ron+Bonjean,/m/03gq32j,True
+320,171,ABC+News+Rahami,organization/organization/headquarters./location/mailing_address/country,Us,ABC+News+Rahami,/m/0b3wk,True
+321,171,Cindy+Galli,organization/role/leaders./organization/leadership/person,2016 New York and New Jersey bombings,Cindy+Galli,2016 New York and New Jersey bombings,True
+322,172,Donald Trump,people/person/employment_history./business/employment_tenure/title,Candidate,/m/0cqt90,/m/07r9r0,True
+323,172,Donald Trump,people/person/employment_history./business/employment_tenure/title,Gladiator,/m/0cqt90,/m/037l9,True
+324,172,King,people/person/employment_history./business/employment_tenure/title,Donald Trump,/m/03w9bnr,/m/0cqt90,True
+325,172,King,people/person/employment_history./business/employment_tenure/title,Candidate,/m/03w9bnr,/m/07r9r0,True
+326,172,John Lewis,people/person/employment_history./business/employment_tenure/title,Rep,/m/01pjq21,/m/02qkv0r,True
+327,172,Michael Cohen,people/person/employment_history./business/employment_tenure/title,Attorney,Michael Cohen,/m/04gc2,True
+328,172,Michael Flynn,people/person/employment_history./business/employment_tenure/title,Lieutenant general,/m/09v12g0,/m/01cpjg,True
+329,173,Donald Trump,organization/role/leaders./organization/leadership/person,Barack Obama,/m/0cqt90,/m/0h7q0rq,True
+330,173,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+331,173,Getty+Joe+Arpaio+Trump,people/person/places_lived./people/place_lived/location,USI,Getty+Joe+Arpaio+Trump,USI,True
+332,174,Barack Obama,organization/role/leaders./organization/leadership/person,CNN,/m/0h7q0rq,/m/0gsgr,True
+333,174,Benjamin Netanyahu,people/person/employment_history./business/employment_tenure/title,Prime Minister of the United Kingdom,/m/0fm2h,/m/060s9,True
+334,174,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+335,175,Terry McAuliffe,people/person/employment_history./business/employment_tenure/title,governor,/m/02dgtb,/m/0btx2g,True
+336,175,Terry McAuliffe,people/person/employment_history./business/employment_tenure/title,governor,/m/02dgtb,/m/0btx2g,True
+337,176,Vladimir Putin,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/08193,/m/02mjmr,True
+338,176,Donald Trump,people/person/nationality,Quds Force,/m/0cqt90,/m/0bd931,True
+339,176,Hugh Hewitt,people/person/employment_history./business/employment_tenure/title,Host,/m/042f3_,/m/04wk4z,True
+340,176,Donald Trump,organization/role/leaders./organization/leadership/person,Quds Force,/m/0cqt90,/m/0bd931,True
+341,176,Mikhail Leontyev,organization/role/leaders./organization/leadership/person,Rosneft,/m/0b7rm2,/m/04s4_v,True
+342,176,Igor+Sechinduring,organization/role/leaders./organization/leadership/person,Rosneft,Igor+Sechinduring,/m/04s4_v,True
+343,176,Donald Trump,organization/role/leaders./organization/leadership/person,Donald Trump,/m/0cqt90,/m/0cqt90,True
+344,176,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+345,176,Ian Craig,organization/role/leaders./organization/leadership/person,Sakhalin Energy,/m/061xw_,/m/03cnqkd,True
+346,176,Craig,organization/role/leaders./organization/leadership/person,Merrill,Craig,/m/01mlrk,True
+347,176,Sergei+Aleksashenko,people/person/employment_history./business/employment_tenure/title,Chairperson,Sergei+Aleksashenko,/m/05_xks,True
+348,176,Sergei+Aleksashenko,organization/role/leaders./organization/leadership/person,Central Bank of Russia,Sergei+Aleksashenko,/m/0382np,True
+349,176,Shooting of Michael Brown,organization/role/leaders./organization/leadership/person,Global Policy,/m/011l2bwd,/m/0bmgs01,True
+350,176,Ivanov,organization/role/leaders./organization/leadership/person,Federal Bureau of Investigation,/m/05h3wxl,/m/02_1m,True
+351,176,Ivanov,organization/role/leaders./organization/leadership/person,Federal Bureau of Investigation,/m/05h3wxl,/m/02_1m,True
+352,176,Petr Aven,organization/role/leaders./organization/leadership/person,Alfa-Bank,/m/02849v5,/m/037ppp,True
+353,176,Ivanov,organization/role/leaders./organization/leadership/person,New Economic School,/m/05h3wxl,/m/0bhp2c,True
+354,176,Aleksei N. Leontiev,organization/role/leaders./organization/leadership/person,Rosneft,/m/02ybc5,/m/04s4_v,True
+355,176,James Comey,people/person/employment_history./business/employment_tenure/title,Film director,/m/06r04p,/m/02jknp,True
+356,176,James Comey,organization/role/leaders./organization/leadership/person,Federal Bureau of Investigation,/m/06r04p,/m/02_1m,True
+357,176,Richard Burt,people/person/employment_history./business/employment_tenure/title,Germany,/m/09gd0s0,/m/0345h,True
+358,176,Richard Burt,organization/role/leaders./organization/leadership/person,Alfa-Bank,/m/09gd0s0,/m/037ppp,True
+359,176,Richard Burt,organization/role/leaders./organization/leadership/person,Alfa-Bank,/m/09gd0s0,/m/037ppp,True
+360,176,Jeff Sessions,people/person/employment_history./business/employment_tenure/title,Senator,/m/020yjg,/m/04c_3b,True
+361,176,Rick Dearborn,people/person/employment_history./business/employment_tenure/title,Chief of staff,Rick Dearborn,/m/025whr1,True
+362,176,HES,organization/role/leaders./organization/leadership/person,Donald Trump,HES,/m/0cqt90,True
+363,176,Narendra Modi,people/person/employment_history./business/employment_tenure/title,Prime Minister of the United Kingdom,/m/0296q2,/m/060s9,True
+364,176,Michael McFaul,people/person/employment_history./business/employment_tenure/title,Russia,/m/02qwnj2,/m/06bnz,True
+365,176,Carter Page,people/person/employment_history./business/employment_tenure/title,Candidate,Carter Page,/m/07r9r0,True
+366,176,Carter Page,people/person/employment_history./business/employment_tenure/title,Candidate,Carter Page,/m/07r9r0,True
+367,177,The Washington Post,organization/role/leaders./organization/leadership/person,Donald Trump,/m/0px38,/m/0cqt90,True
+368,177,Shalom Auslander,people/person/employment_history./business/employment_tenure/title,Columnist,/m/02z2l74,/m/028fjr,True
+369,178,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+370,178,Daniel Pfeiffer,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/05c2_fd,/m/02mjmr,True
+371,178,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+372,178,Josh Earnest,people/person/employment_history./business/employment_tenure/title,White House,/m/0l8ps43,/m/03mdbqx,True
+373,178,Josh Earnest,people/person/employment_history./business/employment_tenure/title,White House Press Secretary,/m/0l8ps43,/m/01pt0z,True
+374,179,Senator,people/person/employment_history./business/employment_tenure/title,Donald Trump,/m/04c_3b,/m/0cqt90,True
+375,179,Senator,people/person/employment_history./business/employment_tenure/title,Donald Trump,/m/04c_3b,/m/0cqt90,True
+376,181,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,True
+377,181,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,True
+378,181,Candidate,people/person/employment_history./business/employment_tenure/title,Hillary Clinton,/m/07r9r0,/m/0d06m5,True
+379,181,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,True
+380,181,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,True
+381,181,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,True
+382,181,Donald Trump,people/person/employment_history./business/employment_tenure/title,United States,/m/0cqt90,/m/07t58,True
+383,181,Bill Clinton,people/person/employment_history./business/employment_tenure/title,Candidate,/m/0157m,/m/07r9r0,True
+384,181,Peter Baker,people/person/employment_history./business/employment_tenure/title,List of biographers,Peter Baker,List of biographers,True
+385,181,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+386,181,Blake Farenthold,people/person/employment_history./business/employment_tenure/title,Member of Congress,/m/0ds2ztj,/m/04l8cr,True
+387,181,Paul Ryan,people/person/employment_history./business/employment_tenure/title,United States Speaker of the House,/m/024v2j,United States Speaker of the House,True
+388,181,David Fahrenthold,organization/role/leaders./organization/leadership/person,The Washington Post,David Fahrenthold,/m/0px38,True
+389,181,David Fahrenthold,people/person/employment_history./business/employment_tenure/title,Journalist,David Fahrenthold,/m/0d8qb,True
+390,183,Hillary Clinton,people/person/employment_history./business/employment_tenure/title,Candidate,/m/0d06m5,/m/07r9r0,False
+391,183,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,False
+392,183,United States Electoral College,organization/role/leaders./organization/leadership/person,Hillary Clinton,/m/0lq3t,/m/0d06m5,False
+393,185,Saul+Florez,people/person/employment_history./business/employment_tenure/title,safety+manager,Saul+Florez,/m/0j28ksx,False
+394,186,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+395,186,Andrew McCabe,people/person/employment_history./business/employment_tenure/title,Deputy Director,Andrew McCabe,Deputy Director,False
+396,186,Trey Gowdy,people/person/employment_history./business/employment_tenure/title,Rep,/m/0c3x3rz,/m/02qkv0r,False
+397,186,Andrew McCabe,organization/role/leaders./organization/leadership/person,Federal Bureau of Investigation,Andrew McCabe,/m/02_1m,False
+398,187,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+399,187,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+400,188,Minneapolis+Department+of+Civil+Rights,organization/role/leaders./organization/leadership/person,Velma+Korbel,Minneapolis+Department+of+Civil+Rights,Velma+Korbel,False
+401,188,Velma+Korbel,organization/role/leaders./organization/leadership/person,Minneapolis+Department+of+Civil+Rights,Velma+Korbel,Minneapolis+Department+of+Civil+Rights,False
+402,188,Velma+Korbel,organization/role/leaders./organization/leadership/person,Film director,Velma+Korbel,/m/02jknp,False
+403,188,Minneapolis+Department+of+Civil+Rights,organization/role/leaders./organization/leadership/person,Velma+Korbel,Minneapolis+Department+of+Civil+Rights,Velma+Korbel,False
+404,188,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+405,188,Velma+Korbel,organization/role/leaders./organization/leadership/person,Minneapolis+Department+of+Civil+Rights,Velma+Korbel,Minneapolis+Department+of+Civil+Rights,False
+406,188,Velma+Korbel,organization/role/leaders./organization/leadership/person,Film director,Velma+Korbel,/m/02jknp,False
+407,190,Paul Ryan,people/person/employment_history./business/employment_tenure/title,United States Speaker of the House,/m/024v2j,United States Speaker of the House,False
+408,190,Vladimir Putin,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/08193,/m/02mjmr,False
+409,190,Thomas Downey,people/person/employment_history./business/employment_tenure/title,Analyst,/m/0cn4c3,/m/0h1vgc,False
+410,190,Mike Pence,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/022r9r,/m/02mjmr,False
+411,190,Mike Pence,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/022r9r,/m/02mjmr,False
+412,191,Australia,organization/organization/headquarters./location/mailing_address/country,NBC+news,/m/0chghy,/m/016bvz,False
+413,191,Australia,organization/organization/headquarters./location/mailing_address/country,NBC+news,/m/0chghy,/m/016bvz,False
+414,191,Amal,people/person/employment_history./business/employment_tenure/title,The Terminator,/m/02p3gzs,/m/07ghq,False
+415,191,Amal,people/person/employment_history./business/employment_tenure/title,The Terminator,/m/02p3gzs,/m/07ghq,False
+416,192,Sean Spicer,organization/role/leaders./organization/leadership/person,White+House+Press,Sean Spicer,/m/02r4jz,False
+417,192,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+418,192,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+419,192,Supreme Court of the United States,organization/organization/headquarters./location/mailing_address/country,United States,/m/0hx5v,/m/07t58,False
+420,193,James Comey,people/person/employment_history./business/employment_tenure/title,Film director,/m/06r04p,/m/02jknp,False
+421,195,Michele Bachmann,organization/role/leaders./organization/leadership/person,Breitbart News,/m/06jm4y,/m/0k0symb,False
+422,195,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,False
+423,195,Barack Obama,people/person/employment_history./business/employment_tenure/title,Violence,/m/0h7q0rq,/m/0chbx,False
+424,196,Paul+Ryan+RWI,people/person/employment_history./business/employment_tenure/title,United States Speaker of the House,Paul+Ryan+RWI,United States Speaker of the House,False
+425,196,Brian Kilmeade,people/person/employment_history./business/employment_tenure/title,Host,/m/05ghhl,/m/04wk4z,False
+426,196,Brian Kilmeade,organization/role/leaders./organization/leadership/person,Fox News,/m/05ghhl,/m/02z_b,False
+427,196,Brian Kilmeade,organization/role/leaders./organization/leadership/person,Ryan's World,/m/05ghhl,Ryan's World,False
+428,197,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+429,197,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,False
+430,198,Muhammad,people/person/employment_history./business/employment_tenure/title,Prophet,/m/04s9n,/m/066dv,False
+431,199,Walter Shaub,organization/role/leaders./organization/leadership/person,Office of Government Commerce,Walter Shaub,/m/05qwyl,False
+432,199,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+433,199,Office of Government Commerce,organization/role/leaders./organization/leadership/person,Walter Shaub,/m/05qwyl,Walter Shaub,False
+434,199,Walter Shaub,organization/role/leaders./organization/leadership/person,Office of Government Commerce,Walter Shaub,/m/05qwyl,False
+435,199,Lisa+Mead.Mead,people/person/employment_history./business/employment_tenure/title,Chef,Lisa+Mead.Mead,/m/01pn0r,False
+436,199,Lisa+Mead.Mead,organization/role/leaders./organization/leadership/person,White House,Lisa+Mead.Mead,/m/03mdbqx,False
+437,199,Lisa+Mead.Mead,organization/role/leaders./organization/leadership/person,White House,Lisa+Mead.Mead,/m/03mdbqx,False
+438,199,Shinzo Abe,people/person/employment_history./business/employment_tenure/title,Prime Minister of the United Kingdom,/m/07t7hy,/m/060s9,False
+439,199,Lisa+Mead,people/person/employment_history./business/employment_tenure/title,Chef,Lisa+Mead,/m/01pn0r,False
+440,201,Carlson,organization/role/leaders./organization/leadership/person,Breitbart News,Carlson,/m/0k0symb,False
+441,202,Cher,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0kw03,/m/02mjmr,False
+442,202,Cher,people/person/employment_history./business/employment_tenure/title,Canada,/m/0kw03,/m/02rnkmh,False
+443,202,Cher,people/person/employment_history./business/employment_tenure/title,Singer Corporation,/m/0kw03,/m/09l7n,False
+444,202,Cher,organization/role/leaders./organization/leadership/person,Twitter,/m/0kw03,/m/0289n8t,False
+445,202,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+446,204,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+447,204,John McCain,people/person/employment_history./business/employment_tenure/title,Senator,/m/0bymv,/m/04c_3b,False
+448,206,Imran Khan,people/person/employment_history./business/employment_tenure/title,Imran Awan,/m/025cj4,Imran Awan,False
+449,206,Debbie Wasserman Schultz,people/person/employment_history./business/employment_tenure/title,Rep,/m/04cmyw,/m/02qkv0r,False
+450,206,House,organization/role/leaders./organization/leadership/person,Debbie Wasserman Schultz,/m/081sq,/m/04cmyw,False
+451,207,House,organization/organization/headquarters./location/mailing_address/country,President of the United States,/m/081sq,/m/02mjmr,False
+452,207,United States House of Representatives,organization/organization/headquarters./location/mailing_address/country,Us,/m/0b3wk,/m/0b3wk,False
+453,211,Bill Murray,people/person/employment_history./business/employment_tenure/title,Actor,/m/0p_pd,/m/014g_s,False
+454,213,Ghana,people/person/employment_history./business/employment_tenure/title,Donald Trump,/m/035dk,/m/0cqt90,False
+455,214,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,False
+456,217,Mike Pence,people/person/employment_history./business/employment_tenure/title,governor,/m/022r9r,/m/0btx2g,False
+457,218,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,False
+458,218,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,False
+459,218,Richard Smith,people/person/employment_history./business/employment_tenure/title,Consultant,/m/0n8_swr,/m/02n9jv,False
+460,218,Paul Ryan,people/person/employment_history./business/employment_tenure/title,Member of Congress,/m/024v2j,/m/04l8cr,False
+461,218,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,False
+462,218,John Boehner,people/person/employment_history./business/employment_tenure/title,Minority leader,/m/039rwf,/m/0499g1,False
+463,218,Federal Reserve,organization/role/leaders./organization/leadership/person,John Boehner,/m/05_xks,/m/039rwf,False
+464,218,Nancy Pelosi,organization/role/leaders./organization/leadership/person,House,/m/012v1t,/m/081sq,False
+465,219,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+466,219,Donald Trump,organization/role/leaders./organization/leadership/person,Los Angeles Times,/m/0cqt90,/m/01p06z,False
+467,219,Donald Trump,organization/role/leaders./organization/leadership/person,Los Angeles Times,/m/0cqt90,/m/01p06z,False
+468,219,Sean Spicer,people/person/employment_history./business/employment_tenure/title,Spokesperson,Sean Spicer,/m/03mdbqx,False
+469,219,Sean Spicer,people/person/nationality,Spanish language,Sean Spicer,/m/06nm1,False
+470,219,Jeb Bush,people/person/employment_history./business/employment_tenure/title,governor,/m/019x9z,/m/0btx2g,False
+471,219,Donald Trump,people/person/nationality,Spanish language,/m/0cqt90,/m/06nm1,False
+472,220,County,location/hud_county_place/county,Baker,/m/094z8,/m/01lbst,False
+473,220,County,location/hud_county_place/county,Baker,/m/094z8,/m/01lbst,False
+474,220,Watsons,organization/role/leaders./organization/leadership/person,Heather,/m/065nfw,Heather,False
+475,221,Doug Ericksen,people/person/employment_history./business/employment_tenure/title,State senator,/m/0k0q7zz,/m/04zz1zx,False
+476,224,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+477,225,County,location/hud_county_place/county,"Westchester County, New York",/m/094z8,/m/0cymp,False
+478,225,Bill Clinton,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0157m,/m/02mjmr,False
+479,226,John McCain,organization/role/leaders./organization/leadership/person,United States Senate Committee on Armed Services,/m/0bymv,/m/02kfv7,False
+480,226,Chuck Todd,organization/role/leaders./organization/leadership/person,Meet the Press,/m/0g12y5,/m/0167_c,False
+481,226,John McCain,organization/role/leaders./organization/leadership/person,Meet,/m/0bymv,Meet,False
+482,226,John McCain,people/person/employment_history./business/employment_tenure/title,Chairperson,/m/0bymv,/m/05_xks,False
+483,226,Malcolm Rifkind,people/person/employment_history./business/employment_tenure/title,Foreign Secretary,/m/01zq6b,Foreign Secretary,False
+484,226,Kim Jong-un,people/person/employment_history./business/employment_tenure/title,Leadership,/m/0fgw19,/m/0h7q0rq,False
+485,228,John Hagee,organization/role/leaders./organization/leadership/person,Cornerstone Church,/m/047qlq,Cornerstone Church,False
+486,229,Southeastern United States,location/country/languages_spoken,South Africa,/m/03dwt_,/m/0hzlz,False
+487,229,Greenpeace,organization/role/leaders./organization/leadership/person,James+Ben+Shahali,/m/036qv,James+Ben+Shahali,False
+488,230,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,False
+489,230,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,False
+490,230,Richard Smith,people/person/employment_history./business/employment_tenure/title,Consultant,/m/0n8_swr,/m/02n9jv,False
+491,230,Paul Ryan,people/person/employment_history./business/employment_tenure/title,Member of Congress,/m/024v2j,/m/04l8cr,False
+492,230,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,False
+493,230,John Boehner,people/person/employment_history./business/employment_tenure/title,Minority leader,/m/039rwf,/m/0499g1,False
+494,230,Federal Reserve,organization/role/leaders./organization/leadership/person,John Boehner,/m/05_xks,/m/039rwf,False
+495,230,Nancy Pelosi,organization/role/leaders./organization/leadership/person,House,/m/012v1t,/m/081sq,False
+496,232,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+497,233,Jim Porter,people/person/employment_history./business/employment_tenure/title,President of the United States,Jim Porter,/m/02mjmr,False
+498,233,Jim Porter,organization/role/leaders./organization/leadership/person,List of presidents of the National Rifle Association,Jim Porter,List of presidents of the National Rifle Association,False
+499,233,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,False
+500,233,Eric Holder,people/person/employment_history./business/employment_tenure/title,Attorney general,/m/02mjmr,/m/0465sdr,False
+501,233,Wayne LaPierre,people/person/employment_history./business/employment_tenure/title,Vice President of the United States,/m/04k0vk,/m/0d05fv,False
+502,235,Steve Bannon,organization/role/leaders./organization/leadership/person,Breitbart News,/m/0bqscsg,/m/0k0symb,False
+503,235,Steve Bannon,organization/role/leaders./organization/leadership/person,Electric battery,/m/0bqscsg,/m/01c0z,False
+504,235,Steve Bannon,organization/role/leaders./organization/leadership/person,Politico,/m/0bqscsg,/m/027_2w9,False
+505,235,Steve Bannon,organization/role/leaders./organization/leadership/person,Politico,/m/0bqscsg,/m/027_2w9,False
+506,235,Steve Bannon,people/person/employment_history./business/employment_tenure/title,Chairperson,/m/0bqscsg,/m/05_xks,False
+507,236,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+508,237,Jimmy Carter,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/042kg,/m/02mjmr,False
+509,238,Barack+Obama.Yesterday+Winters,people/person/employment_history./business/employment_tenure/title,President of the United States,Barack+Obama.Yesterday+Winters,/m/02mjmr,False
+510,239,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+511,240,Barack Obama,people/person/places_lived./people/place_lived/location,Donald Trump,/m/0h7q0rq,/m/0cqt90,False
+512,240,Barack Obama,people/person/places_lived./people/place_lived/location,Donald Trump,/m/0h7q0rq,/m/0cqt90,False
+513,241,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+514,241,Todd+McMartin,organization/role/leaders./organization/leadership/person,Federal Bureau of Investigation,Todd+McMartin,/m/02_1m,False
+515,241,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+516,242,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+517,244,Donald Trump,organization/role/leaders./organization/leadership/person,United States Congress,/m/0cqt90,/m/0d06m5,False
+518,244,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+519,244,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+520,245,Kelly Services,people/person/employment_history./business/employment_tenure/title,Journalist,/m/03p2hqb,/m/0d8qb,False
+521,245,Kelly Services,people/person/employment_history./business/employment_tenure/title,Journalist,/m/03p2hqb,/m/0d8qb,False
+522,245,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+523,245,Joseph Gordon-Levitt,organization/role/leaders./organization/leadership/person,NBC,/m/05zbm4,/m/05gnf,False
+524,245,Joseph Gordon-Levitt,people/person/employment_history./business/employment_tenure/title,Spokesperson,/m/05zbm4,/m/03mdbqx,False
+525,245,Joseph Gordon-Levitt,organization/role/leaders./organization/leadership/person,Megyn Kelly,/m/05zbm4,/m/07wpbx,False
+526,246,Joshua Johnson,organization/role/leaders./organization/leadership/person,Clark Atlanta University,/m/052g5x,/m/03818y,False
+527,246,Stephawn,people/person/employment_history./business/employment_tenure/title,Stephawn,Stephawn,Stephawn,False
+528,251,Vince Foster,people/person/employment_history./business/employment_tenure/title,Attorney,/m/080kq,/m/04gc2,False
+529,251,Vince Foster,people/person/employment_history./business/employment_tenure/title,Bill Clinton,/m/080kq,/m/0157m,False
+530,251,Trey Gowdy,people/person/employment_history./business/employment_tenure/title,Judge,/m/0c3x3rz,/m/06lvrr,False
+531,251,Trey Gowdy,people/person/employment_history./business/employment_tenure/title,Rep,/m/0c3x3rz,/m/02qkv0r,False
+532,251,Trey Gowdy,people/person/employment_history./business/employment_tenure/title,Judge,/m/0c3x3rz,/m/06lvrr,False
+533,251,James+McFitting,people/person/employment_history./business/employment_tenure/title,Col,James+McFitting,Col,False
+534,251,James Comey,people/person/employment_history./business/employment_tenure/title,Film director,/m/06r04p,/m/02jknp,False
+535,253,Road,transportation/road/end1./transportation/road_starting_point/location,South,/m/06gfj,/m/0k7ny,False
+536,253,Road,transportation/road/end1./transportation/road_starting_point/location,Casimir Pulaski,/m/06gfj,/m/0lrr8,False
+537,253,Road,transportation/road/end1./transportation/road_starting_point/location,South,/m/06gfj,/m/0k7ny,False
+538,253,Kyle+Jennings,people/person/employment_history./business/employment_tenure/title,LT,Kyle+Jennings,/m/015czt,False
+539,253,Road,transportation/road/end1./transportation/road_starting_point/location,South,/m/06gfj,/m/0k7ny,False
+540,253,Road,transportation/road/end1./transportation/road_starting_point/location,Casimir Pulaski,/m/06gfj,/m/0lrr8,False
+541,253,Road,transportation/road/end1./transportation/road_starting_point/location,South,/m/06gfj,/m/0k7ny,False
+542,253,Kyle+Jennings,people/person/employment_history./business/employment_tenure/title,LT,Kyle+Jennings,/m/015czt,False
+543,254,"Leon County Court, Florida",organization/role/leaders./organization/leadership/person,Hillary Clinton,"Leon County Court, Florida",/m/0d06m5,False
+544,255,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+545,255,Johnny Appleseed,people/person/employment_history./business/employment_tenure/title,Rep,/m/0159qc,/m/02qkv0r,False
+546,256,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+547,257,John Kasich,people/person/employment_history./business/employment_tenure/title,governor,/m/02zzm_,/m/0btx2g,False
+548,257,John Kasich,organization/role/leaders./organization/leadership/person,Daily Star,/m/02zzm_,/m/01sv_b,False
+549,258,Vin Diesel,organization/role/leaders./organization/leadership/person,Facebook+FacebookShare,/m/025n3p,/m/0glpjll,False
+550,258,Vin Diesel,people/person/employment_history./business/employment_tenure/title,Actor,/m/025n3p,/m/014g_s,False
+551,259,Clinton+Greenwood,people/person/employment_history./business/employment_tenure/title,Deputy,Clinton+Greenwood,/m/03yc4j2,False
+552,262,Little,people/person/employment_history./business/employment_tenure/title,Chancellor,/m/0ftvg,/m/01fch0,False
+553,263,Donald Trump,people/person/employment_history./business/employment_tenure/title,Entrepreneurship,/m/0cqt90,/m/02nwq,False
+554,263,County,location/hud_county_place/county,Orange,/m/094z8,/m/094z8,False
+555,264,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+556,264,Donald Trump,people/person/employment_history./business/employment_tenure/title,North Korea,/m/0cqt90,/m/05b7q,False
+557,264,Donald Trump,people/person/employment_history./business/employment_tenure/title,China,/m/0cqt90,/m/0d05w3,False
+558,264,Donald Trump,people/person/employment_history./business/employment_tenure/title,North Korea,/m/0cqt90,/m/05b7q,False
+559,264,Donald Trump,people/person/employment_history./business/employment_tenure/title,Florida,/m/0cqt90,/m/02xry,False
+560,264,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+561,264,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+562,267,Federation,location/country/languages_spoken,Russia,/m/01zf6x,/m/06bnz,False
+563,267,Federation,location/country/languages_spoken,Russia,/m/014j8_,/m/06bnz,False
+564,267,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+565,267,Donald Trump,location/country/languages_spoken,Federation,/m/0cqt90,/m/01zf6x,False
+566,267,Yuri+Ivanenko,people/person/employment_history./business/employment_tenure/title,Judge,Yuri+Ivanenko,/m/06lvrr,False
+567,267,Yuri+Ivanenko,people/person/employment_history./business/employment_tenure/title,Judge,Yuri+Ivanenko,/m/06lvrr,False
+568,268,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+569,268,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+570,268,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+571,268,Mike Pence,people/person/employment_history./business/employment_tenure/title,Vice President of the United States,/m/022r9r,/m/0d05fv,False
+572,271,Gonzalo P. Curiel,people/person/employment_history./business/employment_tenure/title,Judge,/m/0hht8px,/m/06lvrr,False
+573,271,Mitch McConnell,organization/role/leaders./organization/leadership/person,United States Senate,/m/01z6ls,/m/07r9r0,False
+574,271,Gonzalo P. Curiel,people/person/employment_history./business/employment_tenure/title,Judge,/m/0hht8px,/m/06lvrr,False
+575,271,Susan Collins,organization/role/leaders./organization/leadership/person,WGAN,/m/020y8m,/m/02pxjcm,False
+576,271,Susan Collins,people/person/employment_history./business/employment_tenure/title,Rep,/m/020y8m,/m/02qkv0r,False
+577,271,Paul Ryan,people/person/employment_history./business/employment_tenure/title,United States Speaker of the House,/m/024v2j,United States Speaker of the House,False
+578,273,Bill Clinton,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0157m,/m/02mjmr,False
+579,275,Michael John O'Leary,organization/role/leaders./organization/leadership/person,New York City Police Department,/m/04jprn,/m/01lvn4,False
+580,275,Tucker Carlson,organization/role/leaders./organization/leadership/person,Fox News,/m/03cqm2,/m/02z_b,False
+581,275,Michael John O'Leary,organization/role/leaders./organization/leadership/person,Saint Mary,/m/04jprn,/m/03mcdjf,False
+582,277,Mizu+Tomazaki,people/person/employment_history./business/employment_tenure/title,Judge,Mizu+Tomazaki,/m/06lvrr,False
+583,277,Dmitry Peskov,people/person/employment_history./business/employment_tenure/title,Spokesperson,/m/0280k2k,/m/03mdbqx,False
+584,277,Dmitry Peskov,organization/role/leaders./organization/leadership/person,Moscow Kremlin,/m/0280k2k,/m/021lry,False
+585,277,John McCain,people/person/employment_history./business/employment_tenure/title,Senator,/m/0bymv,/m/04c_3b,False
+586,278,Mitch Landrieu,people/person/employment_history./business/employment_tenure/title,Mayor,/m/05xdp5,/m/03x_sks,False
+587,279,Seth+RichWikiLeaks,organization/role/leaders./organization/leadership/person,Democratic National Committee,Seth+RichWikiLeaks,/m/018y36,False
+588,279,Seth+RichWikiLeaks,organization/role/leaders./organization/leadership/person,Democratic National Committee,Seth+RichWikiLeaks,/m/018y36,False
+589,279,Murder of Seth Rich,organization/role/leaders./organization/leadership/person,Democratic National Committee,Murder of Seth Rich,/m/018y36,False
+590,279,Murder of Seth Rich,organization/role/leaders./organization/leadership/person,Democratic National Committee,Murder of Seth Rich,/m/018y36,False
+591,279,Murder of Seth Rich,organization/role/leaders./organization/leadership/person,Democratic National Committee,Murder of Seth Rich,/m/018y36,False
+592,279,Murder of Seth Rich,organization/role/leaders./organization/leadership/person,Democratic National Committee,Murder of Seth Rich,/m/018y36,False
+593,279,Murder of Seth Rich,organization/role/leaders./organization/leadership/person,Democratic National Committee,Murder of Seth Rich,/m/018y36,False
+594,280,Andrew Jackson,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0rlz,/m/02mjmr,False
+595,280,Colonel Sanders,people/person/employment_history./business/employment_tenure/title,Col,/m/09b78,Col,False
+596,280,Donald,organization/role/leaders./organization/leadership/person,Republican Party,Donald,/m/085srz,False
+597,280,Bernie Sanders,people/person/employment_history./business/employment_tenure/title,Col,/m/01_gbv,Col,False
+598,280,Donald Trump,organization/role/leaders./organization/leadership/person,KFC,/m/0cqt90,/m/09b6t,False
+599,280,Bernie Sanders,people/person/employment_history./business/employment_tenure/title,Col,/m/01_gbv,Col,False
+600,280,Bernie Sanders,people/person/employment_history./business/employment_tenure/title,Col,/m/01_gbv,Col,False
+601,282,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+602,282,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+603,282,James Comey,people/person/employment_history./business/employment_tenure/title,Director,/m/06r04p,/m/02mjmr,False
+604,282,James Comey,organization/role/leaders./organization/leadership/person,Federal Bureau of Investigation,/m/06r04p,/m/02_1m,False
+605,282,Justin Amash,people/person/employment_history./business/employment_tenure/title,Rep,/m/0c00p_n,/m/02qkv0r,False
+606,282,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+607,282,Jason Chaffetz,organization/role/leaders./organization/leadership/person,House+Oversign+Committee+Chair,/m/047blr4,House+Oversign+Committee+Chair,False
+608,282,Jason Chaffetz,people/person/employment_history./business/employment_tenure/title,Rep,/m/047blr4,/m/02qkv0r,False
+609,282,Jason Chaffetz,organization/role/leaders./organization/leadership/person,House+Oversign+Committee+Chair,/m/047blr4,House+Oversign+Committee+Chair,False
+610,282,Chris Hayes,organization/role/leaders./organization/leadership/person,MSNBC,/m/0h3wc7,/m/0152x_,False
+611,282,Chris Hayes,people/person/employment_history./business/employment_tenure/title,Host,/m/0h3wc7,/m/04wk4z,False
+612,282,Jonathan Turley,people/person/employment_history./business/employment_tenure/title,Google Scholar,/m/05kldj,/m/057mg4,False
+613,282,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,False
+614,282,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+615,284,Donald Trump,organization/role/leaders./organization/leadership/person,United States Congress,/m/0cqt90,/m/0d06m5,False
+616,284,Donald Trump,organization/role/leaders./organization/leadership/person,United States Congress,/m/0cqt90,/m/0d06m5,False
+617,284,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+618,284,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+619,284,Hillary+Clinton.Jason+Chaffetz,organization/role/leaders./organization/leadership/person,United+States+House+Committee+on+Oversight+and+Government+Reform,Hillary+Clinton.Jason+Chaffetz,United+States+House+Committee+on+Oversight+and+Government+Reform,False
+620,284,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+621,284,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+622,285,Marco Rubio,people/person/employment_history./business/employment_tenure/title,Candidate,/m/0dpr5f,/m/07r9r0,False
+623,286,Louis+Leweigh,people/person/employment_history./business/employment_tenure/title,Correspondent,Louis+Leweigh,/m/02k13d,False
+624,287,Shopping mall,location/country/languages_spoken,Mall+of+Claus,/m/025s8bs,Mall+of+Claus,False
+625,287,Mall of America,location/country/languages_spoken,Americas,/m/0pv1y,/m/07c5l,False
+626,287,Shopping mall,location/country/languages_spoken,Mall+of+Claus,/m/025s8bs,Mall+of+Claus,False
+627,287,Mall+of+Claus,location/country/languages_spoken,Americas,Mall+of+Claus,/m/07c5l,False
+628,287,Mall+of+Claus,location/country/languages_spoken,Americas,Mall+of+Claus,/m/07c5l,False
+629,287,Mall of America,location/country/languages_spoken,Americas,/m/0pv1y,/m/07c5l,False
+630,291,Hal+Lindsay+DNJ,people/person/employment_history./business/employment_tenure/title,Senator,Hal+Lindsay+DNJ,/m/04c_3b,False
+631,291,Lindsay,people/person/employment_history./business/employment_tenure/title,Senator,Lindsay,/m/04c_3b,False
+632,292,Charles Bolden,organization/role/leaders./organization/leadership/person,NASA,/m/02j2mf,/m/05f4p,False
+633,293,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+634,294,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,False
+635,294,Kellyanne Conway,people/person/employment_history./business/employment_tenure/title,Donald Trump,/m/0dq819,/m/0cqt90,False
+636,294,James Collins,organization/role/leaders./organization/leadership/person,Twitter,/m/06sjd0,/m/0289n8t,False
+637,296,Republican Party,organization/role/leaders./organization/leadership/person,Chuck Schumer,/m/085srz,/m/01w74d,False
+638,298,Donald Trump,organization/role/leaders./organization/leadership/person,Globe,/m/0cqt90,/m/01q_cy,False
+639,299,Road,transportation/road/end1./transportation/road_starting_point/location,Bangkok,/m/06gfj,/m/0fn2g,False
+640,299,Loung Ung,people/person/employment_history./business/employment_tenure/title,Loung Ung,/m/074fdq,/m/074fdq,False
+641,300,Bill Clinton,people/person/employment_history./business/employment_tenure/title,Secretary,/m/0157m,/m/06slz5,True
+642,302,Linda+Stanley,organization/role/leaders./organization/leadership/person,Franklin+County+Historical+Society,Linda+Stanley,Franklin+County+Historical+Society,True
+643,302,County,location/hud_county_place/county,Franklin,/m/094z8,/m/019fz,True
+644,302,County,location/hud_county_place/county,Franklin,/m/094z8,/m/019fz,True
+645,302,Terry McAuliffe,people/person/employment_history./business/employment_tenure/title,governor,/m/02dgtb,/m/0btx2g,True
+646,302,Edward L. Ayers,organization/role/leaders./organization/leadership/person,University of Richmond,/m/03cztnx,/m/03hpkp,True
+647,302,Fred Taylor,people/person/employment_history./business/employment_tenure/title,Attorney,/m/01tz2p,/m/04gc2,True
+648,302,Taylor Swift,organization/role/leaders./organization/leadership/person,Supreme Court of Virginia,/m/0dl567,/m/05ngqz,True
+649,302,Taylor Swift,organization/role/leaders./organization/leadership/person,Supreme Court of Virginia,/m/0dl567,/m/05ngqz,True
+650,302,Michael Signer,people/person/employment_history./business/employment_tenure/title,Mayor,/m/05h59wt,/m/03x_sks,True
+651,302,Jefferson Davis,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/043q0,/m/02mjmr,True
+652,302,Jefferson Davis,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/043q0,/m/02mjmr,True
+653,302,County,location/hud_county_place/county,Franklin,/m/094z8,/m/019fz,True
+654,302,County,location/hud_county_place/county,Franklin,/m/094z8,/m/019fz,True
+655,302,County,location/hud_county_place/county,Franklin,/m/094z8,/m/019fz,True
+656,302,County,location/hud_county_place/county,Franklin,/m/094z8,/m/019fz,True
+657,302,Landon+Howard,organization/role/leaders./organization/leadership/person,Visit+Virginias+Blue+Ridge,/m/01wl8_,Visit+Virginias+Blue+Ridge,True
+658,302,County,location/hud_county_place/county,Franklin,/m/094z8,/m/019fz,True
+659,302,County,location/hud_county_place/county,Franklin,/m/094z8,/m/019fz,True
+660,304,Hillary Clinton,people/person/employment_history./business/employment_tenure/title,Lawyer,/m/0d06m5,/m/02vy3_j,True
+661,306,Josh+Hendler,people/person/employment_history./business/employment_tenure/title,Campaign manager,Josh+Hendler,/m/03xk7t,True
+662,306,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,True
+663,307,Marco Rubio,organization/role/leaders./organization/leadership/person,Gang of Eight,/m/0dpr5f,/m/09z___,True
+664,307,Beck,people/person/employment_history./business/employment_tenure/title,My First First Love,/m/0137g1,My First First Love,True
+665,307,Beck,people/person/employment_history./business/employment_tenure/title,Politician,/m/0137g1,Jimmy Dimora,True
+666,308,Donald Trump,people/person/employment_history./business/employment_tenure/title,Candidate,/m/0cqt90,/m/07r9r0,True
+667,308,Andrew Cuomo,people/person/employment_history./business/employment_tenure/title,governor,/m/02pjpd,/m/0btx2g,True
+668,308,Andrew Cuomo,organization/role/leaders./organization/leadership/person,CNN,/m/02pjpd,/m/0gsgr,True
+669,308,Alisyn Camerota,organization/role/leaders./organization/leadership/person,CNN,/m/0c3ntp,/m/0gsgr,True
+670,309,2016 United States presidential election,organization/role/leaders./organization/leadership/person,Republican Party,2016 United States presidential election,/m/085srz,True
+671,309,United States Secretary of State,people/person/employment_history./business/employment_tenure/title,2016 United States presidential election,/m/0bwl7t0,2016 United States presidential election,True
+672,311,Richard Nixon,organization/role/leaders./organization/leadership/person,Dwight D. Eisenhower,/m/06c97,/m/028rk,True
+673,311,Richard Nixon,organization/role/leaders./organization/leadership/person,White House,/m/06c97,/m/03mdbqx,True
+674,311,Gerald Ford,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0c_md_,/m/02mjmr,True
+675,311,Walter Mondale,people/person/employment_history./business/employment_tenure/title,Vice President of the United States,/m/0bl83,/m/0d05fv,True
+676,311,Henry Trewhitt,people/person/employment_history./business/employment_tenure/title,Journalist,Henry Trewhitt,/m/0d8qb,True
+677,311,Henry Trewhitt,organization/role/leaders./organization/leadership/person,The Baltimore Sun,Henry Trewhitt,/m/01n0qv,True
+678,311,George Bernard Shaw,organization/role/leaders./organization/leadership/person,CNN,/m/03cdg,/m/0gsgr,True
+679,311,Michael Dukakis,people/person/employment_history./business/employment_tenure/title,governor,/m/0jw4v,/m/0btx2g,True
+680,311,George Bernard Shaw,organization/role/leaders./organization/leadership/person,CNN,/m/03cdg,/m/0gsgr,True
+681,311,Al Gore,people/person/employment_history./business/employment_tenure/title,Vice President of the United States,/m/0d05fv,/m/0d05fv,True
+682,311,John Kerry,people/person/employment_history./business/employment_tenure/title,Senator,/m/0d3qd0,/m/04c_3b,True
+683,311,George W. Bush,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0d05fv,/m/02mjmr,True
+684,311,Al Gore,people/person/employment_history./business/employment_tenure/title,Vice President of the United States,/m/0d05fv,/m/0d05fv,True
+685,311,Viviana Zelizer,organization/role/leaders./organization/leadership/person,University,/m/07t19q,/m/07tf8,True
+686,311,Lyndon B. Johnson,organization/role/leaders./organization/leadership/person,United States Congress,/m/0f7fy,/m/0d06m5,True
+687,311,Richard Nixon,people/person/employment_history./business/employment_tenure/title,Author,/m/06c97,/m/0kyk,True
+688,312,Shira Scheindlin,organization/role/leaders./organization/leadership/person,United States district court,/m/064x_k,/m/0j75z,True
+689,312,Shira Scheindlin,people/person/employment_history./business/employment_tenure/title,Judge,/m/064x_k,/m/06lvrr,True
+690,314,Robert F. Kennedy,organization/role/leaders./organization/leadership/person,Associated Press,/m/06hx2,/m/0cv_2,True
+691,314,Bill Clinton,people/person/employment_history./business/employment_tenure/title,Secretary,/m/0157m,/m/06slz5,True
+692,314,Dwight D. Eisenhower,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/028rk,/m/02mjmr,True
+693,314,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+694,314,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,True
+695,315,Jim Justice,people/person/employment_history./business/employment_tenure/title,West Virginia,Jim Justice,/m/081mh,True
+696,315,Jim Justice,people/person/employment_history./business/employment_tenure/title,governor,Jim Justice,/m/0btx2g,True
+697,315,Justice,organization/role/leaders./organization/leadership/person,Hillary Clinton,/m/045k9,/m/0d06m5,True
+698,315,Bill Cole,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/06mg8q,/m/02mjmr,True
+699,315,Justice,organization/role/leaders./organization/leadership/person,Bill Clinton,/m/045k9,/m/0157m,True
+700,315,Bill Cole,organization/role/leaders./organization/leadership/person,United States Senate,/m/06mg8q,/m/07r9r0,True
+701,315,Justice,organization/role/leaders./organization/leadership/person,Hillary Clinton,/m/045k9,/m/0d06m5,True
+702,315,West Virginia Republican Party,organization/role/leaders./organization/leadership/person,Donald Trump,/m/02r81cr,/m/0cqt90,True
+703,315,governor,people/person/employment_history./business/employment_tenure/title,Bill Cole,/m/0btx2g,/m/06mg8q,True
+704,315,Kyle+Kondik,organization/role/leaders./organization/leadership/person,University of Virginia Center for Politics,Kyle+Kondik,University of Virginia Center for Politics,True
+705,315,Kyle+Kondik,people/person/employment_history./business/employment_tenure/title,Sabato's Crystal Ball,Kyle+Kondik,/m/076xl9x,True
+706,315,Scott+Crichlow,organization/role/leaders./organization/leadership/person,West Virginia University,Scott+Crichlow,/m/019dwp,True
+707,315,Donald Grant Herring Estate,people/person/employment_history./business/employment_tenure/title,Spokesperson,/m/01370l_y,/m/03mdbqx,True
+708,315,Donald Grant Herring Estate,organization/role/leaders./organization/leadership/person,Justice,/m/01370l_y,/m/045k9,True
+709,315,Consultant,people/person/employment_history./business/employment_tenure/title,David Saunders,/m/02n9jv,David Saunders,True
+710,319,Kerr+Putney,organization/role/leaders./organization/leadership/person,Charlotte-Mecklenburg Police Department,Kerr+Putney,/m/03d5lmj,True
+711,319,Rakeyia+Scott,people/person/places_lived./people/place_lived/location,Scotts,Rakeyia+Scott,Scotts,True
+712,319,Kerr+Putney,organization/role/leaders./organization/leadership/person,Charlotte-Mecklenburg Police Department,Kerr+Putney,/m/03d5lmj,True
+713,319,Pat McCrory,people/person/employment_history./business/employment_tenure/title,governor,/m/05tjbz,/m/0btx2g,True
+714,320,Jama+B.,people/person/employment_history./business/employment_tenure/title,Afghanistan,/m/05p0j_b,/m/0jdd,True
+715,320,Jama+B.,people/person/employment_history./business/employment_tenure/title,Superstar,/m/05p0j_b,Superstar,True
+716,320,Boostedt,location/country/languages_spoken,Iraq,/m/0ctllc,/m/0v74,True
+717,320,Charles+Martlandfor,people/person/employment_history./business/employment_tenure/title,Sergeant,Charles+Martlandfor,/m/01g2j2,True
+718,321,Bill Clinton,organization/role/leaders./organization/leadership/person,Getty+Trump,/m/0157m,Getty+Trump,True
+719,324,Maxine Waters,people/person/employment_history./business/employment_tenure/title,Rep,/m/024tyk,/m/02qkv0r,True
+720,324,Lynch,organization/role/leaders./organization/leadership/person,Office,Lynch,/m/021sj1,True
+721,324,Lynch,organization/role/leaders./organization/leadership/person,Office for Civil Rights,Lynch,/m/0b9v8_,True
+722,324,Lynch,organization/role/leaders./organization/leadership/person,Office,Lynch,/m/021sj1,True
+723,324,Lynch,organization/role/leaders./organization/leadership/person,Office for Civil Rights,Lynch,/m/0b9v8_,True
+724,324,Cedric+Richmond+DLa.,people/person/employment_history./business/employment_tenure/title,Rep,Cedric+Richmond+DLa.,/m/02qkv0r,True
+725,325,Bain & Company,people/person/nationality,United States,/m/04vrnl,/m/07t58,True
+726,326,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+727,326,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,True
+728,327,Michael McDonald,organization/role/leaders./organization/leadership/person,University of Florida,/m/06cc_1,/m/0j_sncb,True
+729,328,Peter King,people/person/employment_history./business/employment_tenure/title,Rep,/m/03tk4w,/m/02qkv0r,True
+730,328,Peter King,people/person/employment_history./business/employment_tenure/title,Rep,/m/03tk4w,/m/02qkv0r,True
+731,328,Hillary Clinton,people/person/employment_history./business/employment_tenure/title,United States Secretary of State,/m/0d06m5,/m/0bwl7t0,True
+732,328,King,organization/role/leaders./organization/leadership/person,MSNBC,/m/03w9bnr,/m/0152x_,True
+733,329,Bill de Blasio,people/person/employment_history./business/employment_tenure/title,Mayor,/m/0gjsd3,/m/03x_sks,True
+734,329,New Jersey State Police,organization/role/leaders./organization/leadership/person,Elizabeth I,/m/083rp7,/m/02rg_,True
+735,329,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+736,329,Josh Earnest,people/person/employment_history./business/employment_tenure/title,Spokesperson,/m/0l8ps43,/m/03mdbqx,True
+737,329,Kelly Services,organization/role/leaders./organization/leadership/person,Federal Bureau of Investigation,/m/03p2hqb,/m/02_1m,True
+738,330,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+739,331,Timothy Evans,organization/role/leaders./organization/leadership/person,Associated Press,Timothy Evans,/m/0cv_2,True
+740,331,Chris Christie,people/person/employment_history./business/employment_tenure/title,governor,/m/0f8t6k,/m/0btx2g,True
+741,331,Timothy Evans,organization/role/leaders./organization/leadership/person,Associated Press,Timothy Evans,/m/0cv_2,True
+742,331,Charlie Baker,people/person/employment_history./business/employment_tenure/title,governor,/m/027cmm9,/m/0btx2g,True
+743,331,Larry Hogan,people/person/employment_history./business/employment_tenure/title,governor,/m/0_ylz5n,/m/0btx2g,True
+744,331,Dennis Daugaard,people/person/employment_history./business/employment_tenure/title,governor,/m/0bb5tw,/m/0btx2g,True
+745,332,Bill Clinton,people/person/employment_history./business/employment_tenure/title,Secretary,/m/0157m,/m/06slz5,True
+746,334,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+747,334,Barack Obama,people/person/employment_history./business/employment_tenure/title,Mitt Romney,/m/0h7q0rq,/m/05k7sb,True
+748,334,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+749,336,Jean-Marc Puissesseau,people/person/employment_history./business/employment_tenure/title,Chief executive officer,Jean-Marc Puissesseau,/m/02mwvv,True
+750,337,Friedrich,people/person/places_lived./people/place_lived/location,Bavaria,Friedrich,/m/017v_,True
+751,337,Paul Roland,organization/role/leaders./organization/leadership/person,Palatinate,/m/0406vgn,/m/09pkf,True
+752,337,Friedrich,people/person/places_lived./people/place_lived/location,Kallstadt,Friedrich,/m/02rscps,True
+753,337,Friedrich,people/person/places_lived./people/place_lived/location,Kallstadt,Friedrich,/m/02rscps,True
+754,337,Friedrich,people/person/places_lived./people/place_lived/location,Kallstadt,Friedrich,/m/02rscps,True
+755,337,Simone Wendel,people/person/employment_history./business/employment_tenure/title,Kallstadt,/m/011x14ft,/m/02rscps,True
+756,339,Rex Elsass,organization/role/leaders./organization/leadership/person,Republican Party,/m/0cx2r,/m/085srz,True
+757,339,Kellyanne Conway,people/person/employment_history./business/employment_tenure/title,Campaign manager,/m/0dq819,/m/03xk7t,True
+758,339,Todd Akin,organization/role/leaders./organization/leadership/person,Missouri Senate,/m/025xzm,/m/0694qd,True
+759,339,Kellyanne Conway,people/person/employment_history./business/employment_tenure/title,Donald Trump,/m/0dq819,/m/0cqt90,True
+760,339,Todd Akin,people/person/employment_history./business/employment_tenure/title,Candidate,/m/025xzm,/m/07r9r0,True
+761,339,Alsace,organization/role/leaders./organization/leadership/person,Global Strategy Group,/m/0cx2r,/m/04mzmmw,True
+762,339,Alsace,organization/role/leaders./organization/leadership/person,Strategy+Group+for+Media,/m/0cx2r,Strategy+Group+for+Media,True
+763,340,Pat McCrory,people/person/employment_history./business/employment_tenure/title,governor,/m/05tjbz,/m/0btx2g,True
+764,340,Pat McCrory,people/person/employment_history./business/employment_tenure/title,unrestNorth,/m/05tjbz,/m/0dln6mf,True
+765,341,Etonde+Maloke,people/person/employment_history./business/employment_tenure/title,Student,Etonde+Maloke,/m/014cnc,True
+766,342,William Bratton,organization/role/leaders./organization/leadership/person,New York City Police Department,/m/06lwq6,/m/01lvn4,True
+767,342,Rudy Giuliani,people/person/employment_history./business/employment_tenure/title,Mayor,/m/06gn7,/m/03x_sks,True
+768,342,Yvette Clarke,people/person/employment_history./business/employment_tenure/title,Rep,/m/06h90t,/m/02qkv0r,True
+769,342,Hakeem Jeffries,people/person/employment_history./business/employment_tenure/title,Rep,/m/025_74m,/m/02qkv0r,True
+770,343,John Kerry,people/person/employment_history./business/employment_tenure/title,United States Secretary of State,/m/0d3qd0,/m/0bwl7t0,True
+771,345,County Kerry,organization/role/leaders./organization/leadership/person,Associated Press,/m/0m_w6,/m/0cv_2,True
+772,345,John Kerry,people/person/employment_history./business/employment_tenure/title,United States Secretary of State,/m/0d3qd0,/m/0bwl7t0,True
+773,345,County Kerry,organization/role/leaders./organization/leadership/person,Associated Press,/m/0m_w6,/m/0cv_2,True
+774,345,Sergey Lavrov,people/person/employment_history./business/employment_tenure/title,Foreign minister,/m/02n670,/m/01t_55,True
+775,345,John Kerry,people/person/employment_history./business/employment_tenure/title,John Kerry,/m/0d3qd0,/m/0d3qd0,True
+776,345,Russian involvement in the Syrian civil war,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0jl0yx0,/m/02mjmr,True
+777,346,Ford Motor Company,organization/organization/headquarters./location/mailing_address/country,United States,/m/02zs4,/m/07t58,True
+778,346,Ford Motor Company,organization/organization/headquarters./location/mailing_address/country,United States,/m/02zs4,/m/07t58,True
+779,346,Mark Fields,organization/role/leaders./organization/leadership/person,Ford Motor Company,/m/09k8g7,/m/02zs4,True
+780,346,Mark Fields,people/person/employment_history./business/employment_tenure/title,Chief executive officer,/m/09k8g7,/m/02mwvv,True
+781,347,Florence Center,organization/role/leaders./organization/leadership/person,Kendall Wall Band,/m/063xbk,Kendall Wall Band,True
+782,348,Michael Flynn,people/person/employment_history./business/employment_tenure/title,Lieutenant general,/m/09v12g0,/m/01cpjg,True
+783,349,David Chalian,people/person/employment_history./business/employment_tenure/title,Director,/m/0zbssjv,/m/02mjmr,True
+784,350,Joseph Dunford,people/person/employment_history./business/employment_tenure/title,Gene,/m/05b2r22,/m/0bscct,True
+785,350,Ri Yong-ho,people/person/employment_history./business/employment_tenure/title,Foreign minister,/m/0nbhk23,/m/01t_55,True
+786,350,Joseph Dunford,organization/role/leaders./organization/leadership/person,Joint Chiefs of Staff,/m/05b2r22,/m/01brfl,True
+787,350,Ri Yong-ho,organization/role/leaders./organization/leadership/person,United Nations General Assembly,/m/0nbhk23,/m/07vp7,True
+788,350,United States,organization/organization/headquarters./location/mailing_address/country,North Korea,/m/07t58,/m/05b7q,True
+789,350,United States,organization/organization/headquarters./location/mailing_address/country,North Korea,/m/07t58,/m/05b7q,True
+790,350,John Kerry,people/person/employment_history./business/employment_tenure/title,United States Secretary of State,/m/0d3qd0,/m/0bwl7t0,True
+791,350,Sea,location/country/languages_spoken,China,/m/06npx,/m/0d05w3,True
+792,350,Sea,location/country/languages_spoken,South,/m/06npx,/m/0k7ny,True
+793,350,Workers' Party,organization/organization/headquarters./location/mailing_address/country,Korea,/m/01vlpc,/m/048fz,True
+794,350,Kim Jong-un,people/person/employment_history./business/employment_tenure/title,Leadership,/m/0fgw19,/m/0h7q0rq,True
+795,350,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+796,350,Bruce+Klingner,organization/role/leaders./organization/leadership/person,The Heritage Foundation,Bruce+Klingner,/m/01tw7q,True
+797,350,Sea,location/country/languages_spoken,China,/m/06npx,/m/0d05w3,True
+798,350,Sea,location/country/languages_spoken,South,/m/06npx,/m/0k7ny,True
+799,355,Bank,organization/organization/headquarters./location/mailing_address/country,United States,/m/017ql,/m/07t58,True
+800,355,James K. Polk,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/042f1,/m/02mjmr,True
+801,355,William H. Seward,people/person/employment_history./business/employment_tenure/title,Senator,/m/0k_2z,/m/04c_3b,True
+802,355,William H. Seward,organization/role/leaders./organization/leadership/person,Republican Party,/m/0k_2z,/m/085srz,True
+803,355,John Tyler,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/042dk,/m/02mjmr,True
+804,355,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,True
+805,355,Hillary Clinton,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0d06m5,/m/02mjmr,True
+806,356,Nate Smith,organization/role/leaders./organization/leadership/person,Texas secession movements,Nate Smith,Texas secession movements,True
+807,356,Bashar al-Assad,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/01_vwx,/m/02mjmr,True
+808,356,Peter+Kreko,organization/role/leaders./organization/leadership/person,Indiana University,Peter+Kreko,/m/08qnnv,True
+809,357,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+810,357,Barack Obama,people/person/employment_history./business/employment_tenure/title,Barack Obama,/m/0h7q0rq,/m/0h7q0rq,True
+811,357,Jon+Alterman,organization/role/leaders./organization/leadership/person,Center for Strategic and International Studies,Jon+Alterman,/m/02n4mz,True
+812,357,Josh Earnest,organization/role/leaders./organization/leadership/person,White House,/m/0l8ps43,/m/03mdbqx,True
+813,357,Josh Earnest,people/person/employment_history./business/employment_tenure/title,Spokesperson,/m/0l8ps43,/m/03mdbqx,True
+814,357,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+815,357,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+816,357,Hosni Mubarak,people/person/nationality,Egypt,/m/0dnps,/m/02k54,True
+817,357,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+818,357,Fahad+Nazer,organization/role/leaders./organization/leadership/person,Saudi+Embassy,Fahad+Nazer,Saudi+Embassy,True
+819,358,Mitch McConnell,people/person/employment_history./business/employment_tenure/title,Leadership,/m/01z6ls,/m/0h7q0rq,True
+820,358,Harry Reid,organization/role/leaders./organization/leadership/person,United States Senate,/m/0204x1,/m/07r9r0,True
+821,358,John Cornyn,people/person/employment_history./business/employment_tenure/title,Whip,/m/01xcqs,/m/0250w0,True
+822,358,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+823,358,Barack Obama,people/person/nationality,Saudi Arabia,/m/0h7q0rq,/m/01z215,True
+824,360,Cathy Rodgers,people/person/employment_history./business/employment_tenure/title,Rep,/m/03dlf3,/m/02qkv0r,True
+825,360,Cathy McMorris Rodgers,people/person/employment_history./business/employment_tenure/title,Rep,/m/03dlf3,/m/02qkv0r,True
+826,360,Journalist,people/person/employment_history./business/employment_tenure/title,Cathy McMorris Rodgers,/m/0d8qb,/m/03dlf3,True
+827,361,Occupy Wall Street,organization/role/leaders./organization/leadership/person,Frank,/m/0h63jfq,Frank,True
+828,362,Pat McCrory,people/person/employment_history./business/employment_tenure/title,governor,/m/05tjbz,/m/0btx2g,True
+829,362,Pat McCrory,organization/role/leaders./organization/leadership/person,State,/m/05tjbz,/m/0d06m5,True
+830,362,Pat McCrory,organization/role/leaders./organization/leadership/person,State,/m/05tjbz,/m/0d06m5,True
+831,362,Loretta Lynch,people/person/employment_history./business/employment_tenure/title,Attorney general,/m/0gg570x,/m/0465sdr,True
+832,364,White House,organization/role/leaders./organization/leadership/person,Hillary Clinton,/m/03mdbqx,/m/0d06m5,True
+833,364,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+834,364,Barack Obama,people/person/employment_history./business/employment_tenure/title,Businessperson,/m/0h7q0rq,/m/012t_z,True
+835,367,Donald Trump,organization/role/leaders./organization/leadership/person,Fox,/m/0cqt90,/m/0cjdk,True
+836,369,Mitch McConnell,organization/role/leaders./organization/leadership/person,United States Senate,/m/01z6ls,/m/07r9r0,True
+837,369,Nancy Pelosi,people/person/employment_history./business/employment_tenure/title,Minority leader,/m/012v1t,/m/0499g1,True
+838,369,Mitch McConnell,people/person/employment_history./business/employment_tenure/title,Leadership,/m/01z6ls,/m/0h7q0rq,True
+839,369,Nancy Pelosi,organization/role/leaders./organization/leadership/person,House,/m/012v1t,/m/081sq,True
+840,369,Ryan's World,people/person/employment_history./business/employment_tenure/title,Loudspeaker,Ryan's World,/m/0cfpc,True
+841,369,Nancy Pelosi,people/person/employment_history./business/employment_tenure/title,Leadership,/m/012v1t,/m/0h7q0rq,True
+842,369,Harry Reid,organization/role/leaders./organization/leadership/person,United States Senate,/m/0204x1,/m/07r9r0,True
+843,369,Dick Durbin,people/person/employment_history./business/employment_tenure/title,Whip,/m/01xcd1,/m/0250w0,True
+844,369,Dick Durbin,organization/role/leaders./organization/leadership/person,United States Senate,/m/01xcd1,/m/07r9r0,True
+845,369,Steny Hoyer,people/person/employment_history./business/employment_tenure/title,Whip,/m/025k5p,/m/0250w0,True
+846,369,Steny Hoyer,people/person/employment_history./business/employment_tenure/title,Dick Durbin,/m/025k5p,/m/01xcd1,True
+847,369,Bill Cassidy,organization/role/leaders./organization/leadership/person,Republican Party,/m/0286t7r,/m/085srz,True
+848,370,Jill Stein,people/person/employment_history./business/employment_tenure/title,Candidate,/m/05st_r,/m/07r9r0,True
+849,370,Gary Johnson,people/person/employment_history./business/employment_tenure/title,Candidate,/m/01tqr5,/m/07r9r0,True
+850,370,Jill Stein,organization/role/leaders./organization/leadership/person,Green Party of the United States,/m/05st_r,/m/07k5l,True
+851,370,Donald Trump,organization/role/leaders./organization/leadership/person,Republican Party,/m/0cqt90,/m/085srz,True
+852,372,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+853,372,Donald Trump,organization/role/leaders./organization/leadership/person,Fox News,/m/0cqt90,/m/02z_b,True
+854,372,Pat McCrory,people/person/employment_history./business/employment_tenure/title,governor,/m/05tjbz,/m/0btx2g,True
+855,372,Kerr+Putney,people/person/employment_history./business/employment_tenure/title,Chief of police,Kerr+Putney,/m/039h8_,True
+856,372,Josh Earnest,organization/role/leaders./organization/leadership/person,House,/m/0l8ps43,/m/081sq,True
+857,372,Josh Earnest,people/person/employment_history./business/employment_tenure/title,White House Press Secretary,/m/0l8ps43,/m/01pt0z,True
+858,372,Rudy Giuliani,people/person/employment_history./business/employment_tenure/title,Mayor,/m/06gn7,/m/03x_sks,True
+859,372,Newt Gingrich,people/person/employment_history./business/employment_tenure/title,United States Speaker of the House,/m/018fzs,United States Speaker of the House,True
+860,372,Shooting of Terence Crutcher,people/person/employment_history./business/employment_tenure/title,Police officer,Shooting of Terence Crutcher,/m/01t2ln,True
+861,373,Barack Obama,people/person/employment_history./business/employment_tenure/title,Omran Daqneesh,/m/0h7q0rq,Omran Daqneesh,True
+862,373,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+863,374,Dean Baquet,people/person/employment_history./business/employment_tenure/title,editor,/m/02pjhgt,/m/02h6676,True
+864,374,Hillary Clinton,organization/role/leaders./organization/leadership/person,Democracy,/m/0d06m5,/m/026wp,True
+865,377,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+866,378,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+867,378,Joe Biden,people/person/employment_history./business/employment_tenure/title,Vice President of the United States,/m/012gx2,/m/0d05fv,True
+868,378,Joe Biden,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/012gx2,/m/02mjmr,True
+869,378,Arnold Palmer,people/person/employment_history./business/employment_tenure/title,Lists of golfers,/m/0l0cx,Lists of golfers,True
+870,379,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+871,379,Hillary Clinton,people/person/employment_history./business/employment_tenure/title,United States Secretary of State,/m/0d06m5,/m/0bwl7t0,True
+872,380,Lester Holt,organization/role/leaders./organization/leadership/person,NBC Nightly News,/m/06jvj7,/m/01bncw,True
+873,380,Lester Holt,organization/role/leaders./organization/leadership/person,NBC Nightly News,/m/06jvj7,/m/01bncw,True
+874,381,Jens Stoltenberg,organization/role/leaders./organization/leadership/person,NATO,/m/01b8g6,/m/059dn,True
+875,381,Jens Stoltenberg,people/person/employment_history./business/employment_tenure/title,Secretary-General of the United Nations,/m/01b8g6,Secretary-General of the United Nations,True
+876,381,NATO,organization/role/leaders./organization/leadership/person,Jens,/m/059dn,Jens,True
+877,381,Jens Stoltenberg,organization/role/leaders./organization/leadership/person,NATO,/m/01b8g6,/m/059dn,True
+878,382,Donald Trump,people/person/places_lived./people/place_lived/location,City,/m/0cqt90,/m/01n32,True
+879,382,Rudy Giuliani,people/person/employment_history./business/employment_tenure/title,Mayor,/m/06gn7,/m/03x_sks,True
+880,384,Jeffrey DeLaurentis,people/person/employment_history./business/employment_tenure/title,Americas,Jeffrey DeLaurentis,/m/07c5l,True
+881,384,Getty+Obama,people/person/employment_history./business/employment_tenure/title,Cuba,Getty+Obama,/m/0d04z6,True
+882,384,Jeffrey DeLaurentis,people/person/employment_history./business/employment_tenure/title,Diplomat,Jeffrey DeLaurentis,/m/080ntlp,True
+883,384,Getty+Obama,people/person/employment_history./business/employment_tenure/title,Ambassador,Getty+Obama,/m/0n46_gt,True
+884,384,Jeffrey DeLaurentis,people/person/employment_history./business/employment_tenure/title,Americas,Jeffrey DeLaurentis,/m/07c5l,True
+885,384,Barack Obama,people/person/employment_history./business/employment_tenure/title,Ambassador,/m/0h7q0rq,/m/0n46_gt,True
+886,384,Barack Obama,people/person/employment_history./business/employment_tenure/title,Ambassador,/m/0h7q0rq,/m/0n46_gt,True
+887,385,Michelle Obama,people/person/employment_history./business/employment_tenure/title,First Lady of the United States,/m/025s5v9,/m/02xy5,True
+888,385,Robin Roberts,organization/role/leaders./organization/leadership/person,Good Morning America,/m/06k3_t,/m/0275kr,True
+889,385,Robin Roberts,people/person/employment_history./business/employment_tenure/title,Host,/m/06k3_t,/m/04wk4z,True
+890,385,Barack Obama,organization/role/leaders./organization/leadership/person,Robin Roberts,/m/0h7q0rq,/m/06k3_t,True
+891,386,Gary Johnson,organization/role/leaders./organization/leadership/person,Libertarian Party,/m/01tqr5,/m/07w42,True
+892,386,Jill Stein,organization/role/leaders./organization/leadership/person,Green party,/m/05st_r,/m/0kq5b,True
+893,387,Stephen Anderson,people/person/employment_history./business/employment_tenure/title,Pastor,Stephen Anderson,/m/01fhsb,True
+894,387,Malusi Gigaba,organization/role/leaders./organization/leadership/person,Home+Affairs,/m/0d0xkd,/m/09gbckv,True
+895,387,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+896,388,Donald Trump,people/person/places_lived./people/place_lived/location,Umpa-Lumpaer,/m/0cqt90,Umpa-Lumpaer,True
+897,389,Matt Pierce,organization/role/leaders./organization/leadership/person,Los Angeles Times,/m/03yjnwr,/m/01p06z,True
+898,389,Matt Pierce,organization/role/leaders./organization/leadership/person,Twitter,/m/03yjnwr,/m/0289n8t,True
+899,389,Matt Pierce,people/person/employment_history./business/employment_tenure/title,Journalist,/m/03yjnwr,/m/0d8qb,True
+900,390,Donald Trump,organization/role/leaders./organization/leadership/person,Republican Party,/m/0cqt90,/m/085srz,True
+901,390,Josh Earnest,people/person/employment_history./business/employment_tenure/title,White House Press Secretary,/m/0l8ps43,/m/01pt0z,True
+902,390,Josh Earnest,people/person/employment_history./business/employment_tenure/title,White House,/m/0l8ps43,/m/03mdbqx,True
+903,390,Harry Reid,people/person/employment_history./business/employment_tenure/title,Nelson,/m/0204x1,/m/0gs0g,True
+904,390,Nancy Pelosi,organization/role/leaders./organization/leadership/person,House,/m/012v1t,/m/081sq,True
+905,390,Nancy Pelosi,people/person/employment_history./business/employment_tenure/title,Minority leader,/m/012v1t,/m/0499g1,True
+906,392,Nicole+Mainor,people/person/employment_history./business/employment_tenure/title,Spokesperson,Nicole+Mainor,/m/03mdbqx,True
+907,392,Nicole+Mainor,organization/role/leaders./organization/leadership/person,United States Secret Service,Nicole+Mainor,/m/0fynw,True
+908,392,Craig+Engle,people/person/employment_history./business/employment_tenure/title,Arent Fox,Craig+Engle,/m/04cs6sm,True
+909,394,Paul Ryan,people/person/employment_history./business/employment_tenure/title,United States Speaker of the House,/m/024v2j,United States Speaker of the House,True
+910,394,Paul Ryan,people/person/employment_history./business/employment_tenure/title,United States Speaker of the House,/m/024v2j,United States Speaker of the House,True
+911,395,Chuck Schumer,organization/role/leaders./organization/leadership/person,United States Senate,/m/01w74d,/m/07r9r0,True
+912,395,Chuck Schumer,organization/role/leaders./organization/leadership/person,United States Senate,/m/01w74d,/m/07r9r0,True
+913,395,Harry Reid,organization/role/leaders./organization/leadership/person,United States Senate,/m/0204x1,/m/07r9r0,True
+914,395,Chuck Schumer,people/person/employment_history./business/employment_tenure/title,Senator,/m/01w74d,/m/04c_3b,True
+915,395,Democratic Senatorial Campaign Committee,organization/role/leaders./organization/leadership/person,Chuck Schumer,/m/03j740,/m/01w74d,True
+916,395,National Republican Senatorial Committee,organization/role/leaders./organization/leadership/person,Reid,/m/03j7vg,Reid,True
+917,395,National Republican Senatorial Committee,organization/role/leaders./organization/leadership/person,Reid,/m/03j7vg,Reid,True
+918,395,Dean Heller,organization/role/leaders./organization/leadership/person,National Remote Sensing Centre,/m/0g92xz,/m/04vy0g,True
+919,395,John Cornyn,organization/role/leaders./organization/leadership/person,United States Senate,/m/01xcqs,/m/07r9r0,True
+920,395,John Cornyn,people/person/employment_history./business/employment_tenure/title,Whip,/m/01xcqs,/m/0250w0,True
+921,397,Joey Soloway,people/person/employment_history./business/employment_tenure/title,creator,/m/06qsh0,/m/0f5d2,True
+922,399,Petro Poroshenko,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/08w60w,/m/02mjmr,True
+923,399,Royal Dutch Shell,organization/role/leaders./organization/leadership/person,Shinzo Abe,/m/0g5vy,/m/07t7hy,True
+924,399,Shinzo Abe,people/person/employment_history./business/employment_tenure/title,Prime Minister of the United Kingdom,/m/07t7hy,/m/060s9,True
+925,399,Royal Dutch Shell,people/person/nationality,Shinzo Abe,/m/0g5vy,/m/07t7hy,True
+926,399,Royal Dutch Shell,people/person/nationality,Shinzo Abe,/m/0g5vy,/m/07t7hy,True
+927,399,Royal Dutch Shell,organization/role/leaders./organization/leadership/person,Shinzo Abe,/m/0g5vy,/m/07t7hy,True
+928,399,Enrique Peña Nieto,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/07zcdm,/m/02mjmr,True
+929,399,Joe Biden,people/person/employment_history./business/employment_tenure/title,Vice President of the United States,/m/012gx2,/m/0d05fv,True
+930,399,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+931,399,Sadiq Khan,people/person/employment_history./business/employment_tenure/title,Chicago,/m/060nzt,/m/01_d4,True
+932,399,Sadiq+Khan+Trump,people/person/employment_history./business/employment_tenure/title,Chicago,Sadiq+Khan+Trump,/m/01_d4,True
+933,399,Sadiq Khan,people/person/employment_history./business/employment_tenure/title,Donald Trump,/m/060nzt,/m/0cqt90,True
+934,399,Joe Biden,people/person/employment_history./business/employment_tenure/title,Trump,/m/012gx2,/m/0cqt90,True
+935,399,Sadiq Khan,people/person/employment_history./business/employment_tenure/title,Mayor,/m/060nzt,/m/03x_sks,True
+936,399,Matteo Renzi,people/person/employment_history./business/employment_tenure/title,Prime Minister of the United Kingdom,/m/06w3g7j,/m/060s9,True
+937,399,Bill Clinton,people/person/employment_history./business/employment_tenure/title,Secretary,/m/0157m,/m/06slz5,True
+938,399,Barack Obama,people/person/employment_history./business/employment_tenure/title,United States Secretary of State,/m/0h7q0rq,/m/0bwl7t0,True
+939,399,Barack Obama,people/person/employment_history./business/employment_tenure/title,Secretary,/m/0h7q0rq,/m/06slz5,True
+940,399,Barack Obama,people/person/employment_history./business/employment_tenure/title,United States Secretary of State,/m/0h7q0rq,/m/0bwl7t0,True
+941,399,Barack Obama,people/person/employment_history./business/employment_tenure/title,Secretary,/m/0h7q0rq,/m/06slz5,True
+942,399,Robert Mugabe,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0bsfy,/m/02mjmr,True
+943,399,Barack Obama,people/person/employment_history./business/employment_tenure/title,Barack Obama,/m/0h7q0rq,/m/0h7q0rq,True
+944,399,Ivo Daalder,organization/role/leaders./organization/leadership/person,Chicago Council on Global Affairs,/m/02wzck2,/m/0d42gh,True
+945,400,Bill de Blasio,people/person/employment_history./business/employment_tenure/title,Mayor,/m/0gjsd3,/m/03x_sks,True
+946,401,Clint Eastwood,organization/role/leaders./organization/leadership/person,Facebook+TwitterHollywood,/m/0bwh6,Facebook+TwitterHollywood,True
+947,402,Bill Clinton,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0157m,/m/02mjmr,True
+948,402,Matteo Renzi,people/person/employment_history./business/employment_tenure/title,Prime Minister of the United Kingdom,/m/06w3g7j,/m/060s9,True
+949,402,Sadiq Khan,people/person/employment_history./business/employment_tenure/title,Mayor,/m/060nzt,/m/03x_sks,True
+950,402,Bill Clinton,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0157m,/m/02mjmr,True
+951,402,Matteo Renzi,people/person/employment_history./business/employment_tenure/title,Prime Minister of the United Kingdom,/m/06w3g7j,/m/060s9,True
+952,402,Mario+Macri,people/person/employment_history./business/employment_tenure/title,President of the United States,Mario+Macri,/m/02mjmr,True
+953,403,Roger Angell,organization/role/leaders./organization/leadership/person,New+Yorker,/m/06l7l,/m/07q5n,True
+954,403,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+955,403,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,True
+956,403,West,location/country/languages_spoken,Yemen,/m/0gkh2,/m/01z88t,True
+957,404,Shooting of Jeremy Mardis,people/person/employment_history./business/employment_tenure/title,Deputy,Shooting of Jeremy Mardis,/m/03yc4j2,True
+958,404,William Bennett,people/person/employment_history./business/employment_tenure/title,Judge,/m/01fhz1,/m/06lvrr,True
+959,405,Paul Ryan,organization/role/leaders./organization/leadership/person,CNN+House,/m/024v2j,CNN+House,True
+960,408,Robert+Milichs,people/person/employment_history./business/employment_tenure/title,Judge,Robert+Milichs,/m/06lvrr,True
+961,408,Burton Snowboards,organization/role/leaders./organization/leadership/person,New York Daily News,/m/0781kl,/m/02jf15,True
+962,409,Bill Clinton,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0157m,/m/02mjmr,True
+963,409,Marsha Blackburn,people/person/employment_history./business/employment_tenure/title,Rep,/m/01fnkt,/m/02qkv0r,True
+964,409,Roger Bate,organization/role/leaders./organization/leadership/person,American Enterprise Institute,/m/0b23zg,/m/0p8q4,True
+965,409,Hillary Clinton,people/person/employment_history./business/employment_tenure/title,Candidate,/m/0d06m5,/m/07r9r0,True
+966,409,Rod Rosenstein,organization/role/leaders./organization/leadership/person,Rod Rosenstein,/m/04y7p0_,/m/04y7p0_,True
+967,409,Rod Rosenstein,people/person/employment_history./business/employment_tenure/title,Attorney,/m/04y7p0_,/m/04gc2,True
+968,409,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+969,410,Donald Trump,people/person/employment_history./business/employment_tenure/title,Politician,/m/0cqt90,Jimmy Dimora,True
+970,410,Barack Obama,people/person/employment_history./business/employment_tenure/title,Barack Obama,/m/0h7q0rq,/m/0h7q0rq,True
+971,410,Barack Obama,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0h7q0rq,/m/02mjmr,True
+972,410,Federal Bureau of Investigation,organization/role/leaders./organization/leadership/person,Bill Clinton,/m/02_1m,/m/0157m,True
+973,410,Donald Trump,people/person/employment_history./business/employment_tenure/title,Soldier Soldier,/m/0cqt90,/m/0t7g5,True
+974,410,Vladimir Putin,people/person/employment_history./business/employment_tenure/title,Dictator,/m/08193,/m/02bms,True
+975,410,HES,organization/role/leaders./organization/leadership/person,Donald Trump,HES,/m/0cqt90,True
+976,410,Donald Trump,people/person/employment_history./business/employment_tenure/title,Vladimir Putin,/m/0cqt90,/m/08193,True
+977,410,Donald Trump,people/person/nationality,Vladimir Putin,/m/0cqt90,/m/08193,True
+978,410,Bill+Turpin,people/person/places_lived./people/place_lived/location,Brayton cycle,Bill+Turpin,/m/02542p,True
+979,410,Lewis Smith,people/person/employment_history./business/employment_tenure/title,"Orlando, Florida",/m/0crpt8,/m/0ply0,True
+980,410,Thomas+Davidenko,organization/role/leaders./organization/leadership/person,Temple,Thomas+Davidenko,/m/08g_yr,True
+981,410,Lou Smith,organization/role/leaders./organization/leadership/person,AT&T,/m/06_w579,/m/08z129,True
+982,411,Bill Maher,organization/role/leaders./organization/leadership/person,HBOs+Real+Time,/m/01n4f8,/m/04sv_8,True
+983,411,Bill Maher,people/person/employment_history./business/employment_tenure/title,Host,/m/01n4f8,/m/04wk4z,True
+984,413,Friedrich,people/person/places_lived./people/place_lived/location,Bavaria,Friedrich,/m/017v_,True
+985,413,Paul Roland,organization/role/leaders./organization/leadership/person,Palatinate,/m/0406vgn,/m/09pkf,True
+986,413,Friedrich,people/person/places_lived./people/place_lived/location,Kallstadt,Friedrich,/m/02rscps,True
+987,413,Friedrich,people/person/places_lived./people/place_lived/location,Kallstadt,Friedrich,/m/02rscps,True
+988,413,Friedrich,people/person/places_lived./people/place_lived/location,Kallstadt,Friedrich,/m/02rscps,True
+989,413,Simone Wendel,people/person/employment_history./business/employment_tenure/title,Kallstadt,/m/011x14ft,/m/02rscps,True
+990,414,Charmian Carr,organization/role/leaders./organization/leadership/person,"California State University, Northridge",/m/08r7gq,/m/0k__z,True
+991,414,Charmian Carr,people/person/employment_history./business/employment_tenure/title,student,/m/08r7gq,/m/014cnc,True
+992,415,Bank,organization/organization/headquarters./location/mailing_address/country,United States,/m/017ql,/m/07t58,True
+993,415,James K. Polk,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/042f1,/m/02mjmr,True
+994,415,William H. Seward,people/person/employment_history./business/employment_tenure/title,Senator,/m/0k_2z,/m/04c_3b,True
+995,415,William H. Seward,organization/role/leaders./organization/leadership/person,Republican Party,/m/0k_2z,/m/085srz,True
+996,415,John Tyler,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/042dk,/m/02mjmr,True
+997,415,Donald Trump,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0cqt90,/m/02mjmr,True
+998,415,Hillary Clinton,people/person/employment_history./business/employment_tenure/title,President of the United States,/m/0d06m5,/m/02mjmr,True
+999,416,Donald Trump,people/person/employment_history./business/employment_tenure/title,King,/m/0cqt90,/m/03w9bnr,True
