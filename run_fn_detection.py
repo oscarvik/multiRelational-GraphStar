@@ -77,7 +77,7 @@ def load_data(news_dataset, kg_dataset, dataset_name, hidden=64, node_embedding_
 
     print("Loading fake news dataset: " + news_dataset + "...")
     fn_test = pd.read_csv(
-        "./data/" + news_dataset + "/train.csv",
+        "./data/" + news_dataset + "/gs_train.csv",
         sep=",",
         header=0,
         engine="python",
