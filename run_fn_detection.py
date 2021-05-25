@@ -28,20 +28,29 @@ def train_val_test_split(dataset, train, val, test):
     dataset.test_edge_type = test.edge_type
 
     # negatives
-    neg_train = structured_negative_sampling(dataset.train_pos_edge_index)
+    # nb! add symmetry before
+    anti_symmetric_train = torch.flip(dataset.train_pos_edge_index,[0])
+    symmetric_train = torch.cat([dataset.train_pos_edge_index, anti_symmetric_train], dim=1)
+
+    neg_train = structured_negative_sampling(symmetric_train)
     dataset.train_neg_edge_index = torch.tensor(
         [list(neg_train[0]), list(neg_train[2])], dtype=torch.long
-    )
+    ).narrow(1,0,anti_symmetric_train.size(1))
+    
+    anti_symmetric_val = torch.flip(dataset.val_pos_edge_index,[0])
+    symmetric_val = torch.cat([dataset.val_pos_edge_index, anti_symmetric_val], dim=1)
 
-    neg_val = structured_negative_sampling(dataset.val_pos_edge_index)
+    neg_val = structured_negative_sampling(symmetric_val)
     dataset.val_neg_edge_index = torch.tensor(
         [list(neg_val[0]), list(neg_val[2])], dtype=torch.long
-    )
+    ).narrow(1,0,anti_symmetric_val.size(1))
 
-    neg_test = structured_negative_sampling(dataset.test_pos_edge_index)
+    anti_symmetric_test = torch.flip(dataset.test_pos_edge_index,[0])
+    symmetric_test = torch.cat([dataset.test_pos_edge_index, anti_symmetric_test], dim=1)
+    neg_test = structured_negative_sampling(symmetric_test)
     dataset.test_neg_edge_index = torch.tensor(
         [list(neg_test[0]), list(neg_test[2])], dtype=torch.long
-    )
+    ).narrow(1,0,anti_symmetric_test.size(1))
 
     return dataset
 
