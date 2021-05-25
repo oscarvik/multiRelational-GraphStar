@@ -1,0 +1,737 @@
+,fb_head,fb_relation,fb_tail
+0,/m/0157m,organization/role/leaders./organization/leadership/person,/m/0c0sl
+1,/m/0157m,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+2,/m/01fnkt,people/person/employment_history./business/employment_tenure/title,/m/02qkv0r
+3,/m/0b23zg,organization/role/leaders./organization/leadership/person,/m/0p8q4
+4,/m/0d06m5,people/person/employment_history./business/employment_tenure/title,/m/07r9r0
+5,/m/04y7p0_,organization/role/leaders./organization/leadership/person,/m/04y7p0_
+6,/m/04y7p0_,people/person/employment_history./business/employment_tenure/title,/m/04gc2
+7,/m/0h7q0rq,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+8,HES,organization/role/leaders./organization/leadership/person,Getty+ImagesJoe+Raedle
+9,/m/0h7q0rq,organization/role/leaders./organization/leadership/person,/m/07t65
+10,/m/0h7q0rq,people/person/employment_history./business/employment_tenure/title,Alex+Pfeiffer
+11,/m/0h7q0rq,organization/role/leaders./organization/leadership/person,/m/0h7q0rq
+12,/m/01_vwx,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+13,/m/0cb1tz,people/person/employment_history./business/employment_tenure/title,/m/0d8qb
+14,/m/0h7q0rq,organization/organization/headquarters./location/mailing_address/country,/m/0v74
+15,/m/0fynw,organization/role/leaders./organization/leadership/person,/m/0d06m5
+16,/m/0d06m5,organization/role/leaders./organization/leadership/person,/m/0fynw
+17,/m/0h7q0rq,people/person/places_lived./people/place_lived/location,/m/0g60z
+18,/m/0fynw,organization/role/leaders./organization/leadership/person,/m/0h7q0rq
+19,/m/0chw_,people/person/places_lived./people/place_lived/location,/m/03m7gdr
+20,/m/0157m,people/person/employment_history./business/employment_tenure/title,/m/06slz5
+21,/m/0268g3w,people/person/employment_history./business/employment_tenure/title,/m/02g5lp
+22,/m/07j6ty,people/person/employment_history./business/employment_tenure/title,/m/04c_3b
+23,Michelle,people/person/employment_history./business/employment_tenure/title,/m/02xy5
+24,/m/01ndfjw,people/person/employment_history./business/employment_tenure/title,/m/01g2j2
+25,/m/04ykg,organization/role/leaders./organization/leadership/person,/m/017bdl
+26,/m/05f9m8h,people/person/employment_history./business/employment_tenure/title,/m/03x_sks
+27,/m/0gsksn,organization/role/leaders./organization/leadership/person,/m/04ykg
+28,/m/012bzwng,people/person/religion,/m/01lp8
+29,/m/02wx77q,people/person/employment_history./business/employment_tenure/title,/m/02mwvv
+30,/m/02wx77q,organization/role/leaders./organization/leadership/person,/m/09gd5v1
+31,/m/02x2tr8,organization/role/leaders./organization/leadership/person,/m/02_1m
+32,/m/06r04p,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+33,/m/06r04p,organization/role/leaders./organization/leadership/person,/m/02_1m
+34,/m/0d06m5,people/person/employment_history./business/employment_tenure/title,/m/05_xks
+35,/m/0dtj5,organization/role/leaders./organization/leadership/person,/m/01zty6
+36,/m/0d06m5,organization/role/leaders./organization/leadership/person,/m/0dtj5
+37,/m/0h7q0rq,organization/role/leaders./organization/leadership/person,/m/02_1m
+38,/m/02mjmr,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+39,/m/03mdbqx,people/person/places_lived./people/place_lived/location,/m/0d06m5
+40,/m/0157m,organization/role/leaders./organization/leadership/person,/m/02_1m
+41,/m/0jl0g,people/person/employment_history./business/employment_tenure/title,/m/01fch0
+42,Jason+Falconer,people/person/employment_history./business/employment_tenure/title,Instructor
+43,/m/01lk__r,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+44,/m/01lk__r,organization/role/leaders./organization/leadership/person,/m/0138n5_r
+45,/m/0157m,people/person/places_lived./people/place_lived/location,/m/08gb40
+46,/m/0d06m5,people/person/employment_history./business/employment_tenure/title,Jason+Falconer
+47,/m/02x2tr8,people/person/employment_history./business/employment_tenure/title,Google Assistant
+48,/m/021583,organization/role/leaders./organization/leadership/person,/m/03mdbqx
+49,TwitterBernard+Sansaricq,organization/role/leaders./organization/leadership/person,SHARES+Facebook
+50,TwitterBernard+Sansaricq,organization/role/leaders./organization/leadership/person,/m/07t58
+51,Adam+Gitlin,organization/role/leaders./organization/leadership/person,/m/02pjfvw
+52,/m/02pjfvw,organization/role/leaders./organization/leadership/person,Adam+Gitlin
+53,/m/0d8qb,people/person/employment_history./business/employment_tenure/title,/m/059yj
+54,/m/0h7q0rq,organization/organization/headquarters./location/mailing_address/country,/m/07c5l
+55,/m/0685rw,organization/role/leaders./organization/leadership/person,National+Border+Patrol+Council+Local+2455
+56,/m/0j5pc,people/person/employment_history./business/employment_tenure/title,/m/04c_3b
+57,/m/094z8,location/hud_county_place/county,/m/0czf4m8
+58,/m/05sj2z,people/person/employment_history./business/employment_tenure/title,/m/06b1q
+59,/m/0cqt90,organization/role/leaders./organization/leadership/person,/m/02z_b
+60,/m/07c_l,organization/role/leaders./organization/leadership/person,/m/0cqt90
+61,/m/0cxslf,people/person/employment_history./business/employment_tenure/title,pollster
+62,Greg+Pollowitz,organization/role/leaders./organization/leadership/person,/m/01dgg6
+63,/m/04glwxr,organization/role/leaders./organization/leadership/person,/m/03d5lmj
+64,/m/04glwxr,people/person/employment_history./business/employment_tenure/title,/m/071rm
+65,/m/04glwxr,people/person/employment_history./business/employment_tenure/title,/m/0377k9
+66,/m/04glwxr,organization/role/leaders./organization/leadership/person,Missiongathering+Christian+Church
+67,/m/08193,people/person/employment_history./business/employment_tenure/title,/m/06bnz
+68,/m/027nvsp,organization/role/leaders./organization/leadership/person,/m/04b6p
+69,/m/0cqt90,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+70,/m/0f8t6k,people/person/employment_history./business/employment_tenure/title,/m/0btx2g
+71,/m/08cnqc,people/person/employment_history./business/employment_tenure/title,/m/0cfpc
+72,/m/0cqt90,organization/role/leaders./organization/leadership/person,2020 Republican Party presidential primaries
+73,/m/014df6,people/person/employment_history./business/employment_tenure/title,/m/0btx2g
+74,/m/019x9z,people/person/employment_history./business/employment_tenure/title,/m/0btx2g
+75,/m/0d05fv,people/person/employment_history./business/employment_tenure/title,/m/0btx2g
+76,/m/02w8m6,organization/role/leaders./organization/leadership/person,/m/085srz
+77,/m/02w8m6,people/person/employment_history./business/employment_tenure/title,/m/012t_z
+78,/m/02w8m6,organization/role/leaders./organization/leadership/person,/m/06pwq
+79,/m/09g6z41,organization/role/leaders./organization/leadership/person,/m/07gmmy
+80,Lisa Gordon-Hagerty,people/person/employment_history./business/employment_tenure/title,/m/0bwkm08
+81,/m/0d06m5,people/person/employment_history./business/employment_tenure/title,State.Well
+82,/m/0d06m5,people/person/employment_history./business/employment_tenure/title,/m/06slz5
+83,John Pfaff,organization/role/leaders./organization/leadership/person,/m/027kp3
+84,/m/0d06m5,people/person/employment_history./business/employment_tenure/title,/m/0bwl7t0
+85,/m/0bydx6,people/person/employment_history./business/employment_tenure/title,/m/06lvrr
+86,/m/026swz9,people/person/employment_history./business/employment_tenure/title,/m/025whr1
+87,/m/02x2tr8,people/person/employment_history./business/employment_tenure/title,/m/0820qp
+88,/m/0120w9bh,people/person/employment_history./business/employment_tenure/title,/m/0157m
+89,/m/0120w9bh,people/person/employment_history./business/employment_tenure/title,/m/07g7bl
+90,Kyle,people/person/employment_history./business/employment_tenure/title,/m/0ptt0
+91,/m/0343h,people/person/employment_history./business/employment_tenure/title,/m/03r8gp
+92,Juanita Irizarry,people/person/employment_history./business/employment_tenure/title,/m/0cqf2_
+93,/m/05557v4,people/person/employment_history./business/employment_tenure/title,/m/0130xz
+94,/m/07xg1,organization/organization/headquarters./location/mailing_address/country,/m/0jdd
+95,/m/05557v4,people/person/employment_history./business/employment_tenure/title,/m/01gzh0
+96,/m/035rnz,people/person/employment_history./business/employment_tenure/title,/m/014g_s
+97,/m/0257nv,organization/role/leaders./organization/leadership/person,/m/0bymv
+98,/m/0257nv,organization/role/leaders./organization/leadership/person,/m/0cqt90
+99,/m/07rlz7,people/person/employment_history./business/employment_tenure/title,peaceout.com
+100,/m/07rlz7,people/person/employment_history./business/employment_tenure/title,Organizer
+101,O'Brien,organization/role/leaders./organization/leadership/person,/m/01wcxw
+102,/m/05tjbz,people/person/employment_history./business/employment_tenure/title,/m/0btx2g
+103,/m/06r04p,people/person/employment_history./business/employment_tenure/title,/m/02jknp
+104,/m/045m16,organization/role/leaders./organization/leadership/person,/m/02_1m
+105,Joseph diGenova,people/person/employment_history./business/employment_tenure/title,/m/04gc2
+106,/m/0h7q0rq,organization/organization/headquarters./location/mailing_address/country,/m/01z215
+107,USA+Politics+Today,organization/role/leaders./organization/leadership/person,/m/0157m
+108,USA+Politics+Today,organization/role/leaders./organization/leadership/person,/m/0cqt90
+109,/m/0dsdp74,people/person/employment_history./business/employment_tenure/title,/m/0157m
+110,/m/0dsdp74,people/person/employment_history./business/employment_tenure/title,/m/03mdbqx
+111,/m/02pjpd,people/person/employment_history./business/employment_tenure/title,/m/0btx2g
+112,/m/0h7q0rq,organization/role/leaders./organization/leadership/person,/m/07vp7
+113,/m/02607j,organization/organization/headquarters./location/mailing_address/country,/m/03s0c
+114,Donald,people/person/employment_history./business/employment_tenure/title,/m/0h7q0rq
+115,/m/03jmnt,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+116,Jennifer Roberts,people/person/employment_history./business/employment_tenure/title,/m/03x_sks
+117,/m/0nb_v,organization/organization/headquarters./location/mailing_address/country,/m/0gsg7
+118,/m/0y4zr4f,people/person/employment_history./business/employment_tenure/title,/m/0157m
+119,/m/0y4zr4f,people/person/employment_history./business/employment_tenure/title,/m/03xk7t
+120,/m/0y4zr4f,organization/role/leaders./organization/leadership/person,/m/09d5h
+121,/m/0dq819,people/person/employment_history./business/employment_tenure/title,/m/03xk7t
+122,/m/0dq819,people/person/employment_history./business/employment_tenure/title,/m/0cqt90
+123,/m/0157m,organization/role/leaders./organization/leadership/person,/m/085srz
+124,/m/049_zz,organization/role/leaders./organization/leadership/person,/m/06jvj7
+125,/m/0fqmphx,people/person/employment_history./business/employment_tenure/title,/m/01pt0z
+126,Corey Lewandowski,people/person/employment_history./business/employment_tenure/title,/m/0cqt90
+127,Corey Lewandowski,people/person/employment_history./business/employment_tenure/title,/m/03xk7t
+128,Mook,organization/role/leaders./organization/leadership/person,NBCs+Today.Asked
+129,/m/0b9ndp,people/person/employment_history./business/employment_tenure/title,/m/07r9r0
+130,/m/0bxhx,people/person/religion,/m/0q4tw
+131,/m/0204x1,organization/role/leaders./organization/leadership/person,List of current United States senators
+132,/m/05k7sb,organization/role/leaders./organization/leadership/person,/m/085srz
+133,/m/0204x1,people/person/employment_history./business/employment_tenure/title,/m/0h7q0rq
+134,/m/0c_md_,people/person/places_lived./people/place_lived/location,/m/06c0j
+135,/m/0cqt90,organization/role/leaders./organization/leadership/person,/m/085srz
+136,/m/01v6nf,organization/role/leaders./organization/leadership/person,/m/05k7sb
+137,/m/02n8p2,organization/role/leaders./organization/leadership/person,/m/0gsgr
+138,/m/0px38,organization/role/leaders./organization/leadership/person,/m/06v2j5
+139,/m/0wbh29p,people/person/employment_history./business/employment_tenure/title,CPL
+140,/m/0wbh29p,people/person/places_lived./people/place_lived/location,/m/0nzlp
+141,/m/0wbh29p,people/person/employment_history./business/employment_tenure/title,/m/0nzlp
+142,/m/02qlgwq,organization/role/leaders./organization/leadership/person,/m/02z_b
+143,/m/07j6ty,people/person/employment_history./business/employment_tenure/title,John+F.+Kennedy+Cruz
+144,/m/0d3k14,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+145,/m/0b1qpc,people/person/employment_history./business/employment_tenure/title,/m/02k13d
+146,/m/0n3ll,people/person/places_lived./people/place_lived/location,/m/0157m
+147,/m/0157m,organization/role/leaders./organization/leadership/person,/m/0cv_2
+148,/m/0d06m5,organization/role/leaders./organization/leadership/person,/m/0289n8t
+149,/m/081yw,people/person/employment_history./business/employment_tenure/title,/m/0d3k14
+150,/m/0d3k14,people/person/employment_history./business/employment_tenure/title,/m/06hx2
+151,/m/06hx2,people/person/employment_history./business/employment_tenure/title,/m/0465sdr
+152,/m/08193,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+153,/m/0bphp,people/person/employment_history./business/employment_tenure/title,/m/0h7q0rq
+154,/m/0f7fy,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+155,/m/0f7fy,people/person/employment_history./business/employment_tenure/title,/m/01crd5
+156,/m/0cnyrfq,organization/role/leaders./organization/leadership/person,/m/0d06m5
+157,/m/06npx,location/country/languages_spoken,/m/0k7ny
+158,/m/06npx,location/country/languages_spoken,/m/0d05w3
+159,/m/013y1y,people/person/employment_history./business/employment_tenure/title,/m/02j9z
+160,/m/013y1y,people/person/employment_history./business/employment_tenure/title,/m/0c01v
+161,Bryce+Heinlein,people/person/employment_history./business/employment_tenure/title,/m/01g2j2
+162,/m/03cm6b3,people/person/employment_history./business/employment_tenure/title,/m/06b1q
+163,/m/05cljf,organization/role/leaders./organization/leadership/person,/m/0kc6x
+164,/m/05yz6j,people/person/employment_history./business/employment_tenure/title,/m/014g_s
+165,/m/03n1q0,organization/role/leaders./organization/leadership/person,/m/0cv_2
+166,/m/03n1q0,people/person/employment_history./business/employment_tenure/title,/m/05_xks
+167,/m/01cy4y,organization/organization/headquarters./location/mailing_address/country,/m/07ssc
+168,/m/012gx2,people/person/employment_history./business/employment_tenure/title,/m/0d05fv
+169,/m/06c0j,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+170,/m/05st_r,people/person/employment_history./business/employment_tenure/title,/m/07r9r0
+171,/m/05st_r,organization/role/leaders./organization/leadership/person,/m/07k5l
+172,Evelyn+Arnold,people/person/employment_history./business/employment_tenure/title,/m/07s82n4
+173,W. Shannon Morris,people/person/employment_history./business/employment_tenure/title,/m/07s82n4
+174,Ahmad+Khan+RahamiHall,organization/role/leaders./organization/leadership/person,/m/06v0py
+175,/m/0d06m5,people/person/employment_history./business/employment_tenure/title,/m/03xk7t
+176,/m/0d06m5,organization/role/leaders./organization/leadership/person,/m/0gsgr
+177,/m/02lhtf,people/person/employment_history./business/employment_tenure/title,/m/04wk4z
+178,/m/0dq819,organization/role/leaders./organization/leadership/person,/m/0h7q0rq
+179,/m/0dq819,people/person/employment_history./business/employment_tenure/title,/m/0dq819
+180,/m/0gsgr,organization/organization/headquarters./location/mailing_address/country,/m/0f8t6k
+181,/m/0h7q0rq,organization/role/leaders./organization/leadership/person,United+Nations+CNN
+182,/m/02_fg6,organization/role/leaders./organization/leadership/person,/m/02m1b
+183,/m/0d3qd0,people/person/employment_history./business/employment_tenure/title,/m/0bwl7t0
+184,Margaret+Huang,organization/role/leaders./organization/leadership/person,Amnesty+Internationals+Interim+Executive
+185,/m/02_fg6,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+186,/m/0d06m5,people/person/religion,/m/0flw86
+187,/m/0b2xfq,organization/role/leaders./organization/leadership/person,/m/0bwfn
+188,/m/0b2xfq,people/person/employment_history./business/employment_tenure/title,/m/016fly
+189,/m/0dkr2r,organization/role/leaders./organization/leadership/person,/m/04tpcx
+190,/m/023fbk,people/person/employment_history./business/employment_tenure/title,/m/02g9n
+191,/m/015h4y,organization/role/leaders./organization/leadership/person,/m/0hhqj3p
+192,Michael Oreskes,organization/role/leaders./organization/leadership/person,NPR+News
+193,Michael Oreskes,people/person/employment_history./business/employment_tenure/title,/m/02jknp
+194,/m/0_yglzq,people/person/employment_history./business/employment_tenure/title,/m/0_yglzq
+195,/m/094z8,location/hud_county_place/county,/m/094z8
+196,Erik+J.+Heipt,people/person/employment_history./business/employment_tenure/title,/m/04gc2
+197,/m/0cqt90,organization/role/leaders./organization/leadership/person,AP+Photo+Trump
+198,/m/0cqt90,organization/role/leaders./organization/leadership/person,/m/0gsgr
+199,/m/02qg4z,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+200,/m/05y6yms,people/person/employment_history./business/employment_tenure/title,Pack2Go+Europe
+201,Kerr+Putney,people/person/employment_history./business/employment_tenure/title,/m/039h8_
+202,/m/02wsxy,people/person/employment_history./business/employment_tenure/title,/m/0htp
+203,/m/02mjmr,people/person/employment_history./business/employment_tenure/title,/m/0cqt90
+204,Gabriel Gorenstein,people/person/employment_history./business/employment_tenure/title,/m/05b105r
+205,/m/05b2r22,people/person/employment_history./business/employment_tenure/title,/m/0bscct
+206,/m/01brfl,organization/role/leaders./organization/leadership/person,/m/05b2r22
+207,/m/0xnc3,people/person/places_lived./people/place_lived/location,/m/0j5g9
+208,/m/024p5b,organization/role/leaders./organization/leadership/person,RepublicanWashington+CNN
+209,AP+Photo+Trump,organization/role/leaders./organization/leadership/person,/m/0157m
+210,Monday.David+Wildstein,organization/role/leaders./organization/leadership/person,Interstate+Capital+Projects
+211,/m/0803htk,people/person/employment_history./business/employment_tenure/title,/m/0820qp
+212,Bob+Durando,people/person/employment_history./business/employment_tenure/title,/m/019hy
+213,/m/01vswwx,organization/role/leaders./organization/leadership/person,/m/09d5h
+214,Susan+MacManus,organization/role/leaders./organization/leadership/person,/m/09s5q8
+215,Susan+MacManus,people/person/employment_history./business/employment_tenure/title,/m/062z7
+216,/m/053f8h,people/person/employment_history./business/employment_tenure/title,/m/07r9r0
+217,Neema+Hakim,people/person/employment_history./business/employment_tenure/title,/m/03mdbqx
+218,John P. Roth,people/person/employment_history./business/employment_tenure/title,/m/0kvg94
+219,/m/0j42f1z,organization/role/leaders./organization/leadership/person,Tim Baker
+220,/m/05c3rfn,organization/role/leaders./organization/leadership/person,/m/02q03dy
+221,/m/0cqt90,people/person/employment_history./business/employment_tenure/title,/m/01d74z
+222,/m/0cqt90,people/person/employment_history./business/employment_tenure/title,/m/018gz8
+223,/m/0h7q0rq,people/person/employment_history./business/employment_tenure/title,/m/07t58
+224,David Martosko,organization/role/leaders./organization/leadership/person,/m/0180v2
+225,Jeremy Diamond,people/person/employment_history./business/employment_tenure/title,/m/0d8qb
+226,Jeremy Diamond,organization/role/leaders./organization/leadership/person,/m/0gsgr
+227,Ron+Bonjean,people/person/employment_history./business/employment_tenure/title,/m/03gq32j
+228,ABC+News+Rahami,organization/organization/headquarters./location/mailing_address/country,/m/0b3wk
+229,Cindy+Galli,organization/role/leaders./organization/leadership/person,2016 New York and New Jersey bombings
+230,/m/0cqt90,people/person/employment_history./business/employment_tenure/title,/m/07r9r0
+231,/m/0cqt90,people/person/employment_history./business/employment_tenure/title,/m/037l9
+232,/m/03w9bnr,people/person/employment_history./business/employment_tenure/title,/m/0cqt90
+233,/m/03w9bnr,people/person/employment_history./business/employment_tenure/title,/m/07r9r0
+234,/m/01pjq21,people/person/employment_history./business/employment_tenure/title,/m/02qkv0r
+235,Michael Cohen,people/person/employment_history./business/employment_tenure/title,/m/04gc2
+236,/m/09v12g0,people/person/employment_history./business/employment_tenure/title,/m/01cpjg
+237,/m/0cqt90,organization/role/leaders./organization/leadership/person,/m/0h7q0rq
+238,Getty+Joe+Arpaio+Trump,people/person/places_lived./people/place_lived/location,USI
+239,/m/0h7q0rq,organization/role/leaders./organization/leadership/person,/m/0gsgr
+240,/m/0fm2h,people/person/employment_history./business/employment_tenure/title,/m/060s9
+241,/m/02dgtb,people/person/employment_history./business/employment_tenure/title,/m/0btx2g
+242,/m/0cqt90,people/person/nationality,/m/0bd931
+243,/m/042f3_,people/person/employment_history./business/employment_tenure/title,/m/04wk4z
+244,/m/0cqt90,organization/role/leaders./organization/leadership/person,/m/0bd931
+245,/m/0b7rm2,organization/role/leaders./organization/leadership/person,/m/04s4_v
+246,Igor+Sechinduring,organization/role/leaders./organization/leadership/person,/m/04s4_v
+247,/m/0cqt90,organization/role/leaders./organization/leadership/person,/m/0cqt90
+248,/m/061xw_,organization/role/leaders./organization/leadership/person,/m/03cnqkd
+249,Craig,organization/role/leaders./organization/leadership/person,/m/01mlrk
+250,Sergei+Aleksashenko,people/person/employment_history./business/employment_tenure/title,/m/05_xks
+251,Sergei+Aleksashenko,organization/role/leaders./organization/leadership/person,/m/0382np
+252,/m/011l2bwd,organization/role/leaders./organization/leadership/person,/m/0bmgs01
+253,/m/05h3wxl,organization/role/leaders./organization/leadership/person,/m/02_1m
+254,/m/02849v5,organization/role/leaders./organization/leadership/person,/m/037ppp
+255,/m/05h3wxl,organization/role/leaders./organization/leadership/person,/m/0bhp2c
+256,/m/02ybc5,organization/role/leaders./organization/leadership/person,/m/04s4_v
+257,/m/09gd0s0,people/person/employment_history./business/employment_tenure/title,/m/0345h
+258,/m/09gd0s0,organization/role/leaders./organization/leadership/person,/m/037ppp
+259,/m/020yjg,people/person/employment_history./business/employment_tenure/title,/m/04c_3b
+260,Rick Dearborn,people/person/employment_history./business/employment_tenure/title,/m/025whr1
+261,HES,organization/role/leaders./organization/leadership/person,/m/0cqt90
+262,/m/0296q2,people/person/employment_history./business/employment_tenure/title,/m/060s9
+263,/m/02qwnj2,people/person/employment_history./business/employment_tenure/title,/m/06bnz
+264,Carter Page,people/person/employment_history./business/employment_tenure/title,/m/07r9r0
+265,/m/0px38,organization/role/leaders./organization/leadership/person,/m/0cqt90
+266,/m/02z2l74,people/person/employment_history./business/employment_tenure/title,/m/028fjr
+267,/m/05c2_fd,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+268,/m/0l8ps43,people/person/employment_history./business/employment_tenure/title,/m/03mdbqx
+269,/m/0l8ps43,people/person/employment_history./business/employment_tenure/title,/m/01pt0z
+270,/m/04c_3b,people/person/employment_history./business/employment_tenure/title,/m/0cqt90
+271,/m/07r9r0,people/person/employment_history./business/employment_tenure/title,/m/0d06m5
+272,/m/0cqt90,people/person/employment_history./business/employment_tenure/title,/m/07t58
+273,/m/0157m,people/person/employment_history./business/employment_tenure/title,/m/07r9r0
+274,Peter Baker,people/person/employment_history./business/employment_tenure/title,List of biographers
+275,/m/0ds2ztj,people/person/employment_history./business/employment_tenure/title,/m/04l8cr
+276,/m/024v2j,people/person/employment_history./business/employment_tenure/title,United States Speaker of the House
+277,David Fahrenthold,organization/role/leaders./organization/leadership/person,/m/0px38
+278,David Fahrenthold,people/person/employment_history./business/employment_tenure/title,/m/0d8qb
+279,/m/0lq3t,organization/role/leaders./organization/leadership/person,/m/0d06m5
+280,Saul+Florez,people/person/employment_history./business/employment_tenure/title,/m/0j28ksx
+281,Andrew McCabe,people/person/employment_history./business/employment_tenure/title,Deputy Director
+282,/m/0c3x3rz,people/person/employment_history./business/employment_tenure/title,/m/02qkv0r
+283,Andrew McCabe,organization/role/leaders./organization/leadership/person,/m/02_1m
+284,Minneapolis+Department+of+Civil+Rights,organization/role/leaders./organization/leadership/person,Velma+Korbel
+285,Velma+Korbel,organization/role/leaders./organization/leadership/person,Minneapolis+Department+of+Civil+Rights
+286,Velma+Korbel,organization/role/leaders./organization/leadership/person,/m/02jknp
+287,/m/0cn4c3,people/person/employment_history./business/employment_tenure/title,/m/0h1vgc
+288,/m/022r9r,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+289,/m/0chghy,organization/organization/headquarters./location/mailing_address/country,/m/016bvz
+290,/m/02p3gzs,people/person/employment_history./business/employment_tenure/title,/m/07ghq
+291,Sean Spicer,organization/role/leaders./organization/leadership/person,/m/02r4jz
+292,/m/0hx5v,organization/organization/headquarters./location/mailing_address/country,/m/07t58
+293,/m/06jm4y,organization/role/leaders./organization/leadership/person,/m/0k0symb
+294,/m/0h7q0rq,people/person/employment_history./business/employment_tenure/title,/m/0chbx
+295,Paul+Ryan+RWI,people/person/employment_history./business/employment_tenure/title,United States Speaker of the House
+296,/m/05ghhl,people/person/employment_history./business/employment_tenure/title,/m/04wk4z
+297,/m/05ghhl,organization/role/leaders./organization/leadership/person,/m/02z_b
+298,/m/05ghhl,organization/role/leaders./organization/leadership/person,Ryan's World
+299,/m/04s9n,people/person/employment_history./business/employment_tenure/title,/m/066dv
+300,Walter Shaub,organization/role/leaders./organization/leadership/person,/m/05qwyl
+301,/m/05qwyl,organization/role/leaders./organization/leadership/person,Walter Shaub
+302,Lisa+Mead.Mead,people/person/employment_history./business/employment_tenure/title,/m/01pn0r
+303,Lisa+Mead.Mead,organization/role/leaders./organization/leadership/person,/m/03mdbqx
+304,/m/07t7hy,people/person/employment_history./business/employment_tenure/title,/m/060s9
+305,Lisa+Mead,people/person/employment_history./business/employment_tenure/title,/m/01pn0r
+306,Carlson,organization/role/leaders./organization/leadership/person,/m/0k0symb
+307,/m/0kw03,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+308,/m/0kw03,people/person/employment_history./business/employment_tenure/title,/m/02rnkmh
+309,/m/0kw03,people/person/employment_history./business/employment_tenure/title,/m/09l7n
+310,/m/0kw03,organization/role/leaders./organization/leadership/person,/m/0289n8t
+311,/m/0bymv,people/person/employment_history./business/employment_tenure/title,/m/04c_3b
+312,/m/025cj4,people/person/employment_history./business/employment_tenure/title,Imran Awan
+313,/m/04cmyw,people/person/employment_history./business/employment_tenure/title,/m/02qkv0r
+314,/m/081sq,organization/role/leaders./organization/leadership/person,/m/04cmyw
+315,/m/081sq,organization/organization/headquarters./location/mailing_address/country,/m/02mjmr
+316,/m/0b3wk,organization/organization/headquarters./location/mailing_address/country,/m/0b3wk
+317,/m/0p_pd,people/person/employment_history./business/employment_tenure/title,/m/014g_s
+318,/m/035dk,people/person/employment_history./business/employment_tenure/title,/m/0cqt90
+319,/m/022r9r,people/person/employment_history./business/employment_tenure/title,/m/0btx2g
+320,/m/0n8_swr,people/person/employment_history./business/employment_tenure/title,/m/02n9jv
+321,/m/024v2j,people/person/employment_history./business/employment_tenure/title,/m/04l8cr
+322,/m/039rwf,people/person/employment_history./business/employment_tenure/title,/m/0499g1
+323,/m/05_xks,organization/role/leaders./organization/leadership/person,/m/039rwf
+324,/m/012v1t,organization/role/leaders./organization/leadership/person,/m/081sq
+325,/m/0cqt90,organization/role/leaders./organization/leadership/person,/m/01p06z
+326,Sean Spicer,people/person/employment_history./business/employment_tenure/title,/m/03mdbqx
+327,Sean Spicer,people/person/nationality,/m/06nm1
+328,/m/0cqt90,people/person/nationality,/m/06nm1
+329,/m/094z8,location/hud_county_place/county,/m/01lbst
+330,/m/065nfw,organization/role/leaders./organization/leadership/person,Heather
+331,/m/0k0q7zz,people/person/employment_history./business/employment_tenure/title,/m/04zz1zx
+332,/m/094z8,location/hud_county_place/county,/m/0cymp
+333,/m/0bymv,organization/role/leaders./organization/leadership/person,/m/02kfv7
+334,/m/0g12y5,organization/role/leaders./organization/leadership/person,/m/0167_c
+335,/m/0bymv,organization/role/leaders./organization/leadership/person,Meet
+336,/m/0bymv,people/person/employment_history./business/employment_tenure/title,/m/05_xks
+337,/m/01zq6b,people/person/employment_history./business/employment_tenure/title,Foreign Secretary
+338,/m/0fgw19,people/person/employment_history./business/employment_tenure/title,/m/0h7q0rq
+339,/m/047qlq,organization/role/leaders./organization/leadership/person,Cornerstone Church
+340,/m/03dwt_,location/country/languages_spoken,/m/0hzlz
+341,/m/036qv,organization/role/leaders./organization/leadership/person,James+Ben+Shahali
+342,Jim Porter,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+343,Jim Porter,organization/role/leaders./organization/leadership/person,List of presidents of the National Rifle Association
+344,/m/02mjmr,people/person/employment_history./business/employment_tenure/title,/m/0465sdr
+345,/m/04k0vk,people/person/employment_history./business/employment_tenure/title,/m/0d05fv
+346,/m/0bqscsg,organization/role/leaders./organization/leadership/person,/m/0k0symb
+347,/m/0bqscsg,organization/role/leaders./organization/leadership/person,/m/01c0z
+348,/m/0bqscsg,organization/role/leaders./organization/leadership/person,/m/027_2w9
+349,/m/0bqscsg,people/person/employment_history./business/employment_tenure/title,/m/05_xks
+350,/m/042kg,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+351,Barack+Obama.Yesterday+Winters,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+352,/m/0h7q0rq,people/person/places_lived./people/place_lived/location,/m/0cqt90
+353,Todd+McMartin,organization/role/leaders./organization/leadership/person,/m/02_1m
+354,/m/0cqt90,organization/role/leaders./organization/leadership/person,/m/0d06m5
+355,/m/03p2hqb,people/person/employment_history./business/employment_tenure/title,/m/0d8qb
+356,/m/05zbm4,organization/role/leaders./organization/leadership/person,/m/05gnf
+357,/m/05zbm4,people/person/employment_history./business/employment_tenure/title,/m/03mdbqx
+358,/m/05zbm4,organization/role/leaders./organization/leadership/person,/m/07wpbx
+359,/m/052g5x,organization/role/leaders./organization/leadership/person,/m/03818y
+360,Stephawn,people/person/employment_history./business/employment_tenure/title,Stephawn
+361,/m/080kq,people/person/employment_history./business/employment_tenure/title,/m/04gc2
+362,/m/080kq,people/person/employment_history./business/employment_tenure/title,/m/0157m
+363,/m/0c3x3rz,people/person/employment_history./business/employment_tenure/title,/m/06lvrr
+364,James+McFitting,people/person/employment_history./business/employment_tenure/title,Col
+365,/m/06gfj,transportation/road/end1./transportation/road_starting_point/location,/m/0k7ny
+366,/m/06gfj,transportation/road/end1./transportation/road_starting_point/location,/m/0lrr8
+367,Kyle+Jennings,people/person/employment_history./business/employment_tenure/title,/m/015czt
+368,"Leon County Court, Florida",organization/role/leaders./organization/leadership/person,/m/0d06m5
+369,/m/0159qc,people/person/employment_history./business/employment_tenure/title,/m/02qkv0r
+370,/m/02zzm_,people/person/employment_history./business/employment_tenure/title,/m/0btx2g
+371,/m/02zzm_,organization/role/leaders./organization/leadership/person,/m/01sv_b
+372,/m/025n3p,organization/role/leaders./organization/leadership/person,/m/0glpjll
+373,/m/025n3p,people/person/employment_history./business/employment_tenure/title,/m/014g_s
+374,Clinton+Greenwood,people/person/employment_history./business/employment_tenure/title,/m/03yc4j2
+375,/m/0ftvg,people/person/employment_history./business/employment_tenure/title,/m/01fch0
+376,/m/0cqt90,people/person/employment_history./business/employment_tenure/title,/m/02nwq
+377,/m/0cqt90,people/person/employment_history./business/employment_tenure/title,/m/05b7q
+378,/m/0cqt90,people/person/employment_history./business/employment_tenure/title,/m/0d05w3
+379,/m/0cqt90,people/person/employment_history./business/employment_tenure/title,/m/02xry
+380,/m/01zf6x,location/country/languages_spoken,/m/06bnz
+381,/m/014j8_,location/country/languages_spoken,/m/06bnz
+382,/m/0cqt90,location/country/languages_spoken,/m/01zf6x
+383,Yuri+Ivanenko,people/person/employment_history./business/employment_tenure/title,/m/06lvrr
+384,/m/022r9r,people/person/employment_history./business/employment_tenure/title,/m/0d05fv
+385,/m/0hht8px,people/person/employment_history./business/employment_tenure/title,/m/06lvrr
+386,/m/01z6ls,organization/role/leaders./organization/leadership/person,/m/07r9r0
+387,/m/020y8m,organization/role/leaders./organization/leadership/person,/m/02pxjcm
+388,/m/020y8m,people/person/employment_history./business/employment_tenure/title,/m/02qkv0r
+389,/m/04jprn,organization/role/leaders./organization/leadership/person,/m/01lvn4
+390,/m/03cqm2,organization/role/leaders./organization/leadership/person,/m/02z_b
+391,/m/04jprn,organization/role/leaders./organization/leadership/person,/m/03mcdjf
+392,Mizu+Tomazaki,people/person/employment_history./business/employment_tenure/title,/m/06lvrr
+393,/m/0280k2k,people/person/employment_history./business/employment_tenure/title,/m/03mdbqx
+394,/m/0280k2k,organization/role/leaders./organization/leadership/person,/m/021lry
+395,/m/05xdp5,people/person/employment_history./business/employment_tenure/title,/m/03x_sks
+396,Seth+RichWikiLeaks,organization/role/leaders./organization/leadership/person,/m/018y36
+397,Murder of Seth Rich,organization/role/leaders./organization/leadership/person,/m/018y36
+398,/m/0rlz,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+399,/m/09b78,people/person/employment_history./business/employment_tenure/title,Col
+400,Donald,organization/role/leaders./organization/leadership/person,/m/085srz
+401,/m/01_gbv,people/person/employment_history./business/employment_tenure/title,Col
+402,/m/0cqt90,organization/role/leaders./organization/leadership/person,/m/09b6t
+403,/m/0c00p_n,people/person/employment_history./business/employment_tenure/title,/m/02qkv0r
+404,/m/047blr4,organization/role/leaders./organization/leadership/person,House+Oversign+Committee+Chair
+405,/m/047blr4,people/person/employment_history./business/employment_tenure/title,/m/02qkv0r
+406,/m/0h3wc7,organization/role/leaders./organization/leadership/person,/m/0152x_
+407,/m/0h3wc7,people/person/employment_history./business/employment_tenure/title,/m/04wk4z
+408,/m/05kldj,people/person/employment_history./business/employment_tenure/title,/m/057mg4
+409,Hillary+Clinton.Jason+Chaffetz,organization/role/leaders./organization/leadership/person,United+States+House+Committee+on+Oversight+and+Government+Reform
+410,/m/0dpr5f,people/person/employment_history./business/employment_tenure/title,/m/07r9r0
+411,Louis+Leweigh,people/person/employment_history./business/employment_tenure/title,/m/02k13d
+412,/m/025s8bs,location/country/languages_spoken,Mall+of+Claus
+413,/m/0pv1y,location/country/languages_spoken,/m/07c5l
+414,Mall+of+Claus,location/country/languages_spoken,/m/07c5l
+415,Hal+Lindsay+DNJ,people/person/employment_history./business/employment_tenure/title,/m/04c_3b
+416,Lindsay,people/person/employment_history./business/employment_tenure/title,/m/04c_3b
+417,/m/02j2mf,organization/role/leaders./organization/leadership/person,/m/05f4p
+418,/m/06sjd0,organization/role/leaders./organization/leadership/person,/m/0289n8t
+419,/m/085srz,organization/role/leaders./organization/leadership/person,/m/01w74d
+420,/m/0cqt90,organization/role/leaders./organization/leadership/person,/m/01q_cy
+421,/m/06gfj,transportation/road/end1./transportation/road_starting_point/location,/m/0fn2g
+422,/m/074fdq,people/person/employment_history./business/employment_tenure/title,/m/074fdq
+423,Linda+Stanley,organization/role/leaders./organization/leadership/person,Franklin+County+Historical+Society
+424,/m/094z8,location/hud_county_place/county,/m/019fz
+425,/m/03cztnx,organization/role/leaders./organization/leadership/person,/m/03hpkp
+426,/m/01tz2p,people/person/employment_history./business/employment_tenure/title,/m/04gc2
+427,/m/0dl567,organization/role/leaders./organization/leadership/person,/m/05ngqz
+428,/m/05h59wt,people/person/employment_history./business/employment_tenure/title,/m/03x_sks
+429,/m/043q0,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+430,/m/01wl8_,organization/role/leaders./organization/leadership/person,Visit+Virginias+Blue+Ridge
+431,/m/0d06m5,people/person/employment_history./business/employment_tenure/title,/m/02vy3_j
+432,Josh+Hendler,people/person/employment_history./business/employment_tenure/title,/m/03xk7t
+433,/m/0dpr5f,organization/role/leaders./organization/leadership/person,/m/09z___
+434,/m/0137g1,people/person/employment_history./business/employment_tenure/title,My First First Love
+435,/m/0137g1,people/person/employment_history./business/employment_tenure/title,Jimmy Dimora
+436,/m/02pjpd,organization/role/leaders./organization/leadership/person,/m/0gsgr
+437,/m/0c3ntp,organization/role/leaders./organization/leadership/person,/m/0gsgr
+438,2016 United States presidential election,organization/role/leaders./organization/leadership/person,/m/085srz
+439,/m/0bwl7t0,people/person/employment_history./business/employment_tenure/title,2016 United States presidential election
+440,/m/06c97,organization/role/leaders./organization/leadership/person,/m/028rk
+441,/m/06c97,organization/role/leaders./organization/leadership/person,/m/03mdbqx
+442,/m/0c_md_,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+443,/m/0bl83,people/person/employment_history./business/employment_tenure/title,/m/0d05fv
+444,Henry Trewhitt,people/person/employment_history./business/employment_tenure/title,/m/0d8qb
+445,Henry Trewhitt,organization/role/leaders./organization/leadership/person,/m/01n0qv
+446,/m/03cdg,organization/role/leaders./organization/leadership/person,/m/0gsgr
+447,/m/0jw4v,people/person/employment_history./business/employment_tenure/title,/m/0btx2g
+448,/m/0d05fv,people/person/employment_history./business/employment_tenure/title,/m/0d05fv
+449,/m/0d3qd0,people/person/employment_history./business/employment_tenure/title,/m/04c_3b
+450,/m/0d05fv,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+451,/m/07t19q,organization/role/leaders./organization/leadership/person,/m/07tf8
+452,/m/0f7fy,organization/role/leaders./organization/leadership/person,/m/0d06m5
+453,/m/06c97,people/person/employment_history./business/employment_tenure/title,/m/0kyk
+454,/m/064x_k,organization/role/leaders./organization/leadership/person,/m/0j75z
+455,/m/064x_k,people/person/employment_history./business/employment_tenure/title,/m/06lvrr
+456,/m/06hx2,organization/role/leaders./organization/leadership/person,/m/0cv_2
+457,/m/028rk,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+458,Jim Justice,people/person/employment_history./business/employment_tenure/title,/m/081mh
+459,Jim Justice,people/person/employment_history./business/employment_tenure/title,/m/0btx2g
+460,/m/045k9,organization/role/leaders./organization/leadership/person,/m/0d06m5
+461,/m/06mg8q,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+462,/m/045k9,organization/role/leaders./organization/leadership/person,/m/0157m
+463,/m/06mg8q,organization/role/leaders./organization/leadership/person,/m/07r9r0
+464,/m/02r81cr,organization/role/leaders./organization/leadership/person,/m/0cqt90
+465,/m/0btx2g,people/person/employment_history./business/employment_tenure/title,/m/06mg8q
+466,Kyle+Kondik,organization/role/leaders./organization/leadership/person,University of Virginia Center for Politics
+467,Kyle+Kondik,people/person/employment_history./business/employment_tenure/title,/m/076xl9x
+468,Scott+Crichlow,organization/role/leaders./organization/leadership/person,/m/019dwp
+469,/m/01370l_y,people/person/employment_history./business/employment_tenure/title,/m/03mdbqx
+470,/m/01370l_y,organization/role/leaders./organization/leadership/person,/m/045k9
+471,/m/02n9jv,people/person/employment_history./business/employment_tenure/title,David Saunders
+472,Kerr+Putney,organization/role/leaders./organization/leadership/person,/m/03d5lmj
+473,Rakeyia+Scott,people/person/places_lived./people/place_lived/location,Scotts
+474,/m/05p0j_b,people/person/employment_history./business/employment_tenure/title,/m/0jdd
+475,/m/05p0j_b,people/person/employment_history./business/employment_tenure/title,Superstar
+476,/m/0ctllc,location/country/languages_spoken,/m/0v74
+477,Charles+Martlandfor,people/person/employment_history./business/employment_tenure/title,/m/01g2j2
+478,/m/0157m,organization/role/leaders./organization/leadership/person,Getty+Trump
+479,/m/024tyk,people/person/employment_history./business/employment_tenure/title,/m/02qkv0r
+480,Lynch,organization/role/leaders./organization/leadership/person,/m/021sj1
+481,Lynch,organization/role/leaders./organization/leadership/person,/m/0b9v8_
+482,Cedric+Richmond+DLa.,people/person/employment_history./business/employment_tenure/title,/m/02qkv0r
+483,/m/04vrnl,people/person/nationality,/m/07t58
+484,/m/06cc_1,organization/role/leaders./organization/leadership/person,/m/0j_sncb
+485,/m/03tk4w,people/person/employment_history./business/employment_tenure/title,/m/02qkv0r
+486,/m/03w9bnr,organization/role/leaders./organization/leadership/person,/m/0152x_
+487,/m/0gjsd3,people/person/employment_history./business/employment_tenure/title,/m/03x_sks
+488,/m/083rp7,organization/role/leaders./organization/leadership/person,/m/02rg_
+489,/m/03p2hqb,organization/role/leaders./organization/leadership/person,/m/02_1m
+490,Timothy Evans,organization/role/leaders./organization/leadership/person,/m/0cv_2
+491,/m/027cmm9,people/person/employment_history./business/employment_tenure/title,/m/0btx2g
+492,/m/0_ylz5n,people/person/employment_history./business/employment_tenure/title,/m/0btx2g
+493,/m/0bb5tw,people/person/employment_history./business/employment_tenure/title,/m/0btx2g
+494,/m/0h7q0rq,people/person/employment_history./business/employment_tenure/title,/m/05k7sb
+495,Jean-Marc Puissesseau,people/person/employment_history./business/employment_tenure/title,/m/02mwvv
+496,Friedrich,people/person/places_lived./people/place_lived/location,/m/017v_
+497,/m/0406vgn,organization/role/leaders./organization/leadership/person,/m/09pkf
+498,Friedrich,people/person/places_lived./people/place_lived/location,/m/02rscps
+499,/m/011x14ft,people/person/employment_history./business/employment_tenure/title,/m/02rscps
+500,/m/0cx2r,organization/role/leaders./organization/leadership/person,/m/085srz
+501,/m/025xzm,organization/role/leaders./organization/leadership/person,/m/0694qd
+502,/m/025xzm,people/person/employment_history./business/employment_tenure/title,/m/07r9r0
+503,/m/0cx2r,organization/role/leaders./organization/leadership/person,/m/04mzmmw
+504,/m/0cx2r,organization/role/leaders./organization/leadership/person,Strategy+Group+for+Media
+505,/m/05tjbz,people/person/employment_history./business/employment_tenure/title,/m/0dln6mf
+506,Etonde+Maloke,people/person/employment_history./business/employment_tenure/title,/m/014cnc
+507,/m/06lwq6,organization/role/leaders./organization/leadership/person,/m/01lvn4
+508,/m/06gn7,people/person/employment_history./business/employment_tenure/title,/m/03x_sks
+509,/m/06h90t,people/person/employment_history./business/employment_tenure/title,/m/02qkv0r
+510,/m/025_74m,people/person/employment_history./business/employment_tenure/title,/m/02qkv0r
+511,/m/0m_w6,organization/role/leaders./organization/leadership/person,/m/0cv_2
+512,/m/02n670,people/person/employment_history./business/employment_tenure/title,/m/01t_55
+513,/m/0d3qd0,people/person/employment_history./business/employment_tenure/title,/m/0d3qd0
+514,/m/0jl0yx0,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+515,/m/02zs4,organization/organization/headquarters./location/mailing_address/country,/m/07t58
+516,/m/09k8g7,organization/role/leaders./organization/leadership/person,/m/02zs4
+517,/m/09k8g7,people/person/employment_history./business/employment_tenure/title,/m/02mwvv
+518,/m/063xbk,organization/role/leaders./organization/leadership/person,Kendall Wall Band
+519,/m/0zbssjv,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+520,/m/0nbhk23,people/person/employment_history./business/employment_tenure/title,/m/01t_55
+521,/m/05b2r22,organization/role/leaders./organization/leadership/person,/m/01brfl
+522,/m/0nbhk23,organization/role/leaders./organization/leadership/person,/m/07vp7
+523,/m/07t58,organization/organization/headquarters./location/mailing_address/country,/m/05b7q
+524,/m/01vlpc,organization/organization/headquarters./location/mailing_address/country,/m/048fz
+525,Bruce+Klingner,organization/role/leaders./organization/leadership/person,/m/01tw7q
+526,/m/017ql,organization/organization/headquarters./location/mailing_address/country,/m/07t58
+527,/m/042f1,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+528,/m/0k_2z,people/person/employment_history./business/employment_tenure/title,/m/04c_3b
+529,/m/0k_2z,organization/role/leaders./organization/leadership/person,/m/085srz
+530,/m/042dk,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+531,/m/0d06m5,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+532,Nate Smith,organization/role/leaders./organization/leadership/person,Texas secession movements
+533,Peter+Kreko,organization/role/leaders./organization/leadership/person,/m/08qnnv
+534,/m/0h7q0rq,people/person/employment_history./business/employment_tenure/title,/m/0h7q0rq
+535,Jon+Alterman,organization/role/leaders./organization/leadership/person,/m/02n4mz
+536,/m/0l8ps43,organization/role/leaders./organization/leadership/person,/m/03mdbqx
+537,/m/0dnps,people/person/nationality,/m/02k54
+538,Fahad+Nazer,organization/role/leaders./organization/leadership/person,Saudi+Embassy
+539,/m/01z6ls,people/person/employment_history./business/employment_tenure/title,/m/0h7q0rq
+540,/m/0204x1,organization/role/leaders./organization/leadership/person,/m/07r9r0
+541,/m/01xcqs,people/person/employment_history./business/employment_tenure/title,/m/0250w0
+542,/m/0h7q0rq,people/person/nationality,/m/01z215
+543,/m/03dlf3,people/person/employment_history./business/employment_tenure/title,/m/02qkv0r
+544,/m/0d8qb,people/person/employment_history./business/employment_tenure/title,/m/03dlf3
+545,/m/0h63jfq,organization/role/leaders./organization/leadership/person,Frank
+546,/m/05tjbz,organization/role/leaders./organization/leadership/person,/m/0d06m5
+547,/m/0gg570x,people/person/employment_history./business/employment_tenure/title,/m/0465sdr
+548,/m/03mdbqx,organization/role/leaders./organization/leadership/person,/m/0d06m5
+549,/m/0h7q0rq,people/person/employment_history./business/employment_tenure/title,/m/012t_z
+550,/m/0cqt90,organization/role/leaders./organization/leadership/person,/m/0cjdk
+551,/m/012v1t,people/person/employment_history./business/employment_tenure/title,/m/0499g1
+552,Ryan's World,people/person/employment_history./business/employment_tenure/title,/m/0cfpc
+553,/m/012v1t,people/person/employment_history./business/employment_tenure/title,/m/0h7q0rq
+554,/m/01xcd1,people/person/employment_history./business/employment_tenure/title,/m/0250w0
+555,/m/01xcd1,organization/role/leaders./organization/leadership/person,/m/07r9r0
+556,/m/025k5p,people/person/employment_history./business/employment_tenure/title,/m/0250w0
+557,/m/025k5p,people/person/employment_history./business/employment_tenure/title,/m/01xcd1
+558,/m/0286t7r,organization/role/leaders./organization/leadership/person,/m/085srz
+559,/m/01tqr5,people/person/employment_history./business/employment_tenure/title,/m/07r9r0
+560,/m/0l8ps43,organization/role/leaders./organization/leadership/person,/m/081sq
+561,/m/018fzs,people/person/employment_history./business/employment_tenure/title,United States Speaker of the House
+562,Shooting of Terence Crutcher,people/person/employment_history./business/employment_tenure/title,/m/01t2ln
+563,/m/0h7q0rq,people/person/employment_history./business/employment_tenure/title,Omran Daqneesh
+564,/m/02pjhgt,people/person/employment_history./business/employment_tenure/title,/m/02h6676
+565,/m/0d06m5,organization/role/leaders./organization/leadership/person,/m/026wp
+566,/m/012gx2,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+567,/m/0l0cx,people/person/employment_history./business/employment_tenure/title,Lists of golfers
+568,/m/06jvj7,organization/role/leaders./organization/leadership/person,/m/01bncw
+569,/m/01b8g6,organization/role/leaders./organization/leadership/person,/m/059dn
+570,/m/01b8g6,people/person/employment_history./business/employment_tenure/title,Secretary-General of the United Nations
+571,/m/059dn,organization/role/leaders./organization/leadership/person,Jens
+572,/m/0cqt90,people/person/places_lived./people/place_lived/location,/m/01n32
+573,Jeffrey DeLaurentis,people/person/employment_history./business/employment_tenure/title,/m/07c5l
+574,Getty+Obama,people/person/employment_history./business/employment_tenure/title,/m/0d04z6
+575,Jeffrey DeLaurentis,people/person/employment_history./business/employment_tenure/title,/m/080ntlp
+576,Getty+Obama,people/person/employment_history./business/employment_tenure/title,/m/0n46_gt
+577,/m/0h7q0rq,people/person/employment_history./business/employment_tenure/title,/m/0n46_gt
+578,/m/025s5v9,people/person/employment_history./business/employment_tenure/title,/m/02xy5
+579,/m/06k3_t,organization/role/leaders./organization/leadership/person,/m/0275kr
+580,/m/06k3_t,people/person/employment_history./business/employment_tenure/title,/m/04wk4z
+581,/m/0h7q0rq,organization/role/leaders./organization/leadership/person,/m/06k3_t
+582,/m/01tqr5,organization/role/leaders./organization/leadership/person,/m/07w42
+583,/m/05st_r,organization/role/leaders./organization/leadership/person,/m/0kq5b
+584,Stephen Anderson,people/person/employment_history./business/employment_tenure/title,/m/01fhsb
+585,/m/0d0xkd,organization/role/leaders./organization/leadership/person,/m/09gbckv
+586,/m/0cqt90,people/person/places_lived./people/place_lived/location,Umpa-Lumpaer
+587,/m/03yjnwr,organization/role/leaders./organization/leadership/person,/m/01p06z
+588,/m/03yjnwr,organization/role/leaders./organization/leadership/person,/m/0289n8t
+589,/m/03yjnwr,people/person/employment_history./business/employment_tenure/title,/m/0d8qb
+590,/m/0204x1,people/person/employment_history./business/employment_tenure/title,/m/0gs0g
+591,Nicole+Mainor,people/person/employment_history./business/employment_tenure/title,/m/03mdbqx
+592,Nicole+Mainor,organization/role/leaders./organization/leadership/person,/m/0fynw
+593,Craig+Engle,people/person/employment_history./business/employment_tenure/title,/m/04cs6sm
+594,/m/01w74d,organization/role/leaders./organization/leadership/person,/m/07r9r0
+595,/m/01w74d,people/person/employment_history./business/employment_tenure/title,/m/04c_3b
+596,/m/03j740,organization/role/leaders./organization/leadership/person,/m/01w74d
+597,/m/03j7vg,organization/role/leaders./organization/leadership/person,Reid
+598,/m/0g92xz,organization/role/leaders./organization/leadership/person,/m/04vy0g
+599,/m/01xcqs,organization/role/leaders./organization/leadership/person,/m/07r9r0
+600,/m/06qsh0,people/person/employment_history./business/employment_tenure/title,/m/0f5d2
+601,/m/08w60w,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+602,/m/0g5vy,organization/role/leaders./organization/leadership/person,/m/07t7hy
+603,/m/0g5vy,people/person/nationality,/m/07t7hy
+604,/m/07zcdm,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+605,/m/060nzt,people/person/employment_history./business/employment_tenure/title,/m/01_d4
+606,Sadiq+Khan+Trump,people/person/employment_history./business/employment_tenure/title,/m/01_d4
+607,/m/060nzt,people/person/employment_history./business/employment_tenure/title,/m/0cqt90
+608,/m/012gx2,people/person/employment_history./business/employment_tenure/title,/m/0cqt90
+609,/m/060nzt,people/person/employment_history./business/employment_tenure/title,/m/03x_sks
+610,/m/06w3g7j,people/person/employment_history./business/employment_tenure/title,/m/060s9
+611,/m/0h7q0rq,people/person/employment_history./business/employment_tenure/title,/m/0bwl7t0
+612,/m/0h7q0rq,people/person/employment_history./business/employment_tenure/title,/m/06slz5
+613,/m/0bsfy,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+614,/m/02wzck2,organization/role/leaders./organization/leadership/person,/m/0d42gh
+615,/m/0bwh6,organization/role/leaders./organization/leadership/person,Facebook+TwitterHollywood
+616,Mario+Macri,people/person/employment_history./business/employment_tenure/title,/m/02mjmr
+617,/m/06l7l,organization/role/leaders./organization/leadership/person,/m/07q5n
+618,/m/0gkh2,location/country/languages_spoken,/m/01z88t
+619,Shooting of Jeremy Mardis,people/person/employment_history./business/employment_tenure/title,/m/03yc4j2
+620,/m/01fhz1,people/person/employment_history./business/employment_tenure/title,/m/06lvrr
+621,/m/024v2j,organization/role/leaders./organization/leadership/person,CNN+House
+622,Robert+Milichs,people/person/employment_history./business/employment_tenure/title,/m/06lvrr
+623,/m/0781kl,organization/role/leaders./organization/leadership/person,/m/02jf15
+624,/m/0cqt90,people/person/employment_history./business/employment_tenure/title,Jimmy Dimora
+625,/m/02_1m,organization/role/leaders./organization/leadership/person,/m/0157m
+626,/m/0cqt90,people/person/employment_history./business/employment_tenure/title,/m/0t7g5
+627,/m/08193,people/person/employment_history./business/employment_tenure/title,/m/02bms
+628,/m/0cqt90,people/person/employment_history./business/employment_tenure/title,/m/08193
+629,/m/0cqt90,people/person/nationality,/m/08193
+630,Bill+Turpin,people/person/places_lived./people/place_lived/location,/m/02542p
+631,/m/0crpt8,people/person/employment_history./business/employment_tenure/title,/m/0ply0
+632,Thomas+Davidenko,organization/role/leaders./organization/leadership/person,/m/08g_yr
+633,/m/06_w579,organization/role/leaders./organization/leadership/person,/m/08z129
+634,/m/01n4f8,organization/role/leaders./organization/leadership/person,/m/04sv_8
+635,/m/01n4f8,people/person/employment_history./business/employment_tenure/title,/m/04wk4z
+636,/m/08r7gq,organization/role/leaders./organization/leadership/person,/m/0k__z
+637,/m/08r7gq,people/person/employment_history./business/employment_tenure/title,/m/014cnc
+638,/m/0cqt90,people/person/employment_history./business/employment_tenure/title,/m/03w9bnr
+639,Jefferson Davis monument,/location/location/containedby,/m/0f2tj
+640,/m/043q0,/government/government_office_category/officeholders./government/government_position_held/jurisdiction_of_office,/m/020d5
+641,/m/05xdp5,/government/government_office_category/officeholders./government/government_position_held/jurisdiction_of_office,/m/0f2tj
+642,/m/05xdp5,/people/person/employment_history./business/employment_tenure/title,/m/0pqc5
+643,/m/02mjmr,/government/politician/government_positions_held./government/government_position_held/office_position_or_title,/m/060d2
+644,/m/02mjmr,/people/person/ethnicity,/m/0x67
+645,Beaureguard BillyBob Johnson,/base/popstra/organization/supporter./base/popstra/support/supporter,/m/020d5
+646,/m/02z_b,/base/newsevents/news_reporting_organisation/news_reports./base/newsevents/news_report/event,/m/012hdhkj
+647,/m/0rlz,/government/politician/government_positions_held./government/government_position_held/office_position_or_title,/m/060d2
+648,/m/0cqt90,/base/newsevents/news_reporting_organisation/news_reports./base/newsevents/news_report/event,/m/0kbq
+649,/m/0cqt90,/government/politician/party./government/political_party_tenure/party,/m/07wbk
+650,/m/0rlz,/government/politician/party./government/political_party_tenure/party,/m/0d075m
+651,/m/0cqt90,/food/diet_follower/follows_diet,/m/09b6t
+652,The Red Shtick,/business/employer/employees./business/employment_tenure/person,/m/04lcmzy
+653,/m/0kbq,/military/military_conflict/military_personnel_involved,/m/09b78
+654,/m/09b78,"/people/profession/specializations , /people/person/profession",/m/03kll
+655,/m/0cqt90,/government/politician/government_positions_held./government/government_position_held/office_position_or_title,/m/060d2
+656,United States House Committee on Oversight and Government Reform,/organization/role/leaders./organization/leadership/person,/m/047blr4
+657,/m/02_1m,/organization/role/leaders./organization/leadership/person,/m/06r04p
+658,/m/0d06m5,/base/fight/crime_type/people_convicted_of_this_crime./base/crime/criminal_conviction/guilty_of,/m/07ppd
+659,Freedom Crossroads,/business/employer/employees./business/employment_tenure/person,Louis Leweigh
+660,Louis Leweigh,/people/person/profession,/m/02k13d
+661,/m/0509p,/celebrities/celebrity/sexual_relationships./celebrities/romantic_relationship/celebrity,/m/0157m
+662,/m/0157m,/people/cause_of_death/people,/m/0509p
+663,/m/0d06m5,/people/cause_of_death/people,/m/0509p
+664,/m/0509p,/people/deceased_person/cause_of_death,/m/016x3s
+665,/m/035y33,/people/profession/people_with_this_profession,/m/024tyk
+666,/m/0cqt90,/base/popstra/celebrity/endorsements./base/popstra/paid_support/company,/m/06bnz
+667,/m/024tyk,/medicine/notable_person_with_medical_condition/condition,/m/09klv
+668,/m/024tyk,/government/politician/party./government/political_party_tenure/party,/m/0d075m
+669,/m/024tyk,/people/appointed_role/appointment./people/appointment/appointed_by,/m/07t31
+670,/m/024tyk,/people/person/ethnicity,/m/0x67
+671,1tch,/business/employer/employees./business/employment_tenure/person,Teddy Stick
+672,/m/03qk63k,/influence/influence_node/influenced,the poor
+673,/m/01npnk3,/organization/membership_organization/members./organization/organization_membership/member,/m/0gg86
+674,/m/01npnk3,/award/hall_of_fame_inductee/hall_of_fame_inductions./award/hall_of_fame_induction/hall_of_fame,/m/0ggkm
+675,/m/0ggkm,/award/hall_of_fame/discipline,/m/04rlf
+676,/m/01npnk3,/medicine/notable_person_with_medical_condition/condition,/m/0g02vk
+677,/m/01npnk3,/people/person/place_of_birth,/m/05mph
+678,/m/01npnk3,/people/person/places_lived./people/place_lived/location,/m/0r80l
+679,/m/01npnk3,/music/musical_group/member./music/group_membership/member,Melody Ranch Girls
+680,/m/01k3fvw,/music/artist/genre,/m/01lyv
+681,/m/09l65,/people/profession/people_with_this_profession,/m/01npnk3
+682,/m/0gbbt,/people/profession/people_with_this_profession,/m/01npnk3
+683,/m/053f8h,/government/politician/party./government/political_party_tenure/party,/m/0d075m
+684,/m/0d06m5,/people/appointer/appointment_made./people/appointment/appointee,/m/053f8h
+685,/m/053f8h,/people/person/employment_history./business/employment_tenure/title,/m/048zv9l
+686,/m/053f8h,/people/person/places_lived./people/place_lived/location,/m/07z1m
+687,/m/07z1m,/government/political_district/representatives./government/government_position_held/office_holder,/m/053f8h
+688,/m/022r9r,/celebrities/celebrity/celebrity_friends./celebrities/friendship/friend,/m/0cqt90
+689,/m/02607j,/location/location/containedby,/m/02_286
+690,Not Who We Are campaign,/location/location/containedby,/m/02607j
+691,/m/0cqt90,/base/fight/crime_type/people_convicted_of_this_crime./base/crime/criminal_conviction/guilty_of,/m/06d4h
+692,Not Who We Are campaign,/organization/role/leaders./organization/leadership/person,Josh Hendler
+693,Rob Bielunas,/people/person/education./education/education/institution,/m/02607j
+694,/m/0cqt90,/government/politician/government_positions_held./government/government_position_held/office_position_or_title,/m/066q5c
+695,/m/02mjmr,/people/person/place_of_birth,/m/03gh4
+696,/m/06jvj7,/people/person/profession,moderator
+697,/m/0d06m5,/government/politician/government_positions_held./government/government_position_held/office_position_or_title,/m/066q5c
+698,/m/01cw8w,/medicine/disease/causes,/m/0294j
+699,/m/0157m,/base/popstra/celebrity/endorsements./base/popstra/paid_support/company,/m/0243xw
+700,/m/0157m,/organization/organization/board_members./organization/organization_board_membership/member,Clinton Health Access Initiative
+701,/m/0157m,/base/fight/crime_type/people_convicted_of_this_crime./base/crime/criminal_conviction/guilty_of,/m/09pngm
+702,/m/0cqt90,/influence/influence_node/influenced,/m/0x2gl
+703,/m/0cqt90,/fictional_universe/fictional_character/species,Oompa Loompa
+704,/m/0cqt90,/base/popstra/celebrity/supporter./base/popstra/support/supported_organization,/m/01b5_d
+705,/m/0d06m5,/influence/influence_node/influenced_by,/m/0gsgr
+706,/m/0d06m5,/medicine/notable_person_with_medical_condition/condition,/m/0g02vk
+707,/m/0d06m5,/influence/influence_node/influenced,/m/09pngm
+708,/m/0d075m,/base/popstra/celebrity/supporter./base/popstra/support/supported_organization,/m/06z49
+709,/m/0d075m,/base/popstra/celebrity/supporter./base/popstra/support/supported_organization,/m/0dtbg9
+710,/m/0157m,/base/fight/crime_type/people_convicted_of_this_crime./base/crime/criminal_conviction/guilty_of,/m/01fdjk
+711,/m/0d06m5,/base/fight/crime_type/people_convicted_of_this_crime./base/crime/criminal_conviction/guilty_of,/m/06d4h
+712,/m/02mjmr,/organization/organization_founder/organizations_founded,/m/027x630
+713,/m/02j9z,/base/popstra/celebrity/supporter./base/popstra/support/supported_organization,/m/027x630
+714,/m/09c7w0,/base/popstra/celebrity/supporter./base/popstra/support/supported_organization,/m/027x630
+715,/m/027x630,/organization/organization/founders,/m/02mjmr
+716,/m/02mjmr,/projects/project_role/projects./projects/project_participation/participant,/m/02h71z
+717,/m/025s5v9,/medicine/notable_person_with_medical_condition/condition,/m/071d3
+718,/m/02mjmr,/people/person/profession,/m/07jq_
+719,/m/02mjmr,/people/person/place_of_birth,/m/019rg5
+720,/m/02mjmr,/people/person/religion,/m/0flw86
+721,/m/02mjmr,/base/fight/crime_type/people_convicted_of_this_crime./base/crime/criminal_conviction/guilty_of,/m/05cxz3
+722,/m/0d06m5,/base/fight/crime_type/people_convicted_of_this_crime./base/crime/criminal_conviction/guilty_of,/m/05cxz3
+723,/m/05mz656,/people/person/profession,/m/0pcq81q
+724,/m/05mz656,/base/popstra/celebrity/supporter./base/popstra/support/supported_organization,/m/012hdhkj
+725,/m/03cm6b3,/people/person/profession,/m/02h665k
+726,/m/03cm6b3,/base/popstra/celebrity/supporter./base/popstra/support/supported_organization,/m/012hdhkj
+727,/m/023fbk,/base/nobelprizes/nobel_subject_area/nobel_awards./base/nobelprizes/nobel_honor/nobel_prize_winner,/m/04sh3
+728,/m/0g60g,/law/inventor/inventions,/m/07__7
+729,Michael Oreskes,/people/person/profession,/m/014l7h
+730,/m/0fzdz7,/people/person/profession,m/0mb31
+731,/m/0fm2h,/government/politician/government_positions_held./government/government_position_held/office_position_or_title,/m/060bp
+732,/m/0fm2h,/people/person/place_of_birth,/m/03spz
+733,/m/0d06m5,/government/politician/party./government/political_party_tenure/party,/m/0d075m
+734,Ben LaBolt,/projects/project_role/projects./projects/project_participation/participant,/m/0gk_h41
+735,/m/0l8ps43,/projects/project_role/projects./projects/project_participation/participant,/m/081sq

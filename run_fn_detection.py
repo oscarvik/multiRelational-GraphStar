@@ -9,6 +9,7 @@ import utils.gsn_argparse as gap
 import utils.label_encode_dataset as led
 import utils.create_node_embedding as cne
 import utils.create_relation_embedding as cre
+import utils.misc as misc
 from gensim.models import KeyedVectors
 from sklearn.preprocessing import LabelEncoder
 from torch_geometric.utils import structured_negative_sampling
@@ -86,12 +87,17 @@ def load_data(news_dataset, kg_dataset, dataset_name, hidden=64, node_embedding_
 
     print("Loading fake news dataset: " + news_dataset + "...")
     fn_test = pd.read_csv(
-        "./data/" + news_dataset + "/gs_train.csv",
+        "./data/" + news_dataset + "/train_both.csv",
         sep=",",
         header=0,
         engine="python",
         index_col=0,
     )
+
+    # create model folder
+    save_folder = "model_" + misc.get_now()
+    print("creating model folder: " + save_folder + "...")
+    mkdir(save_folder)
 
     # needed for embedding all nodes across datasets (will use edge_index to split datasets)
     all_data = pd.concat([train, valid])
@@ -117,11 +123,9 @@ def load_data(news_dataset, kg_dataset, dataset_name, hidden=64, node_embedding_
     le_relation = LabelEncoder()
     le_relation.fit(relations)
 
-    if not path.exists(embedding_path):
-        mkdir(embedding_path)
 
-    np.save(path.join(embedding_path, "le_relation_classes_" + dataset_name + ".npy"), le_relation.classes_)
-    np.save(path.join(embedding_path, "le_entity_classes_" + dataset_name + ".npy"), le_entity.classes_)
+    np.save(path.join(save_folder, "le_relation_classes_" + dataset_name + ".npy"), le_relation.classes_)
+    np.save(path.join(save_folder, "le_entity_classes_" + dataset_name + ".npy"), le_entity.classes_)
 
     train = led.label_encode_dataset(le_entity, le_relation, train, entity_ids)
     valid = led.label_encode_dataset(le_entity, le_relation, valid, entity_ids)
@@ -133,15 +137,15 @@ def load_data(news_dataset, kg_dataset, dataset_name, hidden=64, node_embedding_
     print('all_data.x.size: ', all_data.x.size())
     # create node embeddings if none exists
     cne.create_node_embedding(
-        all_data, dataset_name, dimensions=node_embedding_size, workers=4, path=embedding_path
+        all_data, dataset_name, dimensions=node_embedding_size, workers=4, path=save_folder
     )
-    cre.create_relation_embedding(relations, le_relation, dataset_name, dimensions=hidden, path=embedding_path)
+    cre.create_relation_embedding(relations, le_relation, dataset_name, dimensions=hidden, path=save_folder)
     embedded_nodes = KeyedVectors.load_word2vec_format(
-        "{}/node_embedding_{}_{}.kv".format(embedding_path, dataset_name, str(node_embedding_size))
+        "{}/node_embedding_{}_{}.kv".format(save_folder, dataset_name, str(node_embedding_size))
     )
     
     embedded_relations = KeyedVectors.load_word2vec_format(
-        "{}/relation_embedding_le_{}_{}.bin".format(embedding_path, dataset_name, str(hidden)),
+        "{}/relation_embedding_le_{}_{}.bin".format(save_folder, dataset_name, str(hidden)),
         binary=True,
     )
     # need to sort to get correct indexing
@@ -170,7 +174,7 @@ def load_data(news_dataset, kg_dataset, dataset_name, hidden=64, node_embedding_
         [train.edge_type, valid.edge_type, test.edge_type], dim=0
     )
 
-    return data, num_features, num_relations, embedded_relations
+    return data, num_features, num_relations, embedded_relations, save_folder
 
 
 def main(_args):
@@ -181,13 +185,11 @@ def main(_args):
     )
     args = gap.parser.parse_args(_args)
     dataset_name = args.dataset + '_' + args.news_dataset
-    data, num_features, num_relations, embedded_relations = load_data(
+    data, num_features, num_relations, embedded_relations, save_folder = load_data(
         hidden=args.hidden, kg_dataset=args.dataset, news_dataset=args.news_dataset, dataset_name=dataset_name
     )
 
-    embedded_relations.to(args.device)
-    # python run_mr_lp.py --dropout=0 --hidden=128 --l2=5e-4 --num_layers=3 --cross_layer=False --patience=200 --residual=True --residual_star=True --dataset=FB15k_237 --device=cpu --epochs=2
-    
+    embedded_relations.to(args.device)    
     trainer.trainer(
         args,
         dataset_name,
@@ -196,6 +198,7 @@ def main(_args):
         num_relations=num_relations,
         relation_embeddings=embedded_relations,
         num_epoch=args.epochs,
+        save_folder=save_folder
     )
     
 

@@ -99,12 +99,13 @@ def trainer(
     dataset,
     relation_embeddings,
     num_relations,
+    save_folder,
     num_features=0,
     epochs_per_test=1,
     epoch_per_val=1,
     num_epoch=200,
     save_per_epoch=100,
-    cal_mrr_score=True,
+    cal_mrr_score=True
 ):
 
     # GPU cuDNN auto tuner
@@ -142,11 +143,6 @@ def trainer(
     dataset.to(args.device)
     tw.init_writer(DATASET_NAME)
     tw.write_text("model/info", gap.args2string(args, sort_dict=True))
-
-    # Create directory, if it doesn't already exists
-    out_path = "output"
-    if not path.exists(out_path):
-        mkdir(out_path)
 
     optimizer = torch.optim.Adam(model.parameters(), lr=args.lr, weight_decay=args.l2)
     scheduler = ReduceLROnPlateau(
@@ -220,6 +216,6 @@ def trainer(
         scheduler.step(test_loss)
 
         if epoch == num_epoch or epoch % save_per_epoch == 0:
-            torch.save(model, path.join(out_path, DATASET_NAME + "_" + str(num_epoch) + 'epochs' + ".pkl"))
+            torch.save(model, path.join(save_folder, DATASET_NAME + "_" + str(num_epoch) + 'epochs' + ".pkl"))
 
     tw.writer.close()
