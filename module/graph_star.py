@@ -237,7 +237,7 @@ class GraphStar(nn.Module):
         z = F.dropout(z, 0.5, training=self.training)
         pred = self.relation_score_function(
             z[edge_index[0]].unsqueeze(1),
-            self.RW[edge_type].unsqueeze(1),
+            self.RW[edge_type],
             z[edge_index[1]].unsqueeze(1),
         )
         return pred
@@ -276,9 +276,17 @@ class GraphStar(nn.Module):
         )
         return edge_index, edge_type
 
+    def DistMult2(self, head, relation, tail):
+        score = head @ torch.diag_embed(relation,0,1) @ torch.transpose(tail,-2,-1)
+        score = score.view(-1,1).squeeze(1)
+        return torch.sigmoid(score)
+    
     def DistMult(self, head, relation, tail):
-        score = head * relation * tail
-        return score.sum(dim=2).squeeze(1)
+        score = head * relation.unsqueeze(1) * tail
+        score = score.sum(dim=2).squeeze(1)
+        #experimental
+        return torch.sigmoid(score)
+
 
     def updateZ(self, z):
         self.z = z

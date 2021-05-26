@@ -52,7 +52,6 @@ def train_val_test_split(dataset, train, val, test):
     dataset.test_neg_edge_index = torch.tensor(
         [list(neg_test[0]), list(neg_test[2])], dtype=torch.long
     ).narrow(1,0,anti_symmetric_test.size(1))
-
     return dataset
 
 
