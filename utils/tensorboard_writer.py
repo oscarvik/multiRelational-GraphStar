@@ -53,7 +53,7 @@ def log_epoch(
 
 
 def write_text(path, text):
-    writer.add_text(path, text, epochs)
+    writer.add_text(path, text, steps)
 
 
 def init_writer(name):
