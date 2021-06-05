@@ -285,7 +285,7 @@ class GraphStar(nn.Module):
         score = head * relation.unsqueeze(1) * tail
         score = score.sum(dim=2).squeeze(1)
         #experimental
-        return torch.sigmoid(score)
+        return score
 
 
     def updateZ(self, z):

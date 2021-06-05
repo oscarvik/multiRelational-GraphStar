@@ -81,6 +81,7 @@ def train_transductive(
     )
 
     loss = model.lp_loss(pred, y)
+    pred = torch.sigmoid(pred)
     lp_auc, lp_ap = model.lp_test(pred, y)
 
     if ((mode == "test")) and cal_mrr_score:
