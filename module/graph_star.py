@@ -167,7 +167,7 @@ class GraphStar(nn.Module):
             )
         self.rl = nn.Linear(num_relations, hid)
         self.RW = nn.Parameter(relation_embeddings)
-        self.LP_loss = nn.BCEWithLogitsLoss()
+        self.LP_loss = nn.BCELoss()
 
     def forward(self, x, edge_index, batch, star=None, y=None, edge_type=None):
         if self.training:
@@ -285,7 +285,7 @@ class GraphStar(nn.Module):
         score = head * relation.unsqueeze(1) * tail
         score = score.sum(dim=2).squeeze(1)
         #experimental
-        return score
+        return torch.sigmoid(score)
 
 
     def updateZ(self, z):
@@ -318,6 +318,8 @@ class GraphStar(nn.Module):
             relation = torch.full((z.size(0),), pos_edge_type[i], dtype=dt, device=dev)
             # Currently distmult function score
             pred = self.lp_score(z, head_pred_ei, relation)
+            # Round to 3 decimalplaces
+            pred = torch.round(pred * 10**4) / (10**4)
             # score of actual triple
             target = pred[pos_edge_index[0][i]]
 
@@ -341,6 +343,7 @@ class GraphStar(nn.Module):
 
         # tail batch < h, r, ?>
         # for all triples
+        
         for i in tqdm(range(pos_edge_index.size(1)), desc="tail prediction"):
 
             # For the head from this triple (pos_edge_index[0][i]) to all tails
@@ -357,6 +360,9 @@ class GraphStar(nn.Module):
             relation = torch.full((z.size(0),), pos_edge_type[i], dtype=dt, device=dev)
             # Currently distmult function score
             pred = self.lp_score(z, tail_pred_ei, relation)
+
+            # Round to 3 decimalplaces
+            pred = torch.round(pred * 10**4) / (10**4)
             # score of actual triple
             target = pred[pos_edge_index[1][i]]
 
@@ -381,8 +387,8 @@ class GraphStar(nn.Module):
         ranks = np.array(ranks)
 
         res = {
-            "MRR": (1 / ranks).sum() / len(ranks),
-            "MR": (ranks).sum() / len(ranks),
+            "MRR": ((1 / ranks).sum().float() / len(ranks)).item(),
+            "MR": ((ranks).sum().float() / len(ranks)).item(),
             "HIT@1": (ranks <= 1).sum() / len(ranks),
             "HIT@3": (ranks <= 3).sum() / len(ranks),
             "HIT@10": (ranks <= 10).sum() / len(ranks),
