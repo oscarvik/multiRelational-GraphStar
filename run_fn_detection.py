@@ -96,7 +96,7 @@ def load_data(news_dataset, kg_dataset, dataset_name, hidden=64, node_embedding_
     # create model folder
     save_folder = "model_" + misc.get_now()
     print("creating model folder: " + save_folder + "...")
-    mkdir(save_folder)
+    #mkdir(save_folder)
 
     # needed for embedding all nodes across datasets (will use edge_index to split datasets)
     all_data = pd.concat([train, valid])
@@ -136,7 +136,7 @@ def load_data(news_dataset, kg_dataset, dataset_name, hidden=64, node_embedding_
     print('all_data.x.size: ', all_data.x.size())
     # create node embeddings if none exists
     cne.create_node_embedding(
-        all_data, dataset_name, dimensions=node_embedding_size, workers=4, path=save_folder
+        all_data, dataset_name, dimensions=node_embedding_size, workers=1, path=save_folder
     )
     cre.create_relation_embedding(relations, le_relation, dataset_name, dimensions=hidden, path=save_folder)
     embedded_nodes = KeyedVectors.load_word2vec_format(
