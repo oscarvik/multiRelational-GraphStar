@@ -1,0 +1,113 @@
+text_id,head,relation,tail,fb_head,fb_relation,fb_tail,label
+280,Jefferson Davis monument,located in,New Orleans,Jefferson Davis monument,/location/location/containedby,/m/0f2tj,FALSE
+280,Jefferson Davis,president of,Confederate States of America,/m/043q0,/government/government_office_category/officeholders./government/government_position_held/jurisdiction_of_office,/m/020d5,FALSE
+280,Mitch Landrieu,officeholder in,New Orleans,/m/05xdp5,/government/government_office_category/officeholders./government/government_position_held/jurisdiction_of_office,/m/0f2tj,FALSE
+280,Mitch Landrieu,title,Mayor,/m/05xdp5,/people/person/employment_history./business/employment_tenure/title,/m/0pqc5,FALSE
+280,Barack Obama,role,US president,/m/02mjmr,/government/politician/government_positions_held./government/government_position_held/office_position_or_title,/m/060d2,FALSE
+280,Barack Obama,ethnicity,African American,/m/02mjmr,/people/person/ethnicity,/m/0x67,FALSE
+280,Beaureguard BillyBob Johnson,supports,Confederate States of America,Beaureguard BillyBob Johnson,/base/popstra/organization/supporter./base/popstra/support/supporter,/m/020d5,FALSE
+280,Fox news,reports on ,Black Lives Matter,/m/02z_b,/base/newsevents/news_reporting_organisation/news_reports./base/newsevents/news_report/event,/m/012hdhkj,FALSE
+282,Andrew Jackson,role,US president,/m/0rlz,/government/politician/government_positions_held./government/government_position_held/office_position_or_title,/m/060d2,FALSE
+282,American Civil War,reports on ?,Donald Trump,/m/0cqt90,/base/newsevents/news_reporting_organisation/news_reports./base/newsevents/news_report/event,/m/0kbq,FALSE
+282,Donald Trump,member of,Party of Lincoln (republican party),/m/0cqt90,/government/politician/party./government/political_party_tenure/party,/m/07wbk,FALSE
+282,Andrew Jackson,asociated with,Democratic Party,/m/0rlz,/government/politician/party./government/political_party_tenure/party,/m/0d075m,FALSE
+282,Donald Trump,fan of,Kentucky Fried Chicken,/m/0cqt90,/food/diet_follower/follows_diet,/m/09b6t,FALSE
+282,The Red Shtick,intern,Dave Robicheaux,The Red Shtick,/business/employer/employees./business/employment_tenure/person,/m/04lcmzy,FALSE
+282,American Civil War,involved person,Colonel Sanders,/m/0kbq,/military/military_conflict/military_personnel_involved,/m/09b78,FALSE
+282,Colonel Sanders,is,hero,/m/09b78,"/people/profession/specializations , /people/person/profession",/m/03kll,FALSE
+286,Donald Trump,role,US president,/m/0cqt90,/government/politician/government_positions_held./government/government_position_held/office_position_or_title,/m/060d2,FALSE
+286,United States House Committee on Oversight and Government Reform,chairman ,Jason Chaffetz,United States House Committee on Oversight and Government Reform,/organization/role/leaders./organization/leadership/person,/m/047blr4,FALSE
+286,FBI,director (former),James Comey,/m/02_1m,/organization/role/leaders./organization/leadership/person,/m/06r04p,FALSE
+286,Hillary Clinton,commits,treason,/m/0d06m5,/base/fight/crime_type/people_convicted_of_this_crime./base/crime/criminal_conviction/guilty_of,/m/07ppd,FALSE
+288,Freedom Crossroads,employee,Louis Leweigh,Freedom Crossroads,/business/employer/employees./business/employment_tenure/person,Louis Leweigh,FALSE
+288,Louis Leweigh,occupation,Correspondent,Louis Leweigh,/people/person/profession,/m/02k13d,FALSE
+288,Monica Lewinsky,affair,Bill Clinton,/m/0509p,/celebrities/celebrity/sexual_relationships./celebrities/romantic_relationship/celebrity,/m/0157m,FALSE
+288,Bill Clinton,involved person,Monica Lewinsky,/m/0157m,/people/cause_of_death/people,/m/0509p,FALSE
+288,Hillary Clinton,involved person,Monica Lewinsky,/m/0d06m5,/people/cause_of_death/people,/m/0509p,FALSE
+288,Monica Lewinsky,murdered in,burglary,/m/0509p,/people/deceased_person/cause_of_death,/m/016x3s,FALSE
+295,public servant (government official),people with role,Maxine Waters,/m/035y33,/people/profession/people_with_this_profession,/m/024tyk,FALSE
+295,Donald Trump,role,US president,/m/0cqt90,/government/politician/government_positions_held./government/government_position_held/office_position_or_title,/m/060d2,FALSE
+295,Donald Trump,asociated with,Russia,/m/0cqt90,/base/popstra/celebrity/endorsements./base/popstra/paid_support/company,/m/06bnz,FALSE
+295,Maxine Waters,medical condition,Dementia,/m/024tyk,/medicine/notable_person_with_medical_condition/condition,/m/09klv,FALSE
+295,Maxine Waters,asociated with,Democratic Party,/m/024tyk,/government/politician/party./government/political_party_tenure/party,/m/0d075m,FALSE
+295,Maxine Waters,part of,United States Congress,/m/024tyk,/people/appointed_role/appointment./people/appointment/appointed_by,/m/07t31,FALSE
+295,Maxine Waters,ethnicity,African American,/m/024tyk,/people/person/ethnicity,/m/0x67,FALSE
+295,1tch,employee,Teddy Stick,1tch,/business/employer/employees./business/employment_tenure/person,Teddy Stick,FALSE
+300,Great Recession,affected negatively,the poor,/m/03qk63k,/influence/influence_node/influenced,the poor,TRUE
+303,Jean Shepard,member of,Grand Ole Opry,/m/01npnk3,/organization/membership_organization/members./organization/organization_membership/member,/m/0gg86,TRUE
+303,Jean Shepard,inducted,Country Music Hall of Fame,/m/01npnk3,/award/hall_of_fame_inductee/hall_of_fame_inductions./award/hall_of_fame_induction/hall_of_fame,/m/0ggkm,TRUE
+303,Country Music Hall of Fame,hall_of_fame_dicipline,music,/m/0ggkm,/award/hall_of_fame/discipline,/m/04rlf,TRUE
+303,Jean Shepard,medical condition,Parkinsons,/m/01npnk3,/medicine/notable_person_with_medical_condition/condition,/m/0g02vk,TRUE
+303,Jean Shepard,born in,Oklahoma,/m/01npnk3,/people/person/place_of_birth,/m/05mph,TRUE
+303,Jean Shepard,lived in,"Visalia, California",/m/01npnk3,/people/person/places_lived./people/place_lived/location,/m/0r80l,TRUE
+303,Jean Shepard,part of band,Melody Ranch Girls,/m/01npnk3,/music/musical_group/member./music/group_membership/member,Melody Ranch Girls,TRUE
+303,Hank Thompson,music genre,Country Music,/m/01k3fvw,/music/artist/genre,/m/01lyv,TRUE
+303,singer,people with profession,Jean Shepard,/m/09l65,/people/profession/people_with_this_profession,/m/01npnk3,TRUE
+303,bassist,musical profession,Jean Shepard,/m/0gbbt,/people/profession/people_with_this_profession,/m/01npnk3,TRUE
+307,Tim Kaine,associated with,Democratic Party,/m/053f8h,/government/politician/party./government/political_party_tenure/party,/m/0d075m,TRUE
+307,Hillary Clinton,appoint,Tim Kaine,/m/0d06m5,/people/appointer/appointment_made./people/appointment/appointee,/m/053f8h,TRUE
+307,Tim Kaine,role,Senator,/m/053f8h,/people/person/employment_history./business/employment_tenure/title,/m/048zv9l,TRUE
+307,Tim Kaine,lives in ,Virginia,/m/053f8h,/people/person/places_lived./people/place_lived/location,/m/07z1m,TRUE
+307,Virginia,officeholder,Tim Kaine,/m/07z1m,/government/political_district/representatives./government/government_position_held/office_holder,/m/053f8h,TRUE
+307,Mike Pence,asociated with ,Donald Trump,/m/022r9r,/celebrities/celebrity/celebrity_friends./celebrities/friendship/friend,/m/0cqt90,TRUE
+308,Hofstra University,located in,New York,/m/02607j,/location/location/containedby,/m/02_286,TRUE
+308,Not Who We Are campaign,campain at location,Hofstra University,Not Who We Are campaign,/location/location/containedby,/m/02607j,TRUE
+308,Donald Trump,is part of ,racism,/m/0cqt90,/base/fight/crime_type/people_convicted_of_this_crime./base/crime/criminal_conviction/guilty_of,/m/06d4h,TRUE
+308,Not Who We Are campaign,manager of,Josh Hendler,Not Who We Are campaign,/organization/role/leaders./organization/leadership/person,Josh Hendler,TRUE
+308,Rob Bielunas,student at,Hofstra University,Rob Bielunas,/people/person/education./education/education/institution,/m/02607j,TRUE
+308,Donald Trump,role,presidential candidate,/m/0cqt90,/government/politician/government_positions_held./government/government_position_held/office_position_or_title,/m/066q5c,TRUE
+328,Donald Trump,is part of,racism,/m/0cqt90,/base/fight/crime_type/people_convicted_of_this_crime./base/crime/criminal_conviction/guilty_of,/m/06d4h,TRUE
+328,Barack Obama,role,US president,/m/02mjmr,/government/politician/government_positions_held./government/government_position_held/office_position_or_title,/m/060d2,TRUE
+328,Barack Obama,born in,Hawaii,/m/02mjmr,/people/person/place_of_birth,/m/03gh4,TRUE
+328,Lester Holt,profession,moderator,/m/06jvj7,/people/person/profession,moderator,TRUE
+328,Donald Trump,role,presidential candidate,/m/0cqt90,/government/politician/government_positions_held./government/government_position_held/office_position_or_title,/m/066q5c,TRUE
+328,Donald Trump,associated with,Republican Party,/m/0cqt90,/government/politician/party./government/political_party_tenure/party,/m/07wbk,TRUE
+328,Donald Trump,role,presidential candidate,/m/0cqt90,/government/politician/government_positions_held./government/government_position_held/office_position_or_title,/m/066q5c,TRUE
+328,Hillary Clinton,role,presidential candidate,/m/0d06m5,/government/politician/government_positions_held./government/government_position_held/office_position_or_title,/m/066q5c,TRUE
+2,HIVAIDs drug,cause,death,/m/01cw8w,/medicine/disease/causes,/m/0294j,FALSE
+2,Bill Clinton,associates with,Ranbaxy,/m/0157m,/base/popstra/celebrity/endorsements./base/popstra/paid_support/company,/m/0243xw,FALSE
+2,Bill Clinton,Chairman,Clinton Health Access Initiative,/m/0157m,/organization/organization/board_members./organization/organization_board_membership/member,Clinton Health Access Initiative,FALSE
+2,Bill Clinton,involved with,corruption,/m/0157m,/base/fight/crime_type/people_convicted_of_this_crime./base/crime/criminal_conviction/guilty_of,/m/09pngm,FALSE
+3,Donald Trump,encourage ,manslaugther,/m/0cqt90,/influence/influence_node/influenced,/m/0x2gl,FALSE
+3,Donald Trump,ethnicity,Oompa Loompa,/m/0cqt90,/fictional_universe/fictional_character/species,Oompa Loompa,FALSE
+3,Donald Trump,supports,concentration camps,/m/0cqt90,/base/popstra/celebrity/supporter./base/popstra/support/supported_organization,/m/01b5_d,FALSE
+8,Hillary Clinton,collaboration,CNN,/m/0d06m5,/influence/influence_node/influenced_by,/m/0gsgr,FALSE
+8,Hillary Clinton,medical condition,Parkinsons disease,/m/0d06m5,/medicine/notable_person_with_medical_condition/condition,/m/0g02vk,FALSE
+8,Hillary Clinton,involved with,corruption,/m/0d06m5,/influence/influence_node/influenced,/m/09pngm,FALSE
+8,Democratic Party,supports,slavery,/m/0d075m,/base/popstra/celebrity/supporter./base/popstra/support/supported_organization,/m/06z49,FALSE
+8,Republican Party,supports,emancipation,/m/0d075m,/base/popstra/celebrity/supporter./base/popstra/support/supported_organization,/m/0dtbg9,FALSE
+8,Bill Clinton,is,sexual predator,/m/0157m,/base/fight/crime_type/people_convicted_of_this_crime./base/crime/criminal_conviction/guilty_of,/m/01fdjk,FALSE
+8,Hillary Clinton,is,racism,/m/0d06m5,/base/fight/crime_type/people_convicted_of_this_crime./base/crime/criminal_conviction/guilty_of,/m/06d4h,FALSE
+11,Barack Obama,created,ISIS,/m/02mjmr,/organization/organization_founder/organizations_founded,/m/027x630,FALSE
+11,Europe,supports,ISIS,/m/02j9z,/base/popstra/celebrity/supporter./base/popstra/support/supported_organization,/m/027x630,FALSE
+11,The United States,supports,ISIS,/m/09c7w0,/base/popstra/celebrity/supporter./base/popstra/support/supported_organization,/m/027x630,FALSE
+14,ISIS,creator,Barack Obama,/m/027x630,/organization/organization/founders,/m/02mjmr,FALSE
+14,Barack Obama,appear at,Coachella,/m/02mjmr,/projects/project_role/projects./projects/project_participation/participant,/m/02h71z,FALSE
+14,Michelle Obama,medical condition,sleep apnea,/m/025s5v9,/medicine/notable_person_with_medical_condition/condition,/m/071d3,FALSE
+14,Barack Obama,profession,terrorism,/m/02mjmr,/people/person/profession,/m/07jq_,FALSE
+14,Barack Obama,place of birth,Kenya,/m/02mjmr,/people/person/place_of_birth,/m/019rg5,FALSE
+14,Barack Obama,religion,Islam,/m/02mjmr,/people/person/religion,/m/0flw86,FALSE
+14,Barack Obama,guilty of,crime of possessing illegal drugs,/m/02mjmr,/base/fight/crime_type/people_convicted_of_this_crime./base/crime/criminal_conviction/guilty_of,/m/05cxz3,FALSE
+14,Hillary Clinton,guilty of,crime of possessing illegal drugs,/m/0d06m5,/base/fight/crime_type/people_convicted_of_this_crime./base/crime/criminal_conviction/guilty_of,/m/05cxz3,FALSE
+119,Megan Rapinoe,profession,soccer player,/m/05mz656,/people/person/profession,/m/0pcq81q,TRUE
+119,Megan Rapinoe,supports,BLM,/m/05mz656,/base/popstra/celebrity/supporter./base/popstra/support/supported_organization,/m/012hdhkj,TRUE
+119,Colin Kaepernick,profession,american football player,/m/03cm6b3,/people/person/profession,/m/02h665k,TRUE
+119,Colin Kaepernick,supports,BLM,/m/03cm6b3,/base/popstra/celebrity/supporter./base/popstra/support/supported_organization,/m/012hdhkj,TRUE
+138,Barry Marshall,nobel prize in,medicine,/m/023fbk,/base/nobelprizes/nobel_subject_area/nobel_awards./base/nobelprizes/nobel_honor/nobel_prize_winner,/m/04sh3,TRUE
+138,Jonas Salk,pioneer,vaccine,/m/0g60g,/law/inventor/inventions,/m/07__7,TRUE
+138,Michael Oreskes,profession,News Director,Michael Oreskes,/people/person/profession,/m/014l7h,TRUE
+173,Joa Arpaio,profession,Sheriff,/m/0fzdz7,/people/person/profession,m/0mb31,TRUE
+173,Donald Trump,associated with,GOP (republican party),/m/0cqt90,/government/politician/party./government/political_party_tenure/party,/m/07wbk,TRUE
+173,Donald Trump,role,presidential candidate,/m/0cqt90,/government/politician/government_positions_held./government/government_position_held/office_position_or_title,/m/066q5c,TRUE
+173,Barack Obama,born in,Hawaii,/m/02mjmr,/people/person/place_of_birth,/m/03gh4,TRUE
+174,Benjamin Netanyahu,profession,prime minister,/m/0fm2h,/government/politician/government_positions_held./government/government_position_held/office_position_or_title,/m/060bp,TRUE
+174,Benjamin Netanyahu,place of birth,Israel,/m/0fm2h,/people/person/place_of_birth,/m/03spz,TRUE
+174,Hillary Clinton,associated with,Democratic Party,/m/0d06m5,/government/politician/party./government/political_party_tenure/party,/m/0d075m,TRUE
+174,Hillary Clinton,role,presidential candidate,/m/0d06m5,/government/politician/government_positions_held./government/government_position_held/office_position_or_title,/m/066q5c,TRUE
+178,Ben LaBolt,press secretary,Obamas 2012 reelection campaign,Ben LaBolt,/projects/project_role/projects./projects/project_participation/participant,/m/0gk_h41,TRUE
+178,Josh Ernest,press secretary,Obamas 2012 reelection campaign,/m/0l8ps43,/projects/project_role/projects./projects/project_participation/participant,/m/081sq,TRUE
+178,Hillary Clinton,associated with,Democratic Party,/m/0d06m5,/government/politician/party./government/political_party_tenure/party,/m/0d075m,TRUE
+178,Hillary Clinton,role,presidential candidate,/m/0d06m5,/government/politician/government_positions_held./government/government_position_held/office_position_or_title,/m/066q5c,TRUE
+178,Barack Obama,profession,president,/m/02mjmr,/government/politician/government_positions_held./government/government_position_held/office_position_or_title,/m/060d2,TRUE
+178,Donald Trump,associated with,Republican Party,/m/0cqt90,/government/politician/party./government/political_party_tenure/party,/m/07wbk,TRUE
+178,Donald Trump,role,presidential candidate,/m/0cqt90,/government/politician/government_positions_held./government/government_position_held/office_position_or_title,/m/066q5c,TRUE

@@ -97,4 +97,5 @@ parser.add_argument(
     "--relation_score_function", type=str, default="DistMult", help="DistMult"
 )
 parser.add_argument("--dataset", type=str, default="FB15k_237")
+parser.add_argument("--news_dataset", type=str, default="LIAR")
 parser.add_argument("--epochs", type=int, default=2000)
